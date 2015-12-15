@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {44122E6B-99E3-454E-A58D-FFCE7083726F}
+id: {17CF0384-8D1A-46F0-ABFF-22792B5C50A7}
 database: master
-path: /sitecore/content/GSPANN/Home/Careers
-parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
-name: Careers
+path: /sitecore/content/GSPANN/Home/Careers/Find Position
+parent: {44122E6B-99E3-454E-A58D-FFCE7083726F}
+name: Find Position
 master: {00000000-0000-0000-0000-000000000000}
 template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
 templatekey: Generic Content Page
@@ -15,47 +15,54 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-800
+400
 ----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 208
+content-length: 186
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{37A9E3D9-A831-4947-9720-828465C8DE4F}" s:ds="" s:par="CssClass=%7B3C673150-ABB5-4D67-8B9C-62D4DEA77399%7D" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{FEB17A92-42EB-49B3-82E4-E6685685C643}" /></d></r>
 ----version----
 language: en
 version: 1
-revision: f15ab098-dd18-408f-85d1-cd141ff0a102
+revision: 1b2b69e5-4c63-4f0f-964f-c1202338a1b8
 
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
 name: Navigation Text
 key: navigation text
-content-length: 7
+content-length: 15
 
-CAREERS
+Find a Position
+----field----
+field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
+name: Page Title
+key: page title
+content-length: 8
+
+Approach
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20151019T012254Z
+20151209T152549Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-f15ab098-dd18-408f-85d1-cd141ff0a102
+1b2b69e5-4c63-4f0f-964f-c1202338a1b8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151215T062949Z
+20151215T094843Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
