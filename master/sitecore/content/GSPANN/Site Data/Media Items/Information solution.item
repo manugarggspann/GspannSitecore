@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {515FC57F-BDFE-43E7-BD9E-0F34E6C15F79}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Media Items/Information solution
+parent: {1D95C591-CE7D-4677-8031-20D09D5EE79D}
+name: Information solution
+master: {00000000-0000-0000-0000-000000000000}
+template: {82DF8DD9-7C0F-4094-9E91-77E0180B8BBD}
+templatekey: Carousel
+
+----field----
+field: {2F3861B4-6F5E-4DEB-A74D-C4E4AE2C71F3}
+name: Carousel Image
+key: carousel image
+content-length: 58
+
+<image mediaid="{AF957008-DE18-47AA-8C75-9B7D3279C618}" />
+----version----
+language: en
+version: 1
+revision: ebb75e49-6c90-4150-9bf2-be949c1f90b3
+
+----field----
+field: {2175330C-3FFB-47AF-B2DF-20490B263E59}
+name: Carousel Title
+key: carousel title
+content-length: 33
+
+Explore Our Information Solutions
+----field----
+field: {E75A3EFE-CA3E-4FB9-A83C-7779A30774F6}
+name: Carousel Description
+key: carousel description
+content-length: 47
+
+Information Management, Analytics and Reporting
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151030T101003Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ebb75e49-6c90-4150-9bf2-be949c1f90b3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151030T102352Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

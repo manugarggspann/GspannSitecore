@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {B2E53AF7-0FFC-4CE3-A5FE-B4CCB910C3F7}
+database: master
+path: /sitecore/templates/User Defined/GSPANN/Field Sections/Rendering Style/__Standard Values
+parent: {90DB9085-C3A5-4216-83AE-524E82D2DCE6}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {90DB9085-C3A5-4216-83AE-524E82D2DCE6}
+templatekey: Rendering Style
+
+----field----
+field: {A616FA1B-98F4-4D94-B1F2-D9E00B7B5248}
+name: CssClass
+key: cssclass
+content-length: 38
+
+{3C673150-ABB5-4D67-8B9C-62D4DEA77399}
+----version----
+language: en
+version: 1
+revision: b15a61d1-29ea-42f1-aaa4-5dcfa0ebf3af
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151023T024639Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b15a61d1-29ea-42f1-aaa4-5dcfa0ebf3af
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151023T024701Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

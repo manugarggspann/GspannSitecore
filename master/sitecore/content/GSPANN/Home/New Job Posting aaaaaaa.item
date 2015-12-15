@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {4293E402-B365-41CE-A063-771DEF1CCAB7}
+database: master
+path: /sitecore/content/GSPANN/Home/New Job Posting aaaaaaa
+parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
+name: New Job Posting aaaaaaa
+master: {00000000-0000-0000-0000-000000000000}
+template: {E0589B66-1FD6-45CD-906D-651360AB2B61}
+templatekey: Job Posting Page
+
+----field----
+field: {95C1D5B4-0BD2-4D83-91E1-22D766287854}
+name: Include in Header
+key: include in header
+content-length: 0
+
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+500
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 19681333-593f-4d2c-b260-12cafc724fa4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 23
+
+New Job Posting aaaaaaa
+----field----
+field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
+name: Page Title
+key: page title
+content-length: 23
+
+New Job Posting aaaaaaa
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151205T075223Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+19681333-593f-4d2c-b260-12cafc724fa4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+

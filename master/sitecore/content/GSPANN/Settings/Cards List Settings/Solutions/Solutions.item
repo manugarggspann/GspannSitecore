@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {0DFE8341-2FA3-48A7-B92D-F718E89475FB}
+database: master
+path: /sitecore/content/GSPANN/Settings/Cards List Settings/Solutions/Solutions
+parent: {3F697390-7D73-476F-9DAB-A7726C05125B}
+name: Solutions
+master: {00000000-0000-0000-0000-000000000000}
+template: {25D1491A-D1D5-4C1D-90DA-1E09D6346FD7}
+templatekey: Card Data Settings
+
+----version----
+language: en
+version: 1
+revision: 58669018-ea7c-4625-a098-5fb8e7eefe86
+
+----field----
+field: {CB856E0A-D671-40F9-A511-2353573013CC}
+name: Card Data List
+key: card data list
+content-length: 77
+
+{BE7F686B-C9D8-4945-85BF-541B4F44710E}|{56B15125-5ABB-48AD-A2AF-526F03E7FF88}
+----field----
+field: {8F123294-6B48-48E3-AA9C-7F5315D976C2}
+name: Wrapper Class
+key: wrapper class
+content-length: 38
+
+{AA4503AE-C232-4BEF-BDC4-34889B794F24}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151107T044441Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+58669018-ea7c-4625-a098-5fb8e7eefe86
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151113T164058Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

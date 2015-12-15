@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {7FBC8164-D3F6-40B2-B4EF-3885E4B4F661}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Offices/All Offices/New York
+parent: {1F34F191-4D9E-4C97-B45E-7C9C62F05B8A}
+name: New York
+master: {00000000-0000-0000-0000-000000000000}
+template: {58DE93C2-1658-4437-ADFD-8D2B5387BAF7}
+templatekey: Office
+
+----field----
+field: {DCD677D9-3153-456D-8E7B-C97DFF93407D}
+name: Continent reference Variable
+key: continent reference variable
+content-length: 2
+
+US
+----version----
+language: en
+version: 1
+revision: c9530e0d-9faf-4300-b964-2485863f93e9
+
+----field----
+field: {D17AA305-A5BD-4FAD-9349-A9DBA16E8D38}
+name: Office Heading
+key: office heading
+content-length: 8
+
+New York
+----field----
+field: {04CC9AAD-4DAE-4E99-9CEC-A134921F9D36}
+name: Office Name
+key: office name
+content-length: 8
+
+New York
+----field----
+field: {65418D13-F0D3-40BE-9212-02CDB9D415B0}
+name: Address
+key: address
+content-length: 103
+
+<p>GSPANN Technologies Inc.</p>
+<p>362 Fairview Way</p>
+<p> Milpitas, CA 95035&nbsp;&nbsp;&nbsp;USA</p>
+----field----
+field: {36DD0BEF-FB78-4129-BA59-B6E2461911DF}
+name: Phone No
+key: phone no
+content-length: 12
+
+408-263-3435
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151202T102552Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c9530e0d-9faf-4300-b964-2485863f93e9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T054822Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

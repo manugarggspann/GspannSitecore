@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {42CF1301-7D4F-4623-8E60-4DADB9836223}
+database: master
+path: /sitecore/content/GSPANN/Home/Privacy Policy
+parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
+name: Privacy Policy
+master: {00000000-0000-0000-0000-000000000000}
+template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
+templatekey: Generic Content Page
+
+----field----
+field: {95C1D5B4-0BD2-4D83-91E1-22D766287854}
+name: Include in Header
+key: include in header
+content-length: 0
+
+
+----field----
+field: {0D12D6A5-6B61-48BA-B941-F42575799F8F}
+name: Include in Sitemap
+key: include in sitemap
+content-length: 0
+
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 186
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{1A241A0C-F3F1-451A-974F-C4A60A17B811}" /></d></r>
+----version----
+language: en
+version: 1
+revision: c5144942-3553-4782-aa37-1c0ee155c6bf
+
+----field----
+field: {19E2FB30-5221-467E-A1AA-5E5493604B92}
+name: Title
+key: title
+content-length: 27
+
+Privacy Policy & Disclaimer
+----field----
+field: {86110115-85C8-44D5-A031-D0D02F2D3202}
+name: Body
+key: body
+content-length: 2355
+
+<h3>Notice</h3>
+<p>
+GSPANN Technologies, Inc., is firmly committed to your privacy. We've created this Privacy Statement, which discloses our information gathering and dissemination practices, so that you understand what we do with any personal information that you provide to us while using our site.
+</p>
+<h3>Overview</h3>
+<p>
+In general, using our website as a visitor is considered anonymous: we do not engage in any activity that will personally identify our site visitors. Using www.gspann.com does not require registration of any kind other than voluntary registration for white papers, blogs or alumni correspondence. The same is true for personal data collected when responding to any career opportunity with us. We assure you that any/all information you provide during your interaction with us will be solely used by GSPANN and will not be sold to anyone outside GSPANN. This information will be used strictly for a one-on-one contact with the visitors. Any information that we have collected or stored about you may be transferred to a future purchaser of our company and/or its assets. The data collected is stored in a secure server with our ISP, which will take periodic backups of it but will not give or sell them to anyone.
+</p>
+<h3>Cookies</h3>
+<p>
+"cookie" is a small piece of data that a website can send to your browser, which may then be stored on your system. Currently, we may be using session cookies in a select few pages. But we may use it more widely in the near future so that we can better serve you when you return to our site. You can set your browser to notify you when you receive a cookie, giving you the chance to decide whether to accept it or not. We may sometimes collect anonymous information from visits to our website to help us provide better customer service.
+</p>
+<h3>Links</h3>
+<p>
+This website contains links to other websites. GSPANN is not responsible for the privacy practices or the contents of such websites, nor do we take any responsibility for the opinions of third parties expressed on or through our website.
+</p>
+<h3>Delete / Deactivate / Modify</h3>
+<p>
+This site gives users the following option for removing their information from our database to not receive future communications or to no longer receive our service: To modify or delete your record from our database, send us an email at
+</p>
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 14
+
+Privacy Policy
+----field----
+field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
+name: Page Title
+key: page title
+content-length: 14
+
+Privacy Policy
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151208T051858Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c5144942-3553-4782-aa37-1c0ee155c6bf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

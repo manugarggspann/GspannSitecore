@@ -1,0 +1,90 @@
+----item----
+version: 1
+id: {486322F1-6F8E-4768-A3E8-819BCF1EABD0}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Offices/All Offices/Hyderabad
+parent: {1F34F191-4D9E-4C97-B45E-7C9C62F05B8A}
+name: Hyderabad
+master: {00000000-0000-0000-0000-000000000000}
+template: {58DE93C2-1658-4437-ADFD-8D2B5387BAF7}
+templatekey: Office
+
+----field----
+field: {DCD677D9-3153-456D-8E7B-C97DFF93407D}
+name: Continent reference Variable
+key: continent reference variable
+content-length: 2
+
+IN
+----version----
+language: en
+version: 1
+revision: a4b49619-3e90-4cf9-936e-e2f9b5b6ce94
+
+----field----
+field: {D17AA305-A5BD-4FAD-9349-A9DBA16E8D38}
+name: Office Heading
+key: office heading
+content-length: 37
+
+<h3>Hyderabad Development Center</h3>
+----field----
+field: {04CC9AAD-4DAE-4E99-9CEC-A134921F9D36}
+name: Office Name
+key: office name
+content-length: 9
+
+Hyderabad
+----field----
+field: {65418D13-F0D3-40BE-9212-02CDB9D415B0}
+name: Address
+key: address
+content-length: 148
+
+<p>Whisk Software Pvt. Ltd.</p>
+<p>1-98/8/26, 3rd Floor, Sri Sai Towers</p>
+<p>Vittal Rao Nagar, Madhapur</p>
+<p>Hyderabad - 500081</p>
+<p>India</p>
+----field----
+field: {2A14770A-BDB2-460A-B6B2-A3E2F1ED29D4}
+name: Show Map
+key: show map
+content-length: 1
+
+1
+----field----
+field: {D3A4DF79-7FD9-450C-A03E-3EAA173A998D}
+name: Google Map Url
+key: google map url
+content-length: 169
+
+https://www.google.com/maps/embed/v1/place?q=GSPANN+Technologies+Vittal+Rao+Nagar,+Madhapur+Hyderabad,+Telangana+500081+India&key=AIzaSyCOSU_EBLQChvXcq6jre1EFJwk9GSXj5xo
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151202T102552Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a4b49619-3e90-4cf9-936e-e2f9b5b6ce94
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T054748Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

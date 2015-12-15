@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {246993D2-DE6F-4C1C-9A4C-7455D7AD0336}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Html Data/Approach
+parent: {0B30FA7E-ECB4-4484-B186-69A2C07A0983}
+name: Approach
+master: {00000000-0000-0000-0000-000000000000}
+template: {6D3C5530-A579-4A2E-B08B-409A6B16B2AC}
+templatekey: HTML Content
+
+----field----
+field: {F47E56B7-3D47-4571-AEA0-36A63FD4D9CA}
+name: Card Link
+key: card link
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: e09749cb-b9ff-44f2-a825-109d59fd9801
+
+----field----
+field: {1B765069-D254-43C7-8BE1-2CF5EEAD9206}
+name: Card Heading
+key: card heading
+content-length: 12
+
+Our Approach
+----field----
+field: {A338362D-BDC1-402A-AEE4-C28C855F1063}
+name: Card Title
+key: card title
+content-length: 35
+
+Strategize. Architect. Build. Care.
+----field----
+field: {80A12328-4A52-4BA1-802D-B19A15AE9A73}
+name: Card Subtitle
+key: card subtitle
+content-length: 0
+
+
+----field----
+field: {0935A4E3-13DC-480B-B3F6-F890E63D4C87}
+name: Card Summary
+key: card summary
+content-length: 0
+
+
+----field----
+field: {EE2EA638-8948-40F0-868F-B0CBC21D380D}
+name: Card Description
+key: card description
+content-length: 710
+
+
+Our Approach to Your Success Enterprise Content Management (ECM) is necessary to help you fully tap the potentials of content on the web, under the rapidly changing scenario. And our ECM comprises of strategies, methods and tools, used to capture, manage, store, preserve, and deliver content. This content may be Web, Mobile, Documents, Assets, Print Material, Catalogs or Product Information, we help you produce enormous ROI through it. Today ECM solutions have to deal with massive content constantly generated within, between, and outside the enterprise. A demand that our experts know how to help steer clear of. Let GSPANN help you draw meaningful insights and singular outcome from this ECM solution.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151029T022310Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e09749cb-b9ff-44f2-a825-109d59fd9801
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151210T143952Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

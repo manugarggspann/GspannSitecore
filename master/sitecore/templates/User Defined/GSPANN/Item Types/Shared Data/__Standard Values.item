@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {96E5DBCB-CFD5-48FA-AED1-74C49FDAB524}
+database: master
+path: /sitecore/templates/User Defined/GSPANN/Item Types/Shared Data/__Standard Values
+parent: {450BBB06-210C-4D30-8E24-C55E17B5A03C}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {450BBB06-210C-4D30-8E24-C55E17B5A03C}
+templatekey: Shared Data
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 233
+
+{8D87464B-4230-4842-BC09-87EB3D4EE3A8}|{4F5E307C-186D-493E-ACDD-D15CF52B7624}|{A2D7B920-D576-4C2D-82F6-55D6B59B2F8C}|{3ECB7B1B-E39C-41D4-871C-647432054A3C}|{2EA46E21-DA4F-44CE-BCB6-11D3D16238BC}|{145F6BE7-F57C-4F26-A065-4A73A9AFAB02}
+----version----
+language: en
+version: 1
+revision: 570a3b74-d764-481e-93c7-a4926fb87158
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151021T024714Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+570a3b74-d764-481e-93c7-a4926fb87158
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151029T005502Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

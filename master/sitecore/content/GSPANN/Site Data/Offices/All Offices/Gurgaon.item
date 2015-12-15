@@ -1,0 +1,96 @@
+----item----
+version: 1
+id: {EA447329-FAC9-4E6F-B3FE-2636590F362F}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Offices/All Offices/Gurgaon
+parent: {1F34F191-4D9E-4C97-B45E-7C9C62F05B8A}
+name: Gurgaon
+master: {00000000-0000-0000-0000-000000000000}
+template: {58DE93C2-1658-4437-ADFD-8D2B5387BAF7}
+templatekey: Office
+
+----field----
+field: {DCD677D9-3153-456D-8E7B-C97DFF93407D}
+name: Continent reference Variable
+key: continent reference variable
+content-length: 2
+
+IN
+----version----
+language: en
+version: 1
+revision: 0c983f0c-24df-4270-bf68-a21ae8fb567e
+
+----field----
+field: {D17AA305-A5BD-4FAD-9349-A9DBA16E8D38}
+name: Office Heading
+key: office heading
+content-length: 18
+
+India Headquarters
+----field----
+field: {04CC9AAD-4DAE-4E99-9CEC-A134921F9D36}
+name: Office Name
+key: office name
+content-length: 7
+
+Gurgaon
+----field----
+field: {65418D13-F0D3-40BE-9212-02CDB9D415B0}
+name: Address
+key: address
+content-length: 107
+
+<p>Whisk Software Pvt. Ltd.</p>
+<p>355 Udyog Vihar Phase II</p>
+<p>Gurgaon, Haryana 122016</p>
+<p>India</p>
+----field----
+field: {36DD0BEF-FB78-4129-BA59-B6E2461911DF}
+name: Phone No
+key: phone no
+content-length: 15
+
++91 124 4295663
+----field----
+field: {2A14770A-BDB2-460A-B6B2-A3E2F1ED29D4}
+name: Show Map
+key: show map
+content-length: 1
+
+1
+----field----
+field: {D3A4DF79-7FD9-450C-A03E-3EAA173A998D}
+name: Google Map Url
+key: google map url
+content-length: 168
+
+https://www.google.com/maps/embed/v1/place?q=GSPANN+Technologies+Inc,+355+Udyog+Vihar+Phase+II+Gurgaon,+Haryana+122016+India&key=AIzaSyCOSU_EBLQChvXcq6jre1EFJwk9GSXj5xo
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151202T102552Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0c983f0c-24df-4270-bf68-a21ae8fb567e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T054740Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

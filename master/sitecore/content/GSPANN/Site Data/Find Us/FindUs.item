@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {ACA35B5C-75D8-40DE-B8A9-1A35D0BD08E7}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Find Us/FindUs
+parent: {13C32365-68A4-4E59-9AB2-446E4F808492}
+name: FindUs
+master: {00000000-0000-0000-0000-000000000000}
+template: {C47DF820-51CB-4774-A788-1032237FDD5C}
+templatekey: Find Us Section
+
+----version----
+language: en
+version: 1
+revision: ef2aae19-f59e-42c2-94ea-6def6ee23993
+
+----field----
+field: {02F94AB7-D87C-4017-8C6B-4C7034ED1ED5}
+name: Find Us Heading
+key: find us heading
+content-length: 7
+
+Find Us
+----field----
+field: {B50C1200-9BB2-47D1-B276-E588F40B98E1}
+name: Select Global Office
+key: select global office
+content-length: 38
+
+{4E915A51-6A7E-44DF-8AFF-CE8BDE685134}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151204T150248Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ef2aae19-f59e-42c2-94ea-6def6ee23993
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151204T150352Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {6D9EB085-CBAA-49BC-944D-88966C5B09CF}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Classes/Blue
+parent: {33DDC614-A8D9-484D-9F45-D92132552221}
+name: Blue
+master: {00000000-0000-0000-0000-000000000000}
+template: {70E9FFC6-5230-4795-81A5-0EA9640E38AE}
+templatekey: KeyValue Pair
+
+----field----
+field: {DCE5DAAC-CC8F-40C7-B58C-B0DF4A3A433C}
+name: Key
+key: key
+content-length: 4
+
+Blue

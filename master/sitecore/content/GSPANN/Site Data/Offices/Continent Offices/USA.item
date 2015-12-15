@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {D5699587-4DE9-4E32-A14B-484F198BB69A}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Offices/Continent Offices/USA
+parent: {A66E8479-53DB-49A8-94B6-E2FAF7295DE1}
+name: USA
+master: {00000000-0000-0000-0000-000000000000}
+template: {CD58705F-5EA5-4974-8AB3-F7E623E624DB}
+templatekey: Continental Offices
+
+----version----
+language: en
+version: 1
+revision: cc321816-3bb9-4eab-878f-f72b3c116486
+
+----field----
+field: {0EF56F29-D8D5-43B2-B5FC-F73C2F9D29FA}
+name: Referebce Bane
+key: referebce bane
+content-length: 16
+
+American Offices
+----field----
+field: {361D0407-480C-4AD3-A91E-847782D9AA9B}
+name: Section Heading
+key: section heading
+content-length: 13
+
+United States
+----field----
+field: {2F0A8EEE-DBD9-4481-B9D8-25A2EE00050A}
+name: Office List
+key: office list
+content-length: 116
+
+{4E915A51-6A7E-44DF-8AFF-CE8BDE685134}|{7FBC8164-D3F6-40B2-B4EF-3885E4B4F661}|{C96A7D65-9DFF-47A0-B413-7C62ABABE62B}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151202T140833Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cc321816-3bb9-4eab-878f-f72b3c116486
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151202T141231Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

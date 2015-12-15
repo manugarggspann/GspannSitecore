@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {56B15125-5ABB-48AD-A2AF-526F03E7FF88}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Html Data/eCommerce Tech
+parent: {0B30FA7E-ECB4-4484-B186-69A2C07A0983}
+name: eCommerce Tech
+master: {00000000-0000-0000-0000-000000000000}
+template: {6D3C5530-A579-4A2E-B08B-409A6B16B2AC}
+templatekey: HTML Content
+
+----field----
+field: {F47E56B7-3D47-4571-AEA0-36A63FD4D9CA}
+name: Card Link
+key: card link
+content-length: 140
+
+<link text="" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{45F957A3-26F1-4DB8-8CE1-DB0A293C9203}" />
+----version----
+language: en
+version: 1
+revision: 3c094123-e552-4963-9c4e-9b2504a5c1b2
+
+----field----
+field: {1B765069-D254-43C7-8BE1-2CF5EEAD9206}
+name: Card Heading
+key: card heading
+content-length: 14
+
+eCommerce Tech
+----field----
+field: {A338362D-BDC1-402A-AEE4-C28C855F1063}
+name: Card Title
+key: card title
+content-length: 32
+
+eCommerce Tech - Title Goes here
+----field----
+field: {80A12328-4A52-4BA1-802D-B19A15AE9A73}
+name: Card Subtitle
+key: card subtitle
+content-length: 39
+
+eCommerce Tech - Some Subtile Goes here
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151021T031851Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c094123-e552-4963-9c4e-9b2504a5c1b2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151107T061318Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

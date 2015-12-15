@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {06EFADC6-C389-4854-B689-AFD947F972EF}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Alliances/Tibco Jaspersoft
+parent: {7FDD87EB-E628-413B-8209-D2D7CC70C905}
+name: Tibco Jaspersoft
+master: {00000000-0000-0000-0000-000000000000}
+template: {71E3A2A3-1F7B-4377-864F-0E28E1172F07}
+templatekey: Alliance Entity
+
+----version----
+language: en
+version: 1
+revision: f3830289-19c0-4fcc-983c-666dc2f274b7
+
+----field----
+field: {2C71BF1B-7194-43A5-8F07-088FB4131396}
+name: Alliances Name
+key: alliances name
+content-length: 16
+
+Tibco Jaspersoft
+----field----
+field: {DF2F8980-135D-4259-AE13-9846FF4691DB}
+name: Alliances Description
+key: alliances description
+content-length: 121
+
+We are a TIBCO Jaspersoft Implementation Partner delivering solutions with the Jaspersoft Business Intelligence platform.
+----field----
+field: {2ED394EE-B6E9-401A-8061-CBE325FE2197}
+name: Alliance Logo Image
+key: alliance logo image
+content-length: 58
+
+<image mediaid="{715318E2-4700-4F45-B44B-AF0D37ED08E6}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151102T155609Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f3830289-19c0-4fcc-983c-666dc2f274b7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151102T161818Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

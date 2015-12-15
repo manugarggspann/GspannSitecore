@@ -1,0 +1,124 @@
+----item----
+version: 1
+id: {B03AA347-D77A-4F8C-9FA5-A596C598FD06}
+database: master
+path: /sitecore/content/GSPANN/Site Data/AboutUs Section/Alliances
+parent: {13616855-3AC6-4E50-BEAD-EBCB5F1DB245}
+name: Alliances
+master: {00000000-0000-0000-0000-000000000000}
+template: {5E7A8BA6-B15B-41A1-88ED-656506D5699C}
+templatekey: About Us Page
+
+----version----
+language: en
+version: 1
+revision: 815966c4-0669-4977-aab0-3bb217acf6ef
+
+----field----
+field: {85EC05E1-670F-4194-B14F-92712D3D8005}
+name: Top Section Heading
+key: top section heading
+content-length: 6
+
+GSPANN
+----field----
+field: {8A509CC0-D740-4F6E-8CBE-FECCC4EAA8FF}
+name: Bottom Section Heading
+key: bottom section heading
+content-length: 9
+
+Alliances
+----field----
+field: {3EA992C0-BAFC-46D7-B81E-8D36894E57C4}
+name: AboutUs Heading
+key: aboutus heading
+content-length: 8
+
+About Us
+----field----
+field: {58E4D4AA-4705-41AD-A456-E84AAC5DD62D}
+name: AboutUs Content
+key: aboutus content
+content-length: 553
+
+<p class="intro no-caps">
+                    GSPANN Technologies was established by two IT professionals who recognized a need for efficient and innovative solutions within the technology industry.
+                </p>
+                <p>
+                    This combination of industry experience and an ability to innovate has provided GSPANN clients with leading edge technology to resolve their marketing dilemmas and increase profitability.   Our primary goal is to deliver quality services in an efficient and timely manner.
+                </p>
+----field----
+field: {9465AD09-49A5-4E29-A37D-566687B493CB}
+name: Values Heading
+key: values heading
+content-length: 6
+
+Values
+----field----
+field: {F26F66D1-A6DE-4B1C-B31D-8B5054077DAB}
+name: Values Content
+key: values content
+content-length: 490
+
+ <p class="intro no-caps">
+                    Our values guide how we work with our clients.
+                </p>
+                <ul class="gspann-list">
+                    <li>Focus on delivering quality services in an efficient manner</li>
+                    <li>We only win when you win</li>
+                    <li>Keeping the right objectives at the core</li>
+                    <li>Be the industry experts</li>
+                    <li>Make a difference</li>
+                </ul>
+----field----
+field: {0CBE6389-5C0B-4F60-B023-B8685F4B24B2}
+name: Heading
+key: heading
+content-length: 9
+
+Alliances
+----field----
+field: {BCDC97CF-8ED1-441E-8D02-DB4A69B457D9}
+name: Introduction
+key: introduction
+content-length: 344
+
+<span style="font-family: Consolas; font-size: 13px;">
+<p>     Over the years GSPANN has successfully invested in building and maintaining alliances with numerous organizations. The trusted relationships we have with these partners are key factors that enable us to provide high quality products and support services.</p>
+<p>       </p>
+</span>
+----field----
+field: {3C6B1CEC-9970-471D-A615-C7C55E6A820B}
+name: Alliances List
+key: alliances list
+content-length: 311
+
+{9E6F8BEA-A014-4110-B3BB-C57B5A230089}|{88FFEAA6-053F-43F6-BF65-54AA85929526}|{E302CFFA-E0A0-4F04-BD98-DCD52DD56544}|{B5A4E856-DF0A-47B1-B851-92D2BDEF0521}|{3AF73948-059B-4C5A-B089-384075963733}|{06EFADC6-C389-4854-B689-AFD947F972EF}|{47A7E72C-B822-47BB-AC82-CF8FF70D43EC}|{E22B97B7-9200-4F71-99D5-117422A141AC}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151104T093725Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+815966c4-0669-4977-aab0-3bb217acf6ef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151211T064111Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

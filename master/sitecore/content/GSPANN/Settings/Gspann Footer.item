@@ -1,0 +1,139 @@
+----item----
+version: 1
+id: {D801E44F-916F-48F3-B8FA-E88075175F8A}
+database: master
+path: /sitecore/content/GSPANN/Settings/Gspann Footer
+parent: {6C546438-09C0-4EA0-86E4-8A03655916B6}
+name: Gspann Footer
+master: {00000000-0000-0000-0000-000000000000}
+template: {9425A9DE-EC0B-478A-87FB-4AC9B71C6999}
+templatekey: Footer
+
+----version----
+language: en
+version: 1
+revision: 758c3f8c-4ad2-4d10-b81a-e8a105094b37
+
+----field----
+field: {25937EA6-D037-4357-BAC7-E5DDB1BCA24C}
+name: About Gspann
+key: about gspann
+content-length: 327
+
+<p class="larger">
+<span class="bolder">About GSPANN<em class="fa fa-angle-double-right  fa-lg text-delimiter"></em></span>We provide end-to-end content and data management solutions for business-critical ecommerce and digital marketing activities within retail, high technology, manufacturing, financial services and law.
+</p>
+----field----
+field: {B3E9EACF-4FB5-4FC8-ACEC-26B04B94E935}
+name: Heading
+key: heading
+content-length: 9
+
+Solutions
+----field----
+field: {BE9C8548-4192-4931-BD6A-DE5AFEBD9C8B}
+name: Description
+key: description
+content-length: 700
+
+<ul class="simple-list">
+    <li><a href="/Solutions/Enterprise-Content-Management-Solutions">Enterprise Content Management</a></li>
+    <li><a href="/Solutions/E-Commerce-Solutions">Ecommerce Solutions</a></li>
+    <li><a href="/Solutions/Digital-Marketing-Solutions">Digital Marketing</a></li>
+    <li><a href="/Solutions/Mobile-Solutions">Mobile</a></li>
+    <li><a href="/Solutions/Analytics-and-Reporting-Solutions">Analytics &amp; Reporting</a></li>
+    <li><a href="/Solutions/Project-Managed-Consulting">Project Management Consulting</a></li>
+    <li><a href="/Solutions/Managed-Services">Managed Services</a></li>
+    <li><a href="/Solutions/Testing-Services">Testing Services</a></li>
+</ul>
+----field----
+field: {7FC94E47-5359-434A-B20B-7C860663C5F9}
+name: Contact Us Heading
+key: contact us heading
+content-length: 10
+
+Contact Us
+----field----
+field: {6692B472-EFE5-4AD6-B04D-F9084AFB97EE}
+name: Select Office
+key: select office
+content-length: 38
+
+{4E915A51-6A7E-44DF-8AFF-CE8BDE685134}
+----field----
+field: {07D3998F-32A2-465F-8680-B7BDB3A469F8}
+name: Office Section Heading
+key: office section heading
+content-length: 7
+
+Offices
+----field----
+field: {87CCA370-73D4-4991-90E2-83C869430DC6}
+name: Select Locations
+key: select locations
+content-length: 311
+
+{4E915A51-6A7E-44DF-8AFF-CE8BDE685134}|{7FBC8164-D3F6-40B2-B4EF-3885E4B4F661}|{C96A7D65-9DFF-47A0-B413-7C62ABABE62B}|{E0962696-AC3F-41EE-BBC0-43F32BE8794D}|{EA447329-FAC9-4E6F-B3FE-2636590F362F}|{2796FC22-995F-420E-B205-DA5398863C87}|{486322F1-6F8E-4768-A3E8-819BCF1EABD0}|{9B788AC5-3C11-4F0B-A65F-66EE39784F2D}
+----field----
+field: {16B3617F-B19A-47DF-B6BF-EC4447D1875D}
+name: Sales Email
+key: sales email
+content-length: 16
+
+sales@gspann.com
+----field----
+field: {48F7501B-2D5F-4D32-B688-05E064E6A81D}
+name: Office Page
+key: office page
+content-length: 129
+
+<link text="" linktype="internal" class="" title="" target='Custom' querystring="" id="{1ABDCFFB-3AD6-4204-907C-9B1135ED9813}" />
+----field----
+field: {E5C4665D-3E05-4E4F-92C8-262EBC3474BB}
+name: Copyright Text
+key: copyright text
+content-length: 41
+
+GSPANN Technologies, Inc.  Copyright 2015
+----field----
+field: {79838C99-DD4A-49A7-B07C-0874ED987108}
+name: Privacy Policy Link
+key: privacy policy link
+content-length: 160
+
+<link text="Disclaimer &amp; Privacy Policy" linktype="internal" class="" title="" target='Custom' querystring="" id="{42CF1301-7D4F-4623-8E60-4DADB9836223}" />
+----field----
+field: {C223A425-5B0D-4383-9029-17F588C46CEA}
+name: Social Icons
+key: social icons
+content-length: 194
+
+{86BF1832-CC5E-47BF-9D58-6F3EEFDD5130}|{2AD8728B-9D2C-4948-9304-1D3DABA24918}|{C1D83EBC-79D3-4F14-BDD4-EA1289C735AE}|{E8690905-D2F2-40E2-98E2-B05843B5E9DF}|{6DA748A0-B9B9-418D-9073-75781E781E64}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151207T054300Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+758c3f8c-4ad2-4d10-b81a-e8a105094b37
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151208T155050Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

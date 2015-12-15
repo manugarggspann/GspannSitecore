@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {D1CB9546-BC6F-4D01-8DAB-FE1953BFA603}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Tags/Architecture
+parent: {DACD354B-EE77-4447-BABE-4891EB4E9EC2}
+name: Architecture
+master: {00000000-0000-0000-0000-000000000000}
+template: {AD85D313-2C37-4CCE-8B71-105018906167}
+templatekey: Tag
+
+----version----
+language: en
+version: 1
+revision: 04e59ea1-d61c-4cac-818f-abae64541cc3
+
+----field----
+field: {F1CC0DFA-3FCB-4243-9418-E3466C249C50}
+name: Tag Name
+key: tag name
+content-length: 12
+
+Architecture
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151021T031747Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+04e59ea1-d61c-4cac-818f-abae64541cc3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151021T031747Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

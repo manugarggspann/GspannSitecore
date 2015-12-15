@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {025C90C0-ABA2-4CEC-9A55-0A200591D4FF}
+database: master
+path: /sitecore/templates/User Defined/GSPANN/Page Types/ContactUs Page/__Standard Values
+parent: {45B1527C-9E3E-46E6-8998-B7762C55F655}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {45B1527C-9E3E-46E6-8998-B7762C55F655}
+templatekey: ContactUs Page
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1169
+
+<r  xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{37FD4B9C-FEDB-4745-90D3-415282B0ECFA}"><p uid="{6A23D107-1BBE-4467-8BAF-AE5F8CED05B3}" key="/phMain/phBosy" md="/sitecore/layout/Placeholder Settings/GSPANN/ContactUs Page/ContactUS phTop" /><r id="{5BDD309C-CE6C-4117-B142-A82124633D3A}" ph="/phMain" uid="{1AE53ED8-55FE-4E59-8A74-9E948D2ED46C}" /><r id="{9B0B46D8-99FD-4DE2-819E-748959ACB42E}" ph="/phMain/phTopNavigation" uid="{D5F537B4-377C-4CC1-B9C1-FB23796A174D}" /><r ds="" id="{A5F83C69-169E-4A1B-89C2-850F81E77866}" par="" ph="/phMain/phSiteLogo" uid="{8E85BDAF-3DF7-466F-9850-A7B17B700DA7}" /><r id="{9A0AF41C-4F8C-4904-ADB2-01E05E6E0D1A}" ph="/phMain/phHero" uid="{84361076-5EAE-4A65-B0FB-CFAFA0BC3612}" /><r ds="{ACA35B5C-75D8-40DE-B8A9-1A35D0BD08E7}" id="{4ABDC7DC-5638-47E4-B92E-E9F64250AAB9}" par="" ph="/phMain/phBody" uid="{9D61B3BE-66D1-4D39-A3D4-86DD324551FA}" /><r id="{98414757-51E1-4E79-8C7E-B760D7281FF8}" ph="/phMain/phBody" uid="{D4562BB8-D68B-41AB-A514-7606DC0587DF}" /><r id="{A2730AD6-15C1-49C2-ACA7-9DAA24C497F8}" ph="/phMain/phFooter" uid="{B83EA42B-F746-4A0D-9D68-26019A6E88D7}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 2aecb0f6-3730-46a9-9e52-0c3d8db0041d
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151204T060030Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2aecb0f6-3730-46a9-9e52-0c3d8db0041d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151208T055900Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

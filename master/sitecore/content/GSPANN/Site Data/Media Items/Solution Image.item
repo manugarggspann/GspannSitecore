@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {B6B6EEB1-0D3F-45E9-B213-BDC6A6E76796}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Media Items/Solution Image
+parent: {1D95C591-CE7D-4677-8031-20D09D5EE79D}
+name: Solution Image
+master: {00000000-0000-0000-0000-000000000000}
+template: {F108C463-443E-4850-816F-A887140580BA}
+templatekey: Hero Image
+
+----field----
+field: {1C54FD4E-1AA3-44A6-86E6-FC419497DB7E}
+name: Hero Image
+key: hero image
+content-length: 239
+
+<image mediapath="" alt="GSPANN Digital Solutions, Digital Marketing, E-Commerce, Content Management, Mobile" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{F2894BC3-1667-4E30-AB49-F4888CDFC918}" />
+----version----
+language: en
+version: 1
+revision: 2e614634-c453-46ee-8999-5b0dccb6ea13
+
+----field----
+field: {1BCAF1A9-CBE9-41B3-9E6C-1A98BDF5E82B}
+name: Hero Image Text
+key: hero image text
+content-length: 17
+
+Digital Solutions
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151029T005555Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2e614634-c453-46ee-8999-5b0dccb6ea13
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151116T005533Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

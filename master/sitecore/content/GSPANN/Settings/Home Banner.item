@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {E69486D4-4F5D-47C2-8584-F09CFBEEF841}
+database: master
+path: /sitecore/content/GSPANN/Settings/Home Banner
+parent: {6C546438-09C0-4EA0-86E4-8A03655916B6}
+name: Home Banner
+master: {00000000-0000-0000-0000-000000000000}
+template: {0C7DD9D9-A79F-4D4C-8EBF-ED7306635C51}
+templatekey: Banner
+
+----version----
+language: en
+version: 1
+revision: 8354f8b4-6f0c-476b-ae24-725829cd7120
+
+----field----
+field: {BAD6B71C-FF60-4CB0-BBB4-32128A500714}
+name: Carousel List
+key: carousel list
+content-length: 116
+
+{17776FC4-4120-4D53-ADF6-276E447E41CA}|{515FC57F-BDFE-43E7-BD9E-0F34E6C15F79}|{02191826-A181-4855-9BA5-0E8236FE6E9D}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151030T103358Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8354f8b4-6f0c-476b-ae24-725829cd7120
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151117T061742Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

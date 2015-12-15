@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {FB137787-3373-4DD2-8DEB-D8E490036AE0}
+database: master
+path: /sitecore/templates/User Defined/GSPANN/Field Sections/Navigation/__Standard Values
+parent: {420ECD64-0DD5-4AD7-8230-ED2F567A60CB}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {420ECD64-0DD5-4AD7-8230-ED2F567A60CB}
+templatekey: Navigation
+
+----field----
+field: {95C1D5B4-0BD2-4D83-91E1-22D766287854}
+name: Include in Header
+key: include in header
+content-length: 1
+
+1
+----field----
+field: {16D2961B-FE30-4055-87A7-36EE4D97B4C3}
+name: Include in Footer
+key: include in footer
+content-length: 1
+
+1
+----field----
+field: {0D12D6A5-6B61-48BA-B941-F42575799F8F}
+name: Include in Sitemap
+key: include in sitemap
+content-length: 1
+
+1
+----field----
+field: {8AB527A8-8C4C-4A12-AA51-1E5B72D76E7E}
+name: Include in Secondary Navigation
+key: include in secondary navigation
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 3b569e1c-0949-49dd-b2c1-9c68e4c84d0e
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151021T024236Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3b569e1c-0949-49dd-b2c1-9c68e4c84d0e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151021T030517Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

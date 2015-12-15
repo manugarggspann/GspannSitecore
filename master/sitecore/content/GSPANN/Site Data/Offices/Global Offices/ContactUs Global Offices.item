@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {E060F37D-D079-4665-B039-ED5326D3B63F}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Offices/Global Offices/ContactUs Global Offices
+parent: {2A30FFA2-E131-4A1B-AE9B-96AA5FE843FA}
+name: ContactUs Global Offices
+master: {00000000-0000-0000-0000-000000000000}
+template: {B7DEC53E-1095-42E5-9ADE-54AF7E5D29DB}
+templatekey: Global Office
+
+----version----
+language: en
+version: 1
+revision: ae3e02cd-597d-4a46-bf55-79ea836b6dba
+
+----field----
+field: {50ABDD57-FAC6-40B0-A3B7-6D4206A09584}
+name: Select Continents
+key: select continents
+content-length: 116
+
+{D5699587-4DE9-4E32-A14B-484F198BB69A}|{9DDC6CA7-3F53-4822-8C5F-9349A1E3E6C2}|{3A169E7A-02A8-4F72-A2EE-B946A2E5458C}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151204T061759Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ae3e02cd-597d-4a46-bf55-79ea836b6dba
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151204T061836Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {B67D3CAF-0AA9-49B6-8796-1C016EA836BA}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Media Items/Approach Banner
+parent: {1D95C591-CE7D-4677-8031-20D09D5EE79D}
+name: Approach Banner
+master: {00000000-0000-0000-0000-000000000000}
+template: {82DF8DD9-7C0F-4094-9E91-77E0180B8BBD}
+templatekey: Carousel
+
+----field----
+field: {2F3861B4-6F5E-4DEB-A74D-C4E4AE2C71F3}
+name: Carousel Image
+key: carousel image
+content-length: 58
+
+<image mediaid="{6B82ED24-DE39-40EA-A2E1-E61E72C94F83}" />
+----version----
+language: en
+version: 1
+revision: 258eeecb-8613-4b06-9480-a083333ca82d
+
+----field----
+field: {2175330C-3FFB-47AF-B2DF-20490B263E59}
+name: Carousel Title
+key: carousel title
+content-length: 34
+
+Strategize. Architect. Build. Care
+----field----
+field: {E75A3EFE-CA3E-4FB9-A83C-7779A30774F6}
+name: Carousel Description
+key: carousel description
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151030T101003Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+258eeecb-8613-4b06-9480-a083333ca82d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T152046Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
