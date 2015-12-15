@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {C0B92B90-8FE9-4A8E-8721-EBBCA8339B68}
+id: {11C01FDC-5CAA-418C-9959-8A001499FB38}
 database: master
 path: /sitecore/layout/Renderings/GSPANN/Controller Renderings/Generic/TeaserBlocks
 parent: {69F97D19-8FD4-4EED-8351-01506053B440}
@@ -27,9 +27,9 @@ TeaserBlocks
 field: {13F89250-AD6B-4548-882E-118A12C18094}
 name: Parameters Template
 key: parameters template
-content-length: 38
+content-length: 0
 
-{59ACF2B3-8ED4-4C76-BAFA-4FE8DF239A8B}
+
 ----field----
 field: {94069F66-609C-48B0-8281-521C30FB269D}
 name: Open Properties after Add
@@ -40,7 +40,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 4b951a7a-1678-4e9a-a4bc-81ee2dd6b81d
+revision: 2cd7f21b-6144-43c6-b763-4c8d4dd430cd
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -69,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4b951a7a-1678-4e9a-a4bc-81ee2dd6b81d
+2cd7f21b-6144-43c6-b763-4c8d4dd430cd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151214T075805Z
+20151215T132203Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

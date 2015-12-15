@@ -27,13 +27,13 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 504
+content-length: 208
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{7E3EF163-C67E-4A78-940C-B3B0E06C0E1E}" s:ds="{B67D3CAF-0AA9-49B6-8796-1C016EA836BA}" s:par="" /><r uid="{D5AFD621-CA7A-41A7-84D7-B16A47586265}" s:ds="" s:par="Wrapper Class=%7B6D9EB085-CBAA-49BC-944D-88966C5B09CF%7D&amp;Show Heading=1&amp;Show Title&amp;Show Subtitle&amp;Show Summary&amp;Show Description=1&amp;Show Image&amp;Activate Link=1" /><r uid="{915365B9-110C-4D3E-B4A6-831DDA3DE759}"><p:d /></r></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{7118C806-0318-4267-A745-98E770C85DF2}" s:id="{11C01FDC-5CAA-418C-9959-8A001499FB38}" s:ph="/phMain/phBody" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 6774df7f-c2e4-4b73-b043-0cce8027f6e5
+revision: 79062179-61ce-429e-b364-b28a4d526453
 
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
@@ -50,6 +50,27 @@ content-length: 8
 
 Approach
 ----field----
+field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
+name: Teaser Title
+key: teaser title
+content-length: 18
+
+Learn About GSPANN
+----field----
+field: {5CE5544F-FA69-4C41-82D4-6589B4D8B3B6}
+name: Teaser Description
+key: teaser description
+content-length: 104
+
+ Why do people spend years working with the GSPANN family?  Learn about the culture where people thrive.
+----field----
+field: {D07D887B-0E40-4ACF-9A17-47A248CB8FC0}
+name: Select Teaser Blocks
+key: select teaser blocks
+content-length: 77
+
+{E7C95B0A-32BD-45DD-B75D-33B61AD2FDDD}|{17CF0384-8D1A-46F0-ABFF-22792B5C50A7}
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -62,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6774df7f-c2e4-4b73-b043-0cce8027f6e5
+79062179-61ce-429e-b364-b28a4d526453
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151215T093521Z
+20151215T143101Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

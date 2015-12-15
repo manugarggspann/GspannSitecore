@@ -22,7 +22,7 @@ name: __Standard values
 key: __standard values
 content-length: 38
 
-{E98A1D84-9446-45D7-A8F4-70ACE6E988C6}
+{5290B33E-D198-48D3-9F99-AA85050F55C5}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -33,7 +33,7 @@ Business/32x32/handshake.png
 ----version----
 language: en
 version: 1
-revision: 456764fa-fe70-4d5b-94a6-dba300d22bb4
+revision: bcd27340-3e90-4ee8-a486-afb81acbe2f1
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-456764fa-fe70-4d5b-94a6-dba300d22bb4
+bcd27340-3e90-4ee8-a486-afb81acbe2f1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151214T075521Z
+20151215T125156Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

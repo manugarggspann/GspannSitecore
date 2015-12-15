@@ -20,13 +20,13 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 186
+content-length: 638
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{FEB17A92-42EB-49B3-82E4-E6685685C643}" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{893A6FF9-0F60-4DD0-8DD1-725148006515}" s:ds="{65A5BC16-34CE-46CB-A8D4-23E1C26A860B}" s:id="{F773F037-500C-4241-BD7A-5DE9458A701B}" s:par="Wrapper Class=%7B6D9EB085-CBAA-49BC-944D-88966C5B09CF%7D&amp;Show Heading=1&amp;Show Title&amp;Show Subtitle&amp;Show Summary&amp;Show Description=1&amp;Show Image&amp;Activate Link=1" /><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{FEB17A92-42EB-49B3-82E4-E6685685C643}" /><r uid="{AE915C92-14F9-4CE9-B750-AD79050203D9}" s:id="{11C01FDC-5CAA-418C-9959-8A001499FB38}" s:ph="/phMain/phBody" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 1b2b69e5-4c63-4f0f-964f-c1202338a1b8
+revision: f64e1292-1aac-431c-9d60-ae38febbf4a5
 
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
@@ -43,6 +43,27 @@ content-length: 8
 
 Approach
 ----field----
+field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
+name: Teaser Title
+key: teaser title
+content-length: 15
+
+Find a Position
+----field----
+field: {5CE5544F-FA69-4C41-82D4-6589B4D8B3B6}
+name: Teaser Description
+key: teaser description
+content-length: 112
+
+ Are you looking for challenges?  Are you a master of your chosen technology?  We have positons waiting for you!
+----field----
+field: {D07D887B-0E40-4ACF-9A17-47A248CB8FC0}
+name: Select Teaser Blocks
+key: select teaser blocks
+content-length: 77
+
+{E7C95B0A-32BD-45DD-B75D-33B61AD2FDDD}|{95984C7A-B8FA-4D9A-9432-E72DB2E403EC}
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -55,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1b2b69e5-4c63-4f0f-964f-c1202338a1b8
+f64e1292-1aac-431c-9d60-ae38febbf4a5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151215T094843Z
+20151215T142943Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
