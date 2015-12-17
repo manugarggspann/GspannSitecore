@@ -6,8 +6,8 @@ path: /sitecore/content/GSPANN/Home/Contact
 parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
 name: Contact
 master: {00000000-0000-0000-0000-000000000000}
-template: {45B1527C-9E3E-46E6-8998-B7762C55F655}
-templatekey: ContactUs Page
+template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
+templatekey: Generic Content Page
 
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
@@ -20,13 +20,13 @@ content-length: 4
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 874
+content-length: 808
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><p uid="{6A23D107-1BBE-4467-8BAF-AE5F8CED05B3}"><p:d /></p><p uid="{A1DA4A6B-971B-44D1-9CA3-8F8E2FF79644}" p:before="r[@uid='{1AE53ED8-55FE-4E59-8A74-9E948D2ED46C}']" s:key="/phMain/phBody" s:md="/sitecore/layout/Placeholder Settings/GSPANN/ContactUs Page/ContactUS phTop" /><r uid="{1AE53ED8-55FE-4E59-8A74-9E948D2ED46C}" s:ds="" s:par="CssClass=%7B3C673150-ABB5-4D67-8B9C-62D4DEA77399%7D" /><r uid="{8E85BDAF-3DF7-466F-9850-A7B17B700DA7}"><p:d /></r><r uid="{84361076-5EAE-4A65-B0FB-CFAFA0BC3612}" s:ds="{504D0D47-74C1-49F7-B147-18A410DCA0A0}" s:par="" /><r uid="{D4562BB8-D68B-41AB-A514-7606DC0587DF}" s:ds="{E060F37D-D079-4665-B039-ED5326D3B63F}" s:par="" /><r uid="{E4B0063B-C7AB-45DC-9EEF-51AA4862563B}" s:id="{A5F83C69-169E-4A1B-89C2-850F81E77866}" s:ph="/phMain/phSiteLogo" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><p uid="{A1DA4A6B-971B-44D1-9CA3-8F8E2FF79644}" p:before="r[@uid='{77E66713-9067-4760-AFCB-5E469CF59AEA}']" s:key="/phMain/phBody" s:md="/sitecore/layout/Placeholder Settings/GSPANN/ContactUs Page/ContactUS phTop" /><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{347C5D61-3350-465D-A240-C5F63AD81C09}" /><r uid="{10344C76-8CD2-4950-B56D-9EEC3A453FAE}" p:before="r[@uid='{B199847F-79A4-4891-89E2-5F056F4FEA89}']" s:ds="{ACA35B5C-75D8-40DE-B8A9-1A35D0BD08E7}" s:id="{4ABDC7DC-5638-47E4-B92E-E9F64250AAB9}" s:par="" s:ph="/phMain/phBody" /><r uid="{B199847F-79A4-4891-89E2-5F056F4FEA89}" s:ds="{E060F37D-D079-4665-B039-ED5326D3B63F}" s:id="{98414757-51E1-4E79-8C7E-B760D7281FF8}" s:par="" s:ph="/phMain/phBody" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 6ea869a2-0491-42e0-96ab-a8ea7265ddfa
+revision: 03522bae-27f5-4756-b5a0-2d8e20644120
 
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6ea869a2-0491-42e0-96ab-a8ea7265ddfa
+03522bae-27f5-4756-b5a0-2d8e20644120
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151209T154353Z
+20151217T063046Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

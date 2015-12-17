@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {45B1527C-9E3E-46E6-8998-B7762C55F655}
+id: {AC4BB831-22FA-4CFD-9C12-6C121DF5BCAE}
 database: master
-path: /sitecore/templates/User Defined/GSPANN/Page Types/ContactUs Page
-parent: {D6A34197-2AB9-4D6A-B19B-00DE36497B81}
-name: ContactUs Page
+path: /sitecore/templates/User Defined/GSPANN/Field Sections/Job Profile Section
+parent: {19880CCE-7E55-4044-A02B-2C7524E537DD}
+name: Job Profile Section
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
@@ -13,27 +13,27 @@ templatekey: Template
 field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
 name: __Base template
 key: __base template
-content-length: 116
+content-length: 38
 
-{6E2AF2BA-89E2-481B-8286-DA4584DE1672}|{420ECD64-0DD5-4AD7-8230-ED2F567A60CB}|{E9BAD607-075B-491B-8938-10F89C18EE81}
+{8CA06D6A-B353-44E8-BC31-B528C7306971}
 ----field----
 field: {F7D48A55-2158-4F02-9356-756654404F73}
 name: __Standard values
 key: __standard values
 content-length: 38
 
-{025C90C0-ABA2-4CEC-9A55-0A200591D4FF}
+{CEEDEAA3-AFBD-4E96-9B6B-801437CE207B}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 21
+content-length: 35
 
-Office/32x32/home.png
+Office/32x32/painting_landscape.png
 ----version----
 language: en
 version: 1
-revision: 0c9145ab-6d68-412d-bf73-02363cff4a94
+revision: e6170ed5-7821-4b4d-ae6c-3f35a1a65aef
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,7 +41,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20151017T042052Z
+20151023T024257Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0c9145ab-6d68-412d-bf73-02363cff4a94
+e6170ed5-7821-4b4d-ae6c-3f35a1a65aef
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151204T060030Z
+20151216T152249Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

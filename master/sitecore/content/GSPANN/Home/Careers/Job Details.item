@@ -1,13 +1,20 @@
 ----item----
 version: 1
-id: {17CF0384-8D1A-46F0-ABFF-22792B5C50A7}
+id: {51560329-7755-4290-9C0B-004237A3B1A6}
 database: master
-path: /sitecore/content/GSPANN/Home/Careers/Find Position
+path: /sitecore/content/GSPANN/Home/Careers/Job Details
 parent: {44122E6B-99E3-454E-A58D-FFCE7083726F}
-name: Find Position
+name: Job Details
 master: {00000000-0000-0000-0000-000000000000}
 template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
 templatekey: Generic Content Page
+
+----field----
+field: {95C1D5B4-0BD2-4D83-91E1-22D766287854}
+name: Include in Header
+key: include in header
+content-length: 0
+
 
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
@@ -20,21 +27,21 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 698
+content-length: 208
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{FEB17A92-42EB-49B3-82E4-E6685685C643}" /><r uid="{893A6FF9-0F60-4DD0-8DD1-725148006515}" p:before="r[@uid='{AE915C92-14F9-4CE9-B750-AD79050203D9}']" s:ds="{65A5BC16-34CE-46CB-A8D4-23E1C26A860B}" s:id="{F773F037-500C-4241-BD7A-5DE9458A701B}" s:par="Wrapper Class=%7B6D9EB085-CBAA-49BC-944D-88966C5B09CF%7D&amp;Show Heading=1&amp;Show Title&amp;Show Subtitle&amp;Show Summary&amp;Show Description=1&amp;Show Image&amp;Activate Link=1" /><r uid="{AE915C92-14F9-4CE9-B750-AD79050203D9}" s:id="{11C01FDC-5CAA-418C-9959-8A001499FB38}" s:ph="/phMain/phBody" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{7118C806-0318-4267-A745-98E770C85DF2}" s:id="{11C01FDC-5CAA-418C-9959-8A001499FB38}" s:ph="/phMain/phBody" /></d></r>
 ----version----
 language: en
 version: 1
-revision: f68bec7d-0e34-4aca-bde0-a5ffc82dbf7a
+revision: 79062179-61ce-429e-b364-b28a4d526453
 
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
 name: Navigation Text
 key: navigation text
-content-length: 15
+content-length: 18
 
-Find a Position
+Learn about GSPANN
 ----field----
 field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
 name: Page Title
@@ -46,23 +53,23 @@ Approach
 field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
 name: Teaser Title
 key: teaser title
-content-length: 15
+content-length: 18
 
-Find a Position
+Learn About GSPANN
 ----field----
 field: {5CE5544F-FA69-4C41-82D4-6589B4D8B3B6}
 name: Teaser Description
 key: teaser description
-content-length: 112
+content-length: 104
 
- Are you looking for challenges?  Are you a master of your chosen technology?  We have positons waiting for you!
+ Why do people spend years working with the GSPANN family?  Learn about the culture where people thrive.
 ----field----
 field: {D07D887B-0E40-4ACF-9A17-47A248CB8FC0}
 name: Select Teaser Blocks
 key: select teaser blocks
 content-length: 77
 
-{E7C95B0A-32BD-45DD-B75D-33B61AD2FDDD}|{95984C7A-B8FA-4D9A-9432-E72DB2E403EC}
+{E7C95B0A-32BD-45DD-B75D-33B61AD2FDDD}|{17CF0384-8D1A-46F0-ABFF-22792B5C50A7}
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -76,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f68bec7d-0e34-4aca-bde0-a5ffc82dbf7a
+79062179-61ce-429e-b364-b28a4d526453
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151217T055950Z
+20151215T143101Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

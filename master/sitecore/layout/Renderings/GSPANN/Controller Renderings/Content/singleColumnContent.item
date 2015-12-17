@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {F773F037-500C-4241-BD7A-5DE9458A701B}
+id: {C74436FD-AD13-4D76-A50D-4D9B6DF15DD8}
 database: master
-path: /sitecore/layout/Renderings/GSPANN/Controller Renderings/Content/ContentDescription
+path: /sitecore/layout/Renderings/GSPANN/Controller Renderings/Content/singleColumnContent
 parent: {B4393171-A453-49D8-8A8F-4D7AFFBD2C6B}
-name: ContentDescription
+name: singleColumnContent
 master: {00000000-0000-0000-0000-000000000000}
 template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
 templatekey: Controller rendering
@@ -20,16 +20,16 @@ Content
 field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
 name: Controller Action
 key: controller action
-content-length: 11
+content-length: 12
 
-Description
+SingleColumn
 ----field----
 field: {13F89250-AD6B-4548-882E-118A12C18094}
 name: Parameters Template
 key: parameters template
-content-length: 38
+content-length: 0
 
-{C42A7BF4-EB30-4873-A174-A1B19990CE1E}
+
 ----field----
 field: {94069F66-609C-48B0-8281-521C30FB269D}
 name: Open Properties after Add
@@ -40,7 +40,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 14c6fdef-10c4-4cf2-815e-b3aa511d8141
+revision: bb9be43d-6c09-4050-bfcc-d41407816258
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-14c6fdef-10c4-4cf2-815e-b3aa511d8141
+bb9be43d-6c09-4050-bfcc-d41407816258
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151217T073116Z
+20151217T084421Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
