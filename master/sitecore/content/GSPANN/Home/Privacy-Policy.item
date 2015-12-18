@@ -2,9 +2,9 @@
 version: 1
 id: {42CF1301-7D4F-4623-8E60-4DADB9836223}
 database: master
-path: /sitecore/content/GSPANN/Home/Privacy Policy
+path: /sitecore/content/GSPANN/Home/Privacy-Policy
 parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
-name: Privacy Policy
+name: Privacy-Policy
 master: {00000000-0000-0000-0000-000000000000}
 template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
 templatekey: Generic Content Page
@@ -40,7 +40,7 @@ content-length: 359
 ----version----
 language: en
 version: 1
-revision: ec5fab98-b842-47da-bf00-261791d482fd
+revision: c9df71eb-c1dd-4cb2-a293-931e33fa3c0a
 
 ----field----
 field: {19E2FB30-5221-467E-A1AA-5E5493604B92}
@@ -90,6 +90,13 @@ content-length: 14
 
 Privacy Policy
 ----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Privacy-Policy
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -102,14 +109,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ec5fab98-b842-47da-bf00-261791d482fd
+c9df71eb-c1dd-4cb2-a293-931e33fa3c0a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151217T091815Z
+20151218T100423Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

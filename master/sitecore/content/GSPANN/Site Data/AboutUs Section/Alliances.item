@@ -12,7 +12,7 @@ templatekey: About Us Page
 ----version----
 language: en
 version: 1
-revision: 815966c4-0669-4977-aab0-3bb217acf6ef
+revision: ec097286-357f-4e9a-87cd-928d60638012
 
 ----field----
 field: {85EC05E1-670F-4194-B14F-92712D3D8005}
@@ -29,47 +29,12 @@ content-length: 9
 
 Alliances
 ----field----
-field: {3EA992C0-BAFC-46D7-B81E-8D36894E57C4}
-name: AboutUs Heading
-key: aboutus heading
-content-length: 8
+field: {BA7431E0-F3FC-4061-A6CE-CC44EECD1FCF}
+name: Select content
+key: select content
+content-length: 38
 
-About Us
-----field----
-field: {58E4D4AA-4705-41AD-A456-E84AAC5DD62D}
-name: AboutUs Content
-key: aboutus content
-content-length: 553
-
-<p class="intro no-caps">
-                    GSPANN Technologies was established by two IT professionals who recognized a need for efficient and innovative solutions within the technology industry.
-                </p>
-                <p>
-                    This combination of industry experience and an ability to innovate has provided GSPANN clients with leading edge technology to resolve their marketing dilemmas and increase profitability.   Our primary goal is to deliver quality services in an efficient and timely manner.
-                </p>
-----field----
-field: {9465AD09-49A5-4E29-A37D-566687B493CB}
-name: Values Heading
-key: values heading
-content-length: 6
-
-Values
-----field----
-field: {F26F66D1-A6DE-4B1C-B31D-8B5054077DAB}
-name: Values Content
-key: values content
-content-length: 490
-
- <p class="intro no-caps">
-                    Our values guide how we work with our clients.
-                </p>
-                <ul class="gspann-list">
-                    <li>Focus on delivering quality services in an efficient manner</li>
-                    <li>We only win when you win</li>
-                    <li>Keeping the right objectives at the core</li>
-                    <li>Be the industry experts</li>
-                    <li>Make a difference</li>
-                </ul>
+{0DEE7A43-6D6D-4331-84A0-48481B9DD05B}
 ----field----
 field: {0CBE6389-5C0B-4F60-B023-B8685F4B24B2}
 name: Heading
@@ -107,14 +72,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-815966c4-0669-4977-aab0-3bb217acf6ef
+ec097286-357f-4e9a-87cd-928d60638012
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151211T064111Z
+20151218T043356Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

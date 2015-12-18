@@ -12,7 +12,7 @@ templatekey: Footer
 ----version----
 language: en
 version: 1
-revision: 758c3f8c-4ad2-4d10-b81a-e8a105094b37
+revision: 775256c4-1433-4e58-b794-32296cf3aa5d
 
 ----field----
 field: {25937EA6-D037-4357-BAC7-E5DDB1BCA24C}
@@ -99,9 +99,9 @@ GSPANN Technologies, Inc.  Copyright 2015
 field: {79838C99-DD4A-49A7-B07C-0874ED987108}
 name: Privacy Policy Link
 key: privacy policy link
-content-length: 160
+content-length: 194
 
-<link text="Disclaimer &amp; Privacy Policy" linktype="internal" class="" title="" target='Custom' querystring="" id="{42CF1301-7D4F-4623-8E60-4DADB9836223}" />
+<link target="Custom" title="" querystring="" linktype="internal" id="{42CF1301-7D4F-4623-8E60-4DADB9836223}" url="/GSPANN/Home/Privacy-Policy" class="" text="Disclaimer &amp; Privacy Policy" />
 ----field----
 field: {C223A425-5B0D-4383-9029-17F588C46CEA}
 name: Social Icons
@@ -122,14 +122,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-758c3f8c-4ad2-4d10-b81a-e8a105094b37
+775256c4-1433-4e58-b794-32296cf3aa5d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151208T155050Z
+20151218T100423Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
