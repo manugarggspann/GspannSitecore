@@ -1,25 +1,18 @@
 ----item----
 version: 1
-id: {3AB055FF-FB1E-418F-A7BF-14348D579074}
+id: {16BE9205-466A-467F-8793-173C1F2C321C}
 database: master
-path: /sitecore/templates/User Defined/GSPANN/Page Types/Generic Content Page/General Content
-parent: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
-name: General Content
+path: /sitecore/layout/Renderings/GSPANN/View Renderings/Careers
+parent: {C64F84D8-81E5-4018-89EB-DC3D03E54D47}
+name: Careers
 master: {00000000-0000-0000-0000-000000000000}
-template: {E269FBB5-3750-427A-9149-7AA950B49301}
-templatekey: Template section
+template: {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+templatekey: Folder
 
-----field----
-field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
-name: __Default workflow
-key: __default workflow
-content-length: 38
-
-{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
 ----version----
 language: en
 version: 1
-revision: 4d119dbd-7c97-4c2c-bf8d-c0cfeb837dce
+revision: 515dc09c-a0d8-4cc0-af3e-8105fb899205
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -27,7 +20,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20151205T070606Z
+20151222T102332Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4d119dbd-7c97-4c2c-bf8d-c0cfeb837dce
+515dc09c-a0d8-4cc0-af3e-8105fb899205
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151222T053336Z
+20151222T102332Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

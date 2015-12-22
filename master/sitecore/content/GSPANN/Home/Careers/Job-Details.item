@@ -2,9 +2,9 @@
 version: 1
 id: {51560329-7755-4290-9C0B-004237A3B1A6}
 database: master
-path: /sitecore/content/GSPANN/Home/Careers/Job Details
+path: /sitecore/content/GSPANN/Home/Careers/Job-Details
 parent: {44122E6B-99E3-454E-A58D-FFCE7083726F}
-name: Job Details
+name: Job-Details
 master: {00000000-0000-0000-0000-000000000000}
 template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
 templatekey: Generic Content Page
@@ -27,14 +27,28 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 208
+content-length: 304
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{7118C806-0318-4267-A745-98E770C85DF2}" s:id="{11C01FDC-5CAA-418C-9959-8A001499FB38}" s:ph="/phMain/phBody" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{8EFB0FF6-6923-4BDB-ACA8-2082022CA3E8}" /><r uid="{0ED456BA-3087-4F02-80C3-7348F7C7FF53}" s:id="{5DB7DF7A-DFC8-4929-92BE-2D0AEF31B1EB}" s:ph="/phMain/phBody" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 79062179-61ce-429e-b364-b28a4d526453
+revision: a1426429-c88d-47c6-a499-6b31ba2ba967
 
+----field----
+field: {70014E55-6580-4CD8-9FFE-48DFFB1E644A}
+name: NG-controller
+key: ng-controller
+content-length: 23
+
+getJobDetailsController
+----field----
+field: {77745B4B-3BA8-48E8-B8D3-93A5A040E922}
+name: NG-App
+key: ng-app
+content-length: 9
+
+getJobApp
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
 name: Navigation Text
@@ -71,6 +85,13 @@ content-length: 77
 
 {E7C95B0A-32BD-45DD-B75D-33B61AD2FDDD}|{17CF0384-8D1A-46F0-ABFF-22792B5C50A7}
 ----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+Job Details
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -83,14 +104,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-79062179-61ce-429e-b364-b28a4d526453
+a1426429-c88d-47c6-a499-6b31ba2ba967
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151215T143101Z
+20151222T120559Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

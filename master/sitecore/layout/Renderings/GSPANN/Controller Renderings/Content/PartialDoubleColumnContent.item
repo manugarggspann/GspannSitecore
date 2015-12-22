@@ -1,30 +1,37 @@
 ----item----
 version: 1
-id: {5BDD309C-CE6C-4117-B142-A82124633D3A}
+id: {5B57EE5D-0418-476E-BBAC-109BCA5A1458}
 database: master
-path: /sitecore/layout/Renderings/GSPANN/View Renderings/Contact Us/ContactUs
-parent: {6F6E89C5-3CEC-464F-8DB6-D604F9A24293}
-name: ContactUs
+path: /sitecore/layout/Renderings/GSPANN/Controller Renderings/Content/PartialDoubleColumnContent
+parent: {B4393171-A453-49D8-8A8F-4D7AFFBD2C6B}
+name: PartialDoubleColumnContent
 master: {00000000-0000-0000-0000-000000000000}
-template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
-templatekey: View rendering
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
 
 ----field----
-field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
-name: Path
-key: path
-content-length: 33
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 7
 
-/Views/contactUs/ContactUs.cshtml
+Content
 ----field----
-field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 12
+
+DoubleColumn
+----field----
+field: {13F89250-AD6B-4548-882E-118A12C18094}
 name: Parameters Template
 key: parameters template
 content-length: 0
 
 
 ----field----
-field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+field: {94069F66-609C-48B0-8281-521C30FB269D}
 name: Open Properties after Add
 key: open properties after add
 content-length: 0
@@ -33,7 +40,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 98f6d3b8-fede-4724-9063-32b97067d9f6
+revision: b6cba76f-60bd-4943-b2fe-981f2a573dc0
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,21 +48,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20151022T203130Z
+20151029T024809Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-98f6d3b8-fede-4724-9063-32b97067d9f6
+b6cba76f-60bd-4943-b2fe-981f2a573dc0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151221T064125Z
+20151217T093008Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

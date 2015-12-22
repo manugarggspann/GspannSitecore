@@ -19,7 +19,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 9b80e957-1940-40f2-b3f4-ebde4474b7e4
+revision: e472c53a-1ed9-44cf-8fcd-6ed17e435992
 
 ----field----
 field: {1B765069-D254-43C7-8BE1-2CF5EEAD9206}
@@ -53,9 +53,11 @@ content-length: 0
 field: {EE2EA638-8948-40F0-868F-B0CBC21D380D}
 name: Card Description
 key: card description
-content-length: 288
+content-length: 399
 
-Our Approach to Your Success At GSPANN we believe in being masters of our space. We are specialists focused on niche areas within enterprise technology. We can ensure that you would be working on cutting edge niche skills and technologies that are the underpinnings of any organization. 
+  <span class="bolder">Our Approach to Your Success<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i></span>
+                    At GSPANN we believe in being masters of our space. We are specialists focused on niche areas within enterprise technology. We can ensure that you would be working on cutting edge niche skills and technologies that are the underpinnings of any organization.
+
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -69,14 +71,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9b80e957-1940-40f2-b3f4-ebde4474b7e4
+e472c53a-1ed9-44cf-8fcd-6ed17e435992
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151215T113647Z
+20151222T090152Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

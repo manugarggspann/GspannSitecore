@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {D6C5CE2A-39CA-49B6-9341-D4F0DAF9B9DE}
+id: {316DE8A5-CABF-4A0A-B2BC-55460198865C}
 database: master
-path: /sitecore/content/GSPANN/Home/Solutions
-parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
-name: Solutions
+path: /sitecore/content/GSPANN/Home/Solutions/IT SOLUTIONS/Managed Services
+parent: {E9CB2C50-085F-4F6F-BA6F-BA1B10A4AB71}
+name: Managed Services
 master: {00000000-0000-0000-0000-000000000000}
 template: {25FE0E2E-C164-4B49-8A6B-A8AC39ECA5A7}
 templatekey: Solutions Page
@@ -146,7 +146,7 @@ sitecore\admin
 ----version----
 language: en
 version: 4
-revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+revision: b102b361-2caa-4593-9c32-2a1836aa4945
 
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
@@ -168,14 +168,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-25110786-c655-4082-ba30-2b30c9c4cae4
+b102b361-2caa-4593-9c32-2a1836aa4945
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151209T154353Z
+20151215T010531Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

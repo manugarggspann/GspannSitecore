@@ -19,7 +19,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 9f28a51f-3300-4d23-ba26-1e39e921bea4
+revision: 08f7d0b2-9fdc-4a62-9daf-8a8b1e442016
 
 ----field----
 field: {1B765069-D254-43C7-8BE1-2CF5EEAD9206}
@@ -53,14 +53,18 @@ content-length: 0
 field: {EE2EA638-8948-40F0-868F-B0CBC21D380D}
 name: Card Description
 key: card description
-content-length: 829
+content-length: 960
 
-Our Approach to Your Success At GSPANN we believe in being masters of our space. We are specialists focused on niche areas within enterprise technology. We can ensure that you would be working on cutting edge niche skills and technologies that are the underpinnings of any organization. 
-
-We partner with companies and help companies deliver complete programs/projects and not really are focused on pure staff augmentation. So, you can be assured of working long term on projects and building up your skills. 
-
-Our Direct clientele include mostly Fortune 1000 companies & we are engaged with them at a strategic level. We are a growing company and believe in growing together, whether it be with the client organization or you. We take keen interest in your career path and have created various tracks for you to grow in. 
-
+<p class="description">
+<span class="bolder">Our Approach to Your Success<em class="fa fa-angle-double-right  fa-lg text-delimiter"></em></span>
+At GSPANN we believe in being masters of our space. We are specialists focused on niche areas within enterprise technology. We can ensure that you would be working on cutting edge niche skills and technologies that are the underpinnings of any organization.
+</p>
+<p>
+We partner with companies and help companies deliver complete programs/projects and not really are focused on pure staff augmentation. So, you can be assured of working long term on projects and building up your skills.
+</p>
+<p>
+Our Direct clientele include mostly Fortune 1000 companies &amp; we are engaged with them at a strategic level. We are a growing company and believe in growing together, whether it be with the client organization or you. We take keen interest in your career path and have created various tracks for you to grow in.
+</p>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -74,14 +78,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9f28a51f-3300-4d23-ba26-1e39e921bea4
+08f7d0b2-9fdc-4a62-9daf-8a8b1e442016
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151215T113154Z
+20151221T071529Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

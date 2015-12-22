@@ -1,25 +1,18 @@
 ----item----
 version: 1
-id: {3AB055FF-FB1E-418F-A7BF-14348D579074}
+id: {C153B1FC-E97B-479D-B6E5-7B53825C34DA}
 database: master
-path: /sitecore/templates/User Defined/GSPANN/Page Types/Generic Content Page/General Content
-parent: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
-name: General Content
+path: /sitecore/templates/User Defined/GSPANN/Base Templates/Angular Call/Angular Call Attributes
+parent: {FFE5CB91-9DE4-49F8-A845-9ED1E792A8DC}
+name: Angular Call Attributes
 master: {00000000-0000-0000-0000-000000000000}
 template: {E269FBB5-3750-427A-9149-7AA950B49301}
 templatekey: Template section
 
-----field----
-field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
-name: __Default workflow
-key: __default workflow
-content-length: 38
-
-{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
 ----version----
 language: en
 version: 1
-revision: 4d119dbd-7c97-4c2c-bf8d-c0cfeb837dce
+revision: e6e03220-cdba-4396-b7ce-630dece79ba6
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -27,7 +20,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20151205T070606Z
+20151021T015809Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4d119dbd-7c97-4c2c-bf8d-c0cfeb837dce
+e6e03220-cdba-4396-b7ce-630dece79ba6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151222T053336Z
+20151222T053253Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
