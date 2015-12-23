@@ -12,7 +12,7 @@ templatekey: Footer
 ----version----
 language: en
 version: 1
-revision: af7cfb80-72ba-4b96-973e-f02be7723299
+revision: 5f470601-9828-41e1-8e83-6ee5121d9523
 
 ----field----
 field: {25937EA6-D037-4357-BAC7-E5DDB1BCA24C}
@@ -85,9 +85,9 @@ sales@gspann.com
 field: {48F7501B-2D5F-4D32-B688-05E064E6A81D}
 name: Office Page
 key: office page
-content-length: 129
+content-length: 158
 
-<link text="" linktype="internal" class="" title="" target='Custom' querystring="" id="{5EFB64CC-9CDF-4017-A9BE-61BC1C6833B4}" />
+<link target="Custom" title="" querystring="" linktype="internal" id="{5EFB64CC-9CDF-4017-A9BE-61BC1C6833B4}" url="/GSPANN/Home/Contactus" class="" text="" />
 ----field----
 field: {E5C4665D-3E05-4E4F-92C8-262EBC3474BB}
 name: Copyright Text
@@ -122,14 +122,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-af7cfb80-72ba-4b96-973e-f02be7723299
+5f470601-9828-41e1-8e83-6ee5121d9523
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151222T093716Z
+20151223T071753Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
