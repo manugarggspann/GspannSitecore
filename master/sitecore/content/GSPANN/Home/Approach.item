@@ -26,8 +26,29 @@ content-length: 779
 ----version----
 language: en
 version: 1
-revision: dcc481af-80a5-4df6-a356-203c07a13cb6
+revision: e7cbb8a8-9d49-4957-a3b5-1d63bbf97b0b
 
+----field----
+field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
+name: MetaData Title
+key: metadata title
+content-length: 52
+
+Approach, Strategize, Architect, Build, Care, GSPANN
+----field----
+field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
+name: MetaData Description
+key: metadata description
+content-length: 189
+
+We approach each client engagement with proven methodology that starts with business-driven strategy and leading to technical architecture, solution implementation and finally ongoing care.
+----field----
+field: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
+name: MetaData Keyword
+key: metadata keyword
+content-length: 44
+
+Approach, Strategize, Architect, Build, Care
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
 name: Navigation Text
@@ -55,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dcc481af-80a5-4df6-a356-203c07a13cb6
+e7cbb8a8-9d49-4957-a3b5-1d63bbf97b0b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151217T082454Z
+20151223T142505Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

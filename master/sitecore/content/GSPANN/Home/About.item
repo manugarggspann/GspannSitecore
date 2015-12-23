@@ -26,8 +26,29 @@ content-length: 359
 ----version----
 language: en
 version: 1
-revision: 3b98c5a4-fb58-4381-946d-c3ea6045c732
+revision: 89d2fa17-032b-4410-a811-8f11c6cf3440
 
+----field----
+field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
+name: MetaData Title
+key: metadata title
+content-length: 35
+
+About Us, Values, Alliances, GSPANN
+----field----
+field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
+name: MetaData Description
+key: metadata description
+content-length: 160
+
+Started in 2004, GSPANN is one of the leading ECM and E-Commerce integrators in the US, providing services to some of the largest retail brands in North America
+----field----
+field: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
+name: MetaData Keyword
+key: metadata keyword
+content-length: 44
+
+About Us, Values, Alliances, ECM, E-Commerce
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
 name: Navigation Text
@@ -55,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3b98c5a4-fb58-4381-946d-c3ea6045c732
+89d2fa17-032b-4410-a811-8f11c6cf3440
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151218T044044Z
+20151223T135311Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

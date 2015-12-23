@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {D17AA305-A5BD-4FAD-9349-A9DBA16E8D38}
+id: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
 database: master
-path: /sitecore/templates/User Defined/GSPANN/Components/Office/Office Details/Office Heading
-parent: {E9FFE477-3B96-41B3-83B8-3049047F19F9}
-name: Office Heading
+path: /sitecore/templates/User Defined/GSPANN/Field Sections/Metadata/Meta Data Section/MetaData Keyword
+parent: {D5D19298-2C16-4874-8397-884D32BDC62E}
+name: MetaData Keyword
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -22,11 +22,11 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-100
+300
 ----version----
 language: en
 version: 1
-revision: 208f98ba-9b80-4bad-8696-3250cbeb1684
+revision: f4d7f80f-f83a-4fc6-886d-48d7c91936ff
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20151021T022227Z
+20151021T023837Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-208f98ba-9b80-4bad-8696-3250cbeb1684
+f4d7f80f-f83a-4fc6-886d-48d7c91936ff
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151223T150057Z
+20151223T135230Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

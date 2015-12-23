@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
+id: {F3AA2E25-AF7B-41C2-BCC6-3BE5F4C103DC}
 database: master
-path: /sitecore/templates/User Defined/GSPANN/Field Sections/Metadata/Meta Data Section/MetaData Robots
+path: /sitecore/templates/User Defined/GSPANN/Field Sections/Metadata/Meta Data Section/Metadata Robots
 parent: {D5D19298-2C16-4874-8397-884D32BDC62E}
-name: MetaData Robots
+name: Metadata Robots
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -22,11 +22,11 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-300
+700
 ----version----
 language: en
 version: 1
-revision: 83612741-54ea-4830-8042-a6b5817d3f0c
+revision: 628d2d2c-d227-4be8-b544-3adbc7e878c1
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20151021T023837Z
+20151223T135015Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-83612741-54ea-4830-8042-a6b5817d3f0c
+628d2d2c-d227-4be8-b544-3adbc7e878c1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151021T024015Z
+20151223T135230Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

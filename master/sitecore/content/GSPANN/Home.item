@@ -19,8 +19,29 @@ content-length: 870
 ----version----
 language: en
 version: 1
-revision: e6166081-7c5d-42d6-b9cf-1427144fcdbd
+revision: 2aa3730f-800c-45fe-aeb4-2403ecca4bfd
 
+----field----
+field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
+name: MetaData Title
+key: metadata title
+content-length: 56
+
+GSPANN | Home, E-Commerce, Enterprise Content Management
+----field----
+field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
+name: MetaData Description
+key: metadata description
+content-length: 142
+
+End-to-end Content Management, E-Commerce and Digital Marketing Solutions for Retailers, High Technology, Manufacturing and Financial Services
+----field----
+field: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
+name: MetaData Keyword
+key: metadata keyword
+content-length: 68
+
+Enterprise Content Management, E-Commerce, Digital Marketing, Retail
 ----field----
 field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
 name: Page Title
@@ -48,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e6166081-7c5d-42d6-b9cf-1427144fcdbd
+2aa3730f-800c-45fe-aeb4-2403ecca4bfd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151210T075839Z
+20151223T143630Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

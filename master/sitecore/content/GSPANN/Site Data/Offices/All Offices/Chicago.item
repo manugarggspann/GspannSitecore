@@ -12,7 +12,7 @@ templatekey: Office
 ----version----
 language: en
 version: 1
-revision: 69560963-0d6a-433b-ab4b-f240825c79f3
+revision: e77c9a39-e733-4718-b236-18f405d5b315
 
 ----field----
 field: {D17AA305-A5BD-4FAD-9349-A9DBA16E8D38}
@@ -46,6 +46,13 @@ content-length: 12
 
 408-263-3435
 ----field----
+field: {1161C0E8-FD7B-4367-8234-F0B564DF40F6}
+name: Continent reference Variable
+key: continent reference variable
+content-length: 2
+
+US
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -58,14 +65,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-69560963-0d6a-433b-ab4b-f240825c79f3
+e77c9a39-e733-4718-b236-18f405d5b315
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151209T054718Z
+20151223T150125Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

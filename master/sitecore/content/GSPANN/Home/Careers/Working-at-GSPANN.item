@@ -26,8 +26,29 @@ content-length: 568
 ----version----
 language: en
 version: 1
-revision: b3e74274-2c73-4a2e-a0ce-afe6e7ef418f
+revision: b5498dc5-902a-42d7-bfe6-6a47a5158cc8
 
+----field----
+field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
+name: MetaData Title
+key: metadata title
+content-length: 82
+
+Working at GSPANN, Work-life Balance, Competitive Salaries, Great Benefits, GSPANN
+----field----
+field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
+name: MetaData Description
+key: metadata description
+content-length: 173
+
+We create an environment that enables our employees to focus on delivering great solutions for our clients, while maintaining their work-life balance and professional growth
+----field----
+field: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
+name: MetaData Keyword
+key: metadata keyword
+content-length: 74
+
+Working at GSPANN, Work-life Balance, Competitive Salaries, Great Benefits
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
 name: Navigation Text
@@ -76,14 +97,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b3e74274-2c73-4a2e-a0ce-afe6e7ef418f
+b5498dc5-902a-42d7-bfe6-6a47a5158cc8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151221T071940Z
+20151223T142808Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

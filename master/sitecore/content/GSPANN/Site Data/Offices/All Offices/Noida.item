@@ -12,7 +12,7 @@ templatekey: Office
 ----version----
 language: en
 version: 1
-revision: c5f9e0ef-ac3d-4cd2-8f12-ac3f211467e9
+revision: 6dc6f8cc-c6c7-4a8f-b03f-6ee640bca08a
 
 ----field----
 field: {D17AA305-A5BD-4FAD-9349-A9DBA16E8D38}
@@ -39,6 +39,13 @@ content-length: 91
 <p>Noida U.P 201301</p>
 <p>India</p>
 ----field----
+field: {1161C0E8-FD7B-4367-8234-F0B564DF40F6}
+name: Continent reference Variable
+key: continent reference variable
+content-length: 2
+
+IN
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -51,14 +58,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c5f9e0ef-ac3d-4cd2-8f12-ac3f211467e9
+6dc6f8cc-c6c7-4a8f-b03f-6ee640bca08a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151209T054812Z
+20151223T150318Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
