@@ -16,10 +16,17 @@ key: carousel image
 content-length: 58
 
 <image mediaid="{AF957008-DE18-47AA-8C75-9B7D3279C618}" />
+----field----
+field: {F9E560A4-3EDC-4D65-A76F-79CF2A54ED05}
+name: Carousel Link
+key: carousel link
+content-length: 129
+
+<link text="" linktype="internal" class="" title="" target='Custom' querystring="" id="{8DD710C0-B742-403E-ADFC-7873E6DAAB49}" />
 ----version----
 language: en
 version: 1
-revision: ebb75e49-6c90-4150-9bf2-be949c1f90b3
+revision: b2decd3a-d346-4bf0-a4ce-bf9e26001753
 
 ----field----
 field: {2175330C-3FFB-47AF-B2DF-20490B263E59}
@@ -48,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ebb75e49-6c90-4150-9bf2-be949c1f90b3
+b2decd3a-d346-4bf0-a4ce-bf9e26001753
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151030T102352Z
+20160210T114535Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

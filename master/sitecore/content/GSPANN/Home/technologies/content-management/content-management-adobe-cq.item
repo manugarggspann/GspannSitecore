@@ -1,0 +1,330 @@
+----item----
+version: 1
+id: {F758FDAE-1EAA-48B8-96EB-4CFFC36B09D9}
+database: master
+path: /sitecore/content/GSPANN/Home/technologies/content-management/content-management-adobe-cq
+parent: {E3C18118-574D-470A-8C6D-3F2B9F81243E}
+name: content-management-adobe-cq
+master: {00000000-0000-0000-0000-000000000000}
+template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
+templatekey: Generic Content Page
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 304
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{87ED3DC7-2966-4EF1-855F-60EB269FACB1}" /><r uid="{91B334AB-5424-4E20-B59C-BD27B0736146}" s:id="{96C693E3-63AD-486C-BE92-BB85EA9E64A5}" s:ph="/phMain/phBody" /></d></r>
+----version----
+language: en
+version: 1
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+Adobe
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 2
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+Adobe
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 3
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+Adobe
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 4
+revision: 75bce64f-72f1-41c1-a720-77bf1857434c
+
+----field----
+field: {70014E55-6580-4CD8-9FFE-48DFFB1E644A}
+name: NG-controller
+key: ng-controller
+content-length: 0
+
+
+----field----
+field: {19E2FB30-5221-467E-A1AA-5E5493604B92}
+name: Title
+key: title
+content-length: 24
+
+Adobe Experience Manager
+----field----
+field: {1CB98E33-712C-4188-955D-BAB4C880185E}
+name: Heading
+key: heading
+content-length: 37
+
+Adobe content management technologies
+----field----
+field: {BD703C0F-5E00-42DE-81C2-953DE621AF49}
+name: Content Image
+key: content image
+content-length: 58
+
+<image mediaid="{EC265C70-B1FB-49B0-8E4E-60161D5C0D6C}" />
+----field----
+field: {8170C4AD-DD08-4553-8295-4E1145112346}
+name: Body
+key: body
+content-length: 3466
+
+ <p>
+                    <span class="bolder">Adobe Experience Manager<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i></span>
+                    GSPANN is an Implementation Partner for Adobe Experience Manager (AEM), offering an industry leading Web Marketing Cloud solution for building & delivering of digital assets across web, mobile, social and digital channels. Adobe Web Content Platform helps in engaging and creating an integrated multi-channel customer experience that drives web presence of global brands. Adobe Web Content Management platform helps marketers create & deliver relevant and targeted content to engage customers.
+                </p>
+                <p>
+                    The GSPANN Adobe Experience Manager practice brings strong rich consulting and implementation skills on various Adobe Experience Manager (AEM) Products such as Web Content Management (WCM), Digital Asset Management (DAM), Mobile and Social Communities. With our Right Sourcing Delivery Model, the Adobe Experience Manager (AEM) help our clients build comprehensive Web Experience Management solutions that enable organizations to deliver a rich online experience for users and simplifies management of their web presence.
+                </p>
+                <p>
+                    GSPANN provides services with Adobe Experience Manager, ranging from Expert (Consulting) Services, full life cycle implementations, migrations and support services.
+                </p>
+                <p class="heading">The following is a set of our services</p>
+                <ul class="gspann-list">
+                    <li>Content Strategy & Roadmap</li>
+                    <li>Vendor Selection Process</li>
+                    <li>Workflow Personalization and Targeting</li>
+                    <li>Collaboration & Social Computing</li>
+                    <li>Analytics</li>
+                    <li>Content Management, Distribution and Publishing</li>
+                    <li>Mobile & Responsive Web</li>
+                    <li>Integration with e-Commerce, Analytics, Enterprise Search and other Applications</li>
+                    <li>Application Support and Maintenance</li>
+                    <li>Migration & Upgrade solutions</li>
+                </ul>
+
+                <p class="heading">What differentiates GSPANN?</p>
+                <ul class="gspann-list">
+                    <li>Strong ECM domain experience</li>
+                    <li>200+ Consultants with ECM experience</li>
+                    <li>Expertise across all products of Adobe Experience Manager Product Suite such as Adobe Experience Manager, Adobe Scene7</li>
+                </ul>
+                <p class="heading">The products that we support include:</p>
+                <ul class="gspann-list">
+                    <li>Adobe Experience Manager (Web Content Management)</li>
+                    <li>Scene7 (Digital Asset Management)</li>
+                    <li>Test & Target (Target)</li>
+                    <li>Site Catalyst (Analytics)</li>
+                </ul>
+                <h3>Center of Excellence (CoE)</h3>
+                <p>
+                    We have a dedicated ECM CoE that enhances our competencies to cater to current and future needs of any business. The CoE is engaged throughout the lifecycle of our offerings from conceptualization to realization. It consolidates best practices, product advancements, and solution accelerators.
+                </p>
+----field----
+field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
+name: MetaData Description
+key: metadata description
+content-length: 197
+
+Strategy, planning and implementation of Adobe Experience Manager (AEM) for new websites or migrations from existing CMS platforms; AEM integration with e-commerce platforms (e.g. ATG, Hybris, WCS)
+----field----
+field: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
+name: MetaData Keyword
+key: metadata keyword
+content-length: 141
+
+Adobe Experience Manager (AEM), Adobe CQ, Adobe Partner, Strategy, Planning, Implementation, Migration, E-Commerce Integration, Adobe CQ, Day
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 24
+
+Adobe Experience Manager
+----field----
+field: {C136325D-E51C-4915-A635-54BD2B1E65AB}
+name: Footer Menu Title
+key: footer menu title
+content-length: 0
+
+
+----field----
+field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
+name: Page Title
+key: page title
+content-length: 74
+
+Adobe Experience Manager (AEM), Adobe CQ, Adobe Partner, Migration, GSPANN
+----field----
+field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
+name: Teaser Title
+key: teaser title
+content-length: 24
+
+Adobe Experience Manager
+----field----
+field: {5CE5544F-FA69-4C41-82D4-6589B4D8B3B6}
+name: Teaser Description
+key: teaser description
+content-length: 140
+
+We provide complete strategy, architecture and implementation capabilities for Adobe Experience Manager to deliver engaging web experiences.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+Adobe
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+75bce64f-72f1-41c1-a720-77bf1857434c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160209T060607Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

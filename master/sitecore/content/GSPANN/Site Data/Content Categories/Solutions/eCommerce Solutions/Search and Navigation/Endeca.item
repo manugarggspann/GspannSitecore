@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {30715544-915F-4660-B5D8-F8D342E6F078}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/eCommerce Solutions/Search and Navigation/Endeca
+parent: {DC057F37-19D8-400D-9A49-57E6A826ADD4}
+name: Endeca
+master: {00000000-0000-0000-0000-000000000000}
+template: {821AB637-7423-4F7B-A838-66F6D09DA1C0}
+templatekey: Teaser Section
+
+----version----
+language: en
+version: 1
+revision: 117507c3-30dd-414f-9666-d1e7d7a2ba21
+
+----field----
+field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
+name: Teaser Title
+key: teaser title
+content-length: 6
+
+Endeca
+----field----
+field: {5CE5544F-FA69-4C41-82D4-6589B4D8B3B6}
+name: Teaser Description
+key: teaser description
+content-length: 82
+
+We use Endeca to create engaging and delightful search experiences for consumers. 
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160128T074048Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+117507c3-30dd-414f-9666-d1e7d7a2ba21
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160128T075807Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

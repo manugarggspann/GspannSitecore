@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {C8965B46-8AE9-416B-A161-277077A7E1CB}
+database: master
+path: /sitecore/system/Modules/Azure/Gspann-Development/East US/Delivery01/Sql01/Set01/web
+parent: {E5EE75FF-D6B3-4B43-8CE0-4994132EAE8E}
+name: web
+master: {00000000-0000-0000-0000-000000000000}
+template: {0341D7D4-C1B3-4A2D-AAA9-A494148624A7}
+templatekey: Azure SQL Database
+
+----field----
+field: {B9B49AAA-B212-4A4F-8CF6-FFF7A0504C87}
+name: Source Database
+key: source database
+content-length: 99
+
+Data Source=NODE463\SQLEXPRESS2014;Initial Catalog=GspannSitecore_Web;User ID=sa;Password=Reset$123
+----field----
+field: {810B6FF2-396F-4F46-AA85-B63E3CC6C131}
+name: Target Database
+key: target database
+content-length: 187
+
+Data Source=tcp:wn9xj96rbv.database.windows.net;Initial Catalog=GspannDevEusCd01Sql01Set01Sc92dweb;Integrated Security=False;User ID=sitecore@wn9xj96rbv;Password=5Ziyq2tAe6Y8;Encrypt=True
+----version----
+language: en
+version: 1
+revision: 0ad9afae-8387-455c-99b2-c71ed6196a90
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160217T091137Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0ad9afae-8387-455c-99b2-c71ed6196a90
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160217T091311Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

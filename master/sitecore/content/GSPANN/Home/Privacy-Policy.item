@@ -2,9 +2,9 @@
 version: 1
 id: {42CF1301-7D4F-4623-8E60-4DADB9836223}
 database: master
-path: /sitecore/content/GSPANN/Home/Privacy-Policy
+path: /sitecore/content/GSPANN/Home/privacy-policy
 parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
-name: Privacy-Policy
+name: privacy-policy
 master: {00000000-0000-0000-0000-000000000000}
 template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
 templatekey: Generic Content Page
@@ -40,7 +40,7 @@ content-length: 359
 ----version----
 language: en
 version: 1
-revision: 8d4e5fad-5cc1-4cc0-af20-e196929e09da
+revision: 0d977392-3634-44ef-b313-18f2e850cfdd
 
 ----field----
 field: {19E2FB30-5221-467E-A1AA-5E5493604B92}
@@ -50,38 +50,38 @@ content-length: 27
 
 Privacy Policy & Disclaimer
 ----field----
-field: {86110115-85C8-44D5-A031-D0D02F2D3202}
+field: {8170C4AD-DD08-4553-8295-4E1145112346}
 name: Body
 key: body
-content-length: 2355
+content-length: 2680
 
-<h3>Notice</h3>
-<p>
-GSPANN Technologies, Inc., is firmly committed to your privacy. We've created this Privacy Statement, which discloses our information gathering and dissemination practices, so that you understand what we do with any personal information that you provide to us while using our site.
-</p>
-<h3>Overview</h3>
-<p>
-In general, using our website as a visitor is considered anonymous: we do not engage in any activity that will personally identify our site visitors. Using www.gspann.com does not require registration of any kind other than voluntary registration for white papers, blogs or alumni correspondence. The same is true for personal data collected when responding to any career opportunity with us. We assure you that any/all information you provide during your interaction with us will be solely used by GSPANN and will not be sold to anyone outside GSPANN. This information will be used strictly for a one-on-one contact with the visitors. Any information that we have collected or stored about you may be transferred to a future purchaser of our company and/or its assets. The data collected is stored in a secure server with our ISP, which will take periodic backups of it but will not give or sell them to anyone.
-</p>
-<h3>Cookies</h3>
-<p>
-"cookie" is a small piece of data that a website can send to your browser, which may then be stored on your system. Currently, we may be using session cookies in a select few pages. But we may use it more widely in the near future so that we can better serve you when you return to our site. You can set your browser to notify you when you receive a cookie, giving you the chance to decide whether to accept it or not. We may sometimes collect anonymous information from visits to our website to help us provide better customer service.
-</p>
-<h3>Links</h3>
-<p>
-This website contains links to other websites. GSPANN is not responsible for the privacy practices or the contents of such websites, nor do we take any responsibility for the opinions of third parties expressed on or through our website.
-</p>
-<h3>Delete / Deactivate / Modify</h3>
-<p>
-This site gives users the following option for removing their information from our database to not receive future communications or to no longer receive our service: To modify or delete your record from our database, send us an email at
-</p>
+ <h3>Notice</h3>
+                <p>
+                    GSPANN Technologies, Inc., is firmly committed to your privacy. We've created this Privacy Statement, which discloses our information gathering and dissemination practices, so that you understand what we do with any personal information that you provide to us while using our site.
+                </p>
+                <h3>Overview</h3>
+                <p>
+                    In general, using our website as a visitor is considered anonymous: we do not engage in any activity that will personally identify our site visitors. Using www.gspann.com does not require registration of any kind other than voluntary registration for white papers, blogs or alumni correspondence. The same is true for personal data collected when responding to any career opportunity with us. We assure you that any/all information you provide during your interaction with us will be solely used by GSPANN and will not be sold to anyone outside GSPANN. This information will be used strictly for a one-on-one contact with the visitors. Any information that we have collected or stored about you may be transferred to a future purchaser of our company and/or its assets. The data collected is stored in a secure server with our ISP, which will take periodic backups of it but will not give or sell them to anyone.
+                </p>
+                <h3>Cookies</h3>
+                <p>
+                    "cookie" is a small piece of data that a website can send to your browser, which may then be stored on your system. Currently, we may be using session cookies in a select few pages. But we may use it more widely in the near future so that we can better serve you when you return to our site. You can set your browser to notify you when you receive a cookie, giving you the chance to decide whether to accept it or not. We may sometimes collect anonymous information from visits to our website to help us provide better customer service.
+                </p>
+                <h3>Links</h3>
+                <p>
+                    This website contains links to other websites. GSPANN is not responsible for the privacy practices or the contents of such websites, nor do we take any responsibility for the opinions of third parties expressed on or through our website.
+                </p>
+                <h3>Delete / Deactivate / Modify</h3>
+                <p>
+                    This site gives users the following option for removing their information from our database to not receive future communications or to no longer receive our service: To modify or delete your record from our database, send us an email at
+                </p>
 ----field----
 field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
 name: MetaData Title
 key: metadata title
-content-length: 34
+content-length: 0
 
-Disclaimer, Privacy Policy, GSPANN
+
 ----field----
 field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
 name: MetaData Description
@@ -107,9 +107,9 @@ Privacy Policy
 field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
 name: Page Title
 key: page title
-content-length: 14
+content-length: 34
 
-Privacy Policy
+Disclaimer, Privacy Policy, GSPANN
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -130,14 +130,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8d4e5fad-5cc1-4cc0-af20-e196929e09da
+0d977392-3634-44ef-b313-18f2e850cfdd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151223T142621Z
+20160209T061213Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

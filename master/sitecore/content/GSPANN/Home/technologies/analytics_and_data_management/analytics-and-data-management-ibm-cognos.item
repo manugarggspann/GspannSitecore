@@ -1,0 +1,318 @@
+----item----
+version: 1
+id: {C1BD3EBD-AD80-4367-B2DE-76C7B4D75311}
+database: master
+path: /sitecore/content/GSPANN/Home/technologies/analytics_and_data_management/analytics-and-data-management-ibm-cognos
+parent: {99D2369D-E6B8-4B5D-A738-E5E14B2D1972}
+name: analytics-and-data-management-ibm-cognos
+master: {00000000-0000-0000-0000-000000000000}
+template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
+templatekey: Generic Content Page
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 304
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{99075B9F-C2E9-4277-9AA0-5CB58505CE98}" /><r uid="{C948D991-2057-42DA-9818-5FD9A5C5967D}" s:id="{96C693E3-63AD-486C-BE92-BB85EA9E64A5}" s:ph="/phMain/phBody" /></d></r>
+----version----
+language: en
+version: 1
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+IBM Cognos
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 2
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+IBM Cognos
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 3
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+IBM Cognos
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 4
+revision: 5c9429ec-be64-4962-86cb-59fee8972bac
+
+----field----
+field: {70014E55-6580-4CD8-9FFE-48DFFB1E644A}
+name: NG-controller
+key: ng-controller
+content-length: 0
+
+
+----field----
+field: {19E2FB30-5221-467E-A1AA-5E5493604B92}
+name: Title
+key: title
+content-length: 10
+
+IBM Cognos
+----field----
+field: {1CB98E33-712C-4188-955D-BAB4C880185E}
+name: Heading
+key: heading
+content-length: 47
+
+Let your data provide you with business insight
+----field----
+field: {BD703C0F-5E00-42DE-81C2-953DE621AF49}
+name: Content Image
+key: content image
+content-length: 58
+
+<image mediaid="{EC06DB9B-D3E3-4366-8DCB-55E07325AB88}" />
+----field----
+field: {8170C4AD-DD08-4553-8295-4E1145112346}
+name: Body
+key: body
+content-length: 1559
+
+<p class="description">
+                    <span class="bolder">IBM Cognos<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i></span>
+                    GSPANN Technologies has been in the DataStage space for almost five years. Our clients are all Fortune 500 companies. GSPANN is considered the bridge between IT and business, with expertise in the Data Integration (ETL, ELTL, ETLT) technology stack.
+                </p>
+                <p>We can help your team with all of the following services:</p>
+                <ul class="gspann-list">
+                    <li>
+                        BI Vendor selection
+                    </li>
+                    <li>
+                        Implementing Cognos Business Intelligence (BI) Technology Platform leveraging Cognos Enterprise, Cognos Insight, Cognos TM1, Cognos Business Viewpoint
+                    </li>
+                    <li>
+                        Dashboard/Reports Creation and enabling self-service Business Intelligence (BI)
+                    </li>
+                    <li>
+                        Business Enablement
+                    </li>
+                    <li>
+                        Help businesses with business discovery leveraging Cognos
+                    </li>
+                    <li>
+                        Enabling Mobile Reports & Dashboards for businesses
+                    </li>
+                    <li>
+                        Optimization & Performance of Reports & Dashboards (BI & Visualizations)
+                    </li>
+                </ul>
+
+----field----
+field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
+name: MetaData Description
+key: metadata description
+content-length: 158
+
+Planning and implementation for IBM Infosphere DataStage, including high-performance ETL operations across multiple datasources and real-time data integration
+----field----
+field: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
+name: MetaData Keyword
+key: metadata keyword
+content-length: 91
+
+Implementation, IBM Infosphere DataStage, ETL, Real-time Data Integration, Big Data, Hadoop
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 10
+
+IBM Cognos
+----field----
+field: {C136325D-E51C-4915-A635-54BD2B1E65AB}
+name: Footer Menu Title
+key: footer menu title
+content-length: 0
+
+
+----field----
+field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
+name: Page Title
+key: page title
+content-length: 75
+
+IBM Infosphere DataStage, ETL, Real-time Data Integration, Big Data, GSPANN
+----field----
+field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
+name: Teaser Title
+key: teaser title
+content-length: 0
+
+
+----field----
+field: {5CE5544F-FA69-4C41-82D4-6589B4D8B3B6}
+name: Teaser Description
+key: teaser description
+content-length: 0
+
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 10
+
+IBM Cognos
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5c9429ec-be64-4962-86cb-59fee8972bac
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160209T055841Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

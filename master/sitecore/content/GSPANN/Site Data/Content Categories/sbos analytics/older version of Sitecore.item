@@ -1,0 +1,88 @@
+----item----
+version: 1
+id: {5C8A8E7E-28C3-4159-ACEB-E5B778048D6E}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/sbos analytics/older version of Sitecore
+parent: {94D45759-7AB3-4D6C-A25A-89CC5716FFD0}
+name: older version of Sitecore
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: 361992a7-5b4d-456d-b42f-23d4167bbdd9
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 48
+
+2. What if I am on an older version of Sitecore?
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 55
+
+Understand what you can expect now and when you upgrade
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 707
+
+ <p>
+                    <span class="bolder upper-case">
+                        Getting the most out your version of Sitecore<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i>
+                    </span>
+                    Organizations often are one, two, or even three versions behind the current version of Sitecore. With each major release of Sitecore, new analytics 
+
+capabilities are added, while existing capabilities are enhanced. The guide examines what capabilities are available to you in your current version, while 
+
+understanding the value capabilities in newer versions. We will review how businesses can justify upgrading to these newer Sitecore versions.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 7
+
+Version
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+361992a7-5b4d-456d-b42f-23d4167bbdd9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160221T080112Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

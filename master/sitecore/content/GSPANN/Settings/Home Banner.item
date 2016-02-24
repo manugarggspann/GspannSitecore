@@ -12,8 +12,22 @@ templatekey: Banner
 ----version----
 language: en
 version: 1
-revision: 8354f8b4-6f0c-476b-ae24-725829cd7120
+revision: 8a4acbb9-8853-4e76-830a-eb9c074db842
 
+----field----
+field: {904397CB-7010-483D-9710-2C80AFE648C3}
+name: Banner Header
+key: banner header
+content-length: 6
+
+GSPANN
+----field----
+field: {1747CC07-BEE1-4302-9C42-4D2C05AA1C1D}
+name: Banner Description
+key: banner description
+content-length: 175
+
+Providing end-to-end content and data management solutions for ecommerce and digital marketing activities within retail, high technology, manufacturing and financial services.
 ----field----
 field: {BAD6B71C-FF60-4CB0-BBB4-32128A500714}
 name: Carousel List
@@ -21,6 +35,13 @@ key: carousel list
 content-length: 116
 
 {17776FC4-4120-4D53-ADF6-276E447E41CA}|{515FC57F-BDFE-43E7-BD9E-0F34E6C15F79}|{02191826-A181-4855-9BA5-0E8236FE6E9D}
+----field----
+field: {FE01513B-2CCD-45D3-841C-84810EDAEBF5}
+name: Content List
+key: content list
+content-length: 116
+
+{C85426BB-5634-4DC3-B999-4F6980D0631A}|{8DD710C0-B742-403E-ADFC-7873E6DAAB49}|{4BC1DCA4-1165-4B62-95E3-D80BFD3A9A4C}
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -34,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8354f8b4-6f0c-476b-ae24-725829cd7120
+8a4acbb9-8853-4e76-830a-eb9c074db842
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151117T061742Z
+20160209T111636Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

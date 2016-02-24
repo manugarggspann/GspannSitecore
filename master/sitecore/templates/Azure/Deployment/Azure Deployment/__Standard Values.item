@@ -1,0 +1,545 @@
+----item----
+version: 1
+id: {E2E31922-7EE2-4E0F-B1DA-DDE92393C8E3}
+database: master
+path: /sitecore/templates/Azure/Deployment/Azure Deployment/__Standard Values
+parent: {F62C3434-96A3-45E5-B537-C57097532ED7}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62C3434-96A3-45E5-B537-C57097532ED7}
+templatekey: Azure Deployment
+
+----field----
+field: {99518902-33BC-46DB-9BE6-659AC446BF34}
+name: Service Definition
+key: service definition
+content-length: 2500
+
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="SitecoreCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+  <WebRole name="SitecoreWebRole" enableNativeCodeExecution="false" vmsize="Medium" >
+    <ConfigurationSettings>
+      <Setting name="StorageName"/>
+      <Setting name="SqlServerName"/>
+      <Setting name="Sitecore.Azure.ServiceRuntime.WarmupTimeout"/>
+    </ConfigurationSettings>
+    <Endpoints>
+      <InputEndpoint name="HttpIn" protocol="http" port="80" />
+    </Endpoints>
+    <LocalResources>
+<!--
+cleanOnRecycle should be false cause it causes some file locks during role recycle
+-->
+      <LocalStorage name="DiagnosticStore" sizeInMB="10240" cleanOnRoleRecycle="false" />
+      <LocalStorage name="SitecoreWebSite" sizeInMB="102400" cleanOnRoleRecycle="false" />
+      <LocalStorage name="Temp" sizeInMB="10240" cleanOnRoleRecycle="true" />
+    </LocalResources>
+    <Runtime executionContext="elevated">
+      <EntryPoint>
+        <NetFxEntryPoint assemblyName="bin\Sitecore.Azure.WebRole.dll" targetFrameworkVersion="4.5" />
+      </EntryPoint>
+    </Runtime>
+    <Sites>
+      <Site name="SitecoreWebSite" physicalDirectory=".\SitecoreWebSite">
+        <Bindings>
+          <Binding name="HttpIn" endpointName="HttpIn" />
+        </Bindings>
+      </Site>
+    </Sites>
+    <Startup>
+<!--
+    Uncomment follow task if you need .NET Framework 2.0 or 3.5 in cloud (ex. for run-time scripts in DMS)
+-->
+<!--  <Task commandLine="AddNetFrameworkV2.cmd" executionContext="elevated" taskType="simple"></Task> -->
+      <Task commandLine="Startup.cmd" executionContext="elevated" taskType="simple">
+        <Environment>
+          <Variable name="ComputeEmulatorRunning">
+            <RoleInstanceValue xpath="/RoleEnvironment/Deployment/@emulated" />
+          </Variable>
+        </Environment>
+      </Task>
+    </Startup>
+  </WebRole>
+    <WorkerRole name="SitecoreCacheWorkerRole" vmsize="Medium">
+    <Imports>
+      <Import moduleName="Caching" />
+    </Imports>
+    <Runtime executionContext="elevated">
+      <EntryPoint>
+        <NetFxEntryPoint assemblyName="Sitecore.Azure.CacheWorkerRole.dll" targetFrameworkVersion="4.5" />
+      </EntryPoint>
+    </Runtime>
+    <LocalResources>
+      <LocalStorage name="DiagnosticStore" sizeInMB="10240" cleanOnRoleRecycle="false" />
+    </LocalResources>
+  </WorkerRole>
+</ServiceDefinition>
+----field----
+field: {9F850E0C-8FE8-4022-8562-39E565B1925D}
+name: Service Configuration
+key: service configuration
+content-length: 1378
+
+<?xml version="1.0"?>
+<ServiceConfiguration serviceName="SitecoreCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="SitecoreWebRole">
+    <Instances count="2" />
+    <ConfigurationSettings>
+      <Setting name="StorageName" value="" />
+      <Setting name="SqlServerName" value="" />
+      <Setting name="Sitecore.Azure.ServiceRuntime.WarmupTimeout" value="3600000" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="SitecoreCacheWorkerRole">
+    <Instances count="2" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Caching.NamedCaches" value="{&quot;caches&quot;:[{&quot;name&quot;:&quot;default&quot;,&quot;policy&quot;:{&quot;eviction&quot;:{&quot;type&quot;:0},&quot;expiration&quot;:{&quot;defaultTTL&quot;:10,&quot;isExpirable&quot;:true,&quot;type&quot;:1},&quot;serverNotification&quot;:{&quot;isEnabled&quot;:false}},&quot;secondaries&quot;:0}]}" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Caching.DiagnosticLevel" value="1" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Caching.CacheSizePercentage" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Caching.ConfigStoreConnectionString" value="" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
+----field----
+field: {4E03AAE9-841A-4082-A7D8-AA56AB02CA94}
+name: Diagnostics configuration
+key: diagnostics configuration
+content-length: 2231
+
+<?xml version="1.0" encoding="utf-8"?>
+<DiagnosticsConfiguration xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
+  <PublicConfig xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
+    <WadCfg>
+      <DiagnosticMonitorConfiguration overallQuotaInMB="4096">
+        <DiagnosticInfrastructureLogs />
+        <Directories>
+          <IISLogs containerName="wad-iis-logfiles" />
+          <FailedRequestLogs containerName="wad-iis-failedreqlogfiles" />
+        </Directories>
+        <PerformanceCounters>
+          <PerformanceCounterConfiguration counterSpecifier="\Memory\Available MBytes" sampleRate="PT3M" />
+          <PerformanceCounterConfiguration counterSpecifier="\Web Service(_Total)\ISAPI Extension Requests/sec" sampleRate="PT3M" />
+          <PerformanceCounterConfiguration counterSpecifier="\Web Service(_Total)\Bytes Total/Sec" sampleRate="PT3M" />
+          <PerformanceCounterConfiguration counterSpecifier="\ASP.NET Applications(__Total__)\Requests/Sec" sampleRate="PT3M" />
+          <PerformanceCounterConfiguration counterSpecifier="\ASP.NET Applications(__Total__)\Errors Total/Sec" sampleRate="PT3M" />
+          <PerformanceCounterConfiguration counterSpecifier="\ASP.NET\Requests Queued" sampleRate="PT3M" />
+          <PerformanceCounterConfiguration counterSpecifier="\ASP.NET\Requests Rejected" sampleRate="PT3M" />
+        </PerformanceCounters>
+        <WindowsEventLog scheduledTransferPeriod="PT1M">
+          <DataSource name="Application!*" />
+        </WindowsEventLog>
+        <CrashDumps>
+          <CrashDumpConfiguration processName="WaIISHost.exe" />
+          <CrashDumpConfiguration processName="w3wp.exe" />
+        </CrashDumps>
+        <Logs scheduledTransferPeriod="PT1M" scheduledTransferLogLevelFilter="Error" />
+      </DiagnosticMonitorConfiguration>
+    </WadCfg>
+    <StorageAccount></StorageAccount>
+  </PublicConfig>
+  <PrivateConfig xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
+    <StorageAccount name="" key="" endpoint="https://core.windows.net/" />
+  </PrivateConfig>
+  <IsEnabled>true</IsEnabled>
+</DiagnosticsConfiguration>
+----field----
+field: {08959733-2226-45E1-A207-142740F82F1B}
+name: Override Sources Folder
+key: override sources folder
+content-length: 27
+
+App_Data/AzureOverrideFiles
+----field----
+field: {0B19AF26-62C0-48E3-BBA9-9B42DC0A14DE}
+name: Mvc Assemblies Folder
+key: mvc assemblies folder
+content-length: 22
+
+App_Data/MvcAssemblies
+----field----
+field: {6DF7215E-2966-4926-93BF-90292224F087}
+name: Cache Worker Role Folder
+key: cache worker role folder
+content-length: 39
+
+App_Data/Sitecore.Azure.CacheWorkerRole
+----field----
+field: {5552573A-3B78-45CC-8AB3-3956DBE1B62A}
+name: Exclude File Extensions
+key: exclude file extensions
+content-length: 74
+
+.pdb;.old;.example;.sln;.suo;.testsettings;.vsmdi;.csproj;.csproj.user;.cs
+----field----
+field: {77936600-55D4-4D4D-8822-C9B742F1D173}
+name: Exclude Files
+key: exclude files
+content-length: 582
+
+bin\sitecore.oracle.dll;
+bin\Microsoft.ServiceHosting.Tools.MSBuildTasks.dll;
+bin\Microsoft.ServiceHosting.Tools.Packaging.dll;
+bin\Microsoft.Build.Framework.dll;
+bin\Microsoft.Build.Utilities.v3.5.dll;
+bin\microsoft.sqlserver.batchparser.dll;
+bin\Microsoft.SqlServer.BatchParserClient.dll;
+bin\Microsoft.SqlServer.ConnectionInfo.dll;
+bin\Microsoft.SqlServer.Management.Sdk.Sfc.dll;
+bin\Microsoft.SqlServer.Smo.dll;
+bin\Microsoft.SqlServer.SqlClrProvider.dll;
+bin\Microsoft.SqlServer.SqlEnum.dll;
+bin\microsoft.windowsazure.storageclient.xml;
+bin\ServiceDescription.dll
+----field----
+field: {06B47032-7F0A-46B5-A500-EDB642B68EBE}
+name: Exclude Directories
+key: exclude directories
+content-length: 1017
+
+upload;
+temp;
+App_Config\AzureVendors;
+App_Data\Sitecore.Azure.CacheWorkerRole;
+App_Data\AzureEnvironments; 
+App_Data\AzureOverrideFiles; 
+App_Data\MvcAssemblies;
+App_Data\MediaCache; 
+$(dataFolder)\AzurePackages; 
+$(dataFolder)\indexes;
+$(dataFolder)\logs;
+$(dataFolder)\serialization;
+$(dataFolder)\diagnostics;
+$(dataFolder)\viewstate;
+$(dataFolder)\packages;
+$(dataFolder)\logs;
+sitecore\shell\Themes\Standard\Applications;
+sitecore\shell\Themes\Standard\Business;
+sitecore\shell\Themes\Standard\Control;
+sitecore\shell\Themes\Standard\Core;
+sitecore\shell\Themes\Standard\Core2;
+sitecore\shell\Themes\Standard\Core3;
+sitecore\shell\Themes\Standard\Database;
+sitecore\shell\Themes\Standard\Flags;
+sitecore\shell\Themes\Standard\Imaging;
+sitecore\shell\Themes\Standard\Multimedia;
+sitecore\shell\Themes\Standard\Network;
+sitecore\shell\Themes\Standard\Other;
+sitecore\shell\Themes\Standard\People;
+sitecore\shell\Themes\Standard\Software;
+sitecore\shell\Themes\Standard\WordProcessing
+----field----
+field: {FD10E34E-C2F1-4FA8-A09F-D7422C2B2A04}
+name: Connection Strings Patch
+key: connection strings patch
+content-length: 1171
+
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="xml" indent="yes"/>
+
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+  </xsl:template>
+ 
+<!-- Template for connection strings
+        Custom string should be added here 
+        Example:
+        <xsl:template match="/connectionStrings">
+          <connectionStrings>
+            <add name="<name>" connectionString="<connection string>" />
+          </connectionStrings >
+        </xsl:template>
+-->
+<xsl:template match="/connectionStrings">
+  <connectionStrings>
+     <add name="reporting" connectionString="do not remove" />
+     <add name="analytics" connectionString="do not remove" />
+     <add name="tracking.live" connectionString="do not remove" />
+     <add name="tracking.history" connectionString="do not remove" />
+     <add name="tracking.contact" connectionString="do not remove" />
+  </connectionStrings>
+</xsl:template>
+
+</xsl:stylesheet>
+----field----
+field: {A36EB94A-0B98-48C6-B00B-0BAE28B553AF}
+name: Custom WebConfig Patch
+key: custom webconfig patch
+content-length: 394
+
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="xml" indent="yes"/>
+
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+  </xsl:template>
+
+</xsl:stylesheet>
+
+----field----
+field: {505ABBFD-94E9-441B-9AE8-A012CE45D257}
+name: Deployment Type WebConfig Patch
+key: deployment type webconfig patch
+content-length: 393
+
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="xml" indent="yes"/>
+
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+  </xsl:template>
+
+</xsl:stylesheet>
+----field----
+field: {F22E4787-F052-445A-97A8-5FF52C8CF228}
+name: Global WebConfig Patch
+key: global webconfig patch
+content-length: 8454
+
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="xml" indent="yes"/>
+
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+  </xsl:template>
+
+<xsl:template match="comment()" /> 
+
+
+   <!-- Remove all Sitecore Azure specific event handlers -->
+   <xsl:template match="sitecore/events/event/handler[contains(@type,'Sitecore.Azure')]" />
+
+
+   <xsl:variable name="databases">
+    <add name="filesystem" />
+  </xsl:variable>
+  <xsl:variable   name="databasesNodeSet"   select="msxsl:node-set($databases)"/>
+
+  <xsl:template match="sitecore/databases/database">
+    <xsl:variable name="currentDB" select="./@id"/>
+    <xsl:variable name="selectedDB" select="$databasesNodeSet/add[@name=$currentDB]/@name"/>
+    <xsl:if test="$selectedDB">
+      <xsl:copy>
+        <xsl:apply-templates select="@* | node()"/>
+      </xsl:copy>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template match="sitecore/settings/setting[@name='LicenseFile']/@value">
+    <xsl:attribute name="value">/App_Data/license.xml</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="sitecore/sc.variable[@name='dataFolder']/@value">
+    <xsl:attribute name="value">/App_Data</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="sitecore/retryer/@disabled">
+    <xsl:attribute name="disabled">false</xsl:attribute>
+  </xsl:template>
+  
+    <!-- Viewstate storage Begin -->
+  <xsl:template match="sitecore/settings/setting[@name='ViewStateStore']/@value">
+    <xsl:attribute name="value">Sitecore.Data.DataProviders.DatabaseViewStateStore, Sitecore.Kernel</xsl:attribute>
+  </xsl:template>
+  <xsl:template match="sitecore/settings/setting[@name='PageStateStore']/@value">
+    <xsl:attribute name="value">Sitecore.Web.UI.DatabasePageStateStore, Sitecore.Kernel</xsl:attribute>
+  </xsl:template>
+  <xsl:template match="configuration/system.web/customErrors">
+    <customErrors mode="Off" />
+  </xsl:template>
+  <!-- Viewstate storage End -->
+  <!-- Distributed cache Begin -->
+  <!-- Session state -->
+  <xsl:template match="configuration/system.web/sessionState">
+     <sessionState mode="Custom" customProvider="AzureInRoleCacheSessionStateProvider" timeout="20">
+      <providers>
+        <add name="AzureInRoleCacheSessionStateProvider" type="Sitecore.Azure.SessionStateProviders.AzureInRoleCacheSessionStateProvider, Sitecore.Azure.SessionStateProviders" cacheName="default" dataCacheClientName="default" applicationName="SitecoreAzure" pollingInterval="5" />
+      </providers>
+    </sessionState>
+  </xsl:template>
+    <xsl:template match="sitecore/tracking/sharedSessionState/@defaultProvider">
+    <xsl:attribute name="defaultProvider">AzureInRoleCacheSessionStateProvider</xsl:attribute>
+  </xsl:template>
+  <xsl:template match="sitecore/tracking/sharedSessionState/providers">
+    <providers>
+          <clear/>
+          <add name="AzureInRoleCacheSessionStateProvider" type="Sitecore.Azure.SessionStateProviders.AzureInRoleCacheSessionStateProvider, Sitecore.Azure.SessionStateProviders" cacheName="default" dataCacheClientName="default" applicationName="SitecoreAzure" pollingInterval="5" />
+    </providers>
+  </xsl:template>
+
+  <xsl:template match="node()|@*" name="identity">
+    <xsl:copy>
+      <xsl:apply-templates select="node()|@*" />
+    </xsl:copy>
+  </xsl:template>
+  <xsl:param name="pSectionDataCacheClients">
+    <section name="dataCacheClients" type="Microsoft.ApplicationServer.Caching.DataCacheClientsSection, Microsoft.ApplicationServer.Caching.Core" allowLocation="true" allowDefinition="Everywhere" />
+    <section name="cacheDiagnostics" type="Microsoft.ApplicationServer.Caching.AzureCommon.DiagnosticsConfigurationSection, Microsoft.ApplicationServer.Caching.AzureCommon" allowLocation="true" allowDefinition="Everywhere" />
+  </xsl:param>
+  <xsl:template match="configuration/configSections/section[position()=last()]">
+    <xsl:call-template name="identity" />
+    <xsl:copy-of select="$pSectionDataCacheClients" />
+  </xsl:template>
+  <xsl:param name="pDataCacheClients">
+    <dataCacheClients>
+      <dataCacheClient name="default">
+        <autoDiscover isEnabled="true" identifier="SitecoreCacheWorkerRole" />
+      </dataCacheClient>
+    </dataCacheClients>
+    <cacheDiagnostics>
+      <crashDump dumpLevel="Off" dumpStorageQuotaInMB="100" scheduledTransferPeriodInMinutes="5"/>
+    </cacheDiagnostics>
+  </xsl:param>
+  <xsl:template match="configuration/configSections">
+    <xsl:call-template name="identity" />
+    <xsl:copy-of select="$pDataCacheClients" />
+  </xsl:template>
+  <!-- Distributed cache End -->
+  <xsl:template match="sitecore/settings/setting[@name='Caching.CacheViewState']/@value">
+    <xsl:attribute name="value">false</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="sitecore/sites/site[@name='testing']"></xsl:template>
+  
+    <!--Begin "Enable scalability"-->
+
+  <xsl:template match="sitecore/settings/setting[@name='EnableEventQueues']/@value">
+    <xsl:attribute name="value">true</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="sitecore/settings/setting[@name='Caching.SecurityCacheExpiration']/@value">
+    <xsl:attribute name="value">00:20:00</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="sitecore/settings/setting[@name='Media.DisableFileMedia']/@value">
+    <xsl:attribute name="value">false</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="sitecore/settings/setting[@name='InstanceName']/@value">
+    <xsl:attribute name="value"></xsl:attribute>
+  </xsl:template>
+
+  <!--End "Enable scalability"-->
+
+  <!--Begin "Enable trace"-->
+  <xsl:template match="system.web/trace/@enabled">
+    <xsl:attribute name="enabled">true</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="system.web/trace/@enabled">
+    <xsl:attribute name="enabled">true</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="/configuration">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" />
+      <xsl:element name="system.diagnostics">
+        <trace autoflush="true">
+          <listeners>
+            <add type="Microsoft.WindowsAzure.Diagnostics.DiagnosticMonitorTraceListener, Microsoft.WindowsAzure.Diagnostics" name="AzureDiagnostics"></add>
+          </listeners>
+        </trace>
+      </xsl:element>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="log4net">
+    <log4net>
+      <appender name="AzureAppender" type="Sitecore.Azure.ServiceRuntime.Diagnostics.TraceAppender, Sitecore.Azure.ServiceRuntime" >
+        <layout type="log4net.Layout.PatternLayout">
+          <conversionPattern value="%4t %d %-5p %m%n"/>
+        </layout>
+      </appender>
+      <appender name="WebDAVAzureAppender" type="Sitecore.Azure.ServiceRuntime.Diagnostics.TraceAppender, Sitecore.Azure.ServiceRuntime" >
+        <layout type="log4net.Layout.PatternLayout">
+          <conversionPattern value="%4t %d %-5p %m%n"/>
+        </layout>
+      </appender>
+      <appender name="LogFileAppender" type="log4net.Appender.SitecoreLogFileAppender, Sitecore.Logging">
+        <file value="$(dataFolder)/logs/log.{{date}}.txt"/>
+        <appendToFile value="true"/>
+        <layout type="log4net.Layout.PatternLayout">
+          <conversionPattern value="%4t %d{{ABSOLUTE}} %-5p %m%n"/>
+        </layout>
+      </appender>
+      <appender name="WebDAVLogFileAppender" type="log4net.Appender.SitecoreLogFileAppender, Sitecore.Logging">
+        <file value="$(dataFolder)/logs/WebDAV.log.{{date}}.txt"/>
+        <appendToFile value="true"/>
+        <layout type="log4net.Layout.PatternLayout">
+          <conversionPattern value="%4t %d{{ABSOLUTE}} %-5p %m%n"/>
+        </layout>
+      </appender>
+      <root>
+        <priority value="INFO"/>
+        <appender-ref ref="AzureAppender"/>
+	<appender-ref ref="LogFileAppender"/>
+      </root>
+      <logger name="Sitecore.Diagnostics.WebDAV" additivity="false">
+        <level value="INFO"/>
+        <appender-ref ref="WebDAVAzureAppender"/>
+	<appender-ref ref="WebDAVLogFileAppender"/>
+      </logger>
+    </log4net>
+  </xsl:template>
+
+  <!--End "Enable trace"-->
+<xsl:template match="comment()" /> 
+</xsl:stylesheet>
+----field----
+field: {F7BDA98F-3838-428C-944D-4233FFC2E919}
+name: Deployment Slot
+key: deployment slot
+content-length: 7
+
+Staging
+----version----
+language: en
+version: 1
+revision: 233f2df0-a3d4-4015-843f-8b89e013d334
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20110826T161500Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+sitecore\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+233f2df0-a3d4-4015-843f-8b89e013d334
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150506T144848:635665205289664988Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

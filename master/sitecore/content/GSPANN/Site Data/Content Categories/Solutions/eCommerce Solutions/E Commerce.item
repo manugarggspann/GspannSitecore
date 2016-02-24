@@ -1,0 +1,105 @@
+----item----
+version: 1
+id: {D33B75DF-73DA-49DA-9C74-998A97C5C51C}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/eCommerce Solutions/E Commerce
+parent: {698705CD-D413-4C58-94B7-998B39DE95B3}
+name: E Commerce
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: f53b8062-2063-4abe-baeb-02485f48065f
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 10
+
+E-Commerce
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 42
+
+Integrating complete e-commerce solutions 
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 834
+
+  <p>
+                    Building and managing e-commerce systems for some of the largest retailers and B2B vendors, we understand the needs and challenges faced today.  We help companies to address both operational and customer experience aspects of e-commerce, looking at improving ‘back office’ efficiencies, while providing differentiated experiences to consumers.
+                </p>
+                <p>
+                    We harness platforms, like Oracle ATG Web Commerce, SAP Hybris and Demandware to deliver omni-channel solutions that delight consumers, while easing the work of daily operations and maintenance of your e-commerce system.  Our experience integrating these systems with PIM, DAM and WCMS platforms enables us deliver solutions that manage products from inception to the shopping cart.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 5
+
+Ecomm
+----field----
+field: {486935A0-0199-48C9-B715-473078BF6952}
+name: Show Teaser Row
+key: show teaser row
+content-length: 1
+
+1
+----field----
+field: {85FF7D02-3CAF-469B-9035-523D57C38DAE}
+name: Teaser Section Heading
+key: teaser section heading
+content-length: 22
+
+Platforms We Work With
+----field----
+field: {A8D2337B-092F-49AE-9943-DD3B928ABFD6}
+name: Teaser Link List
+key: teaser link list
+content-length: 38
+
+{7BEAE66B-A654-4F32-B9A1-2A646925A979}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f53b8062-2063-4abe-baeb-02485f48065f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160128T075733Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

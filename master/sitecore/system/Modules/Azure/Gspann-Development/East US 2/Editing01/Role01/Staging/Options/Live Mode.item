@@ -1,0 +1,82 @@
+----item----
+version: 1
+id: {45EEF9F4-BEA3-4C33-8BB7-E9E513C62819}
+database: master
+path: /sitecore/system/Modules/Azure/Gspann-Development/East US 2/Editing01/Role01/Staging/Options/Live Mode
+parent: {7696292A-87F3-4C2A-BC24-D3CA66C214FD}
+name: Live Mode
+master: {AE93F676-3666-4FE5-BD24-4426E0A48EBA}
+template: {2B8FC449-133E-4D47-BEE7-6A0E883CC32D}
+templatekey: Live Mode Option
+
+----field----
+field: {3956469D-1D79-44D8-B6CA-744530A2A610}
+name: Enabled
+key: enabled
+content-length: 1
+
+0
+----field----
+field: {23102F8B-E074-43F9-9194-00EEE26FC78D}
+name: WebConfig Patch
+key: webconfig patch
+content-length: 918
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="xml" indent="yes" />
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" />
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template match="comment()"></xsl:template>
+  <xsl:template match="sitecore/sites/site[@database='web']">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" />
+      <xsl:attribute name="filterItems">true</xsl:attribute>
+      <xsl:attribute name="enableWorkflow">true</xsl:attribute>
+      <xsl:attribute name="database">master</xsl:attribute>
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template match="sitecore/scheduling/agent[@type='Sitecore.Tasks.CleanupFDAObsoleteMediaData']/databases/database[@name='web']"></xsl:template>
+</xsl:stylesheet>
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 69c43b8c-550e-49a5-9be1-4e3ff26705d9
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160217T090901Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+69c43b8c-550e-49a5-9be1-4e3ff26705d9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160217T090936Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

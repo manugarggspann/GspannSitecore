@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {53962E00-3271-45CB-8C70-10914F6A5CD8}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Managed Services/Content Reauthoring
+parent: {8DEC61AD-48BD-4260-8B9B-AECC54D24A78}
+name: Content Reauthoring
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: 6ef56bbc-c5ca-4dfc-85be-b1de2572eaf1
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 20
+
+Content Re-authoring
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 42
+
+ Providing you with a content editing team
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 564
+
+<p>
+                    One of the worst things that can happen for an e-Commerce organization is publishing the content with typos on their website. This is far too often a problem, even for media and news companies. The challenge in today's world is the need for content to constantly be fresh and relevant, in the race to enable that, authors rush their copies or check their own work. That is generally neither effective nor efficient. We at GSPANN can help you with off-loading the editing aspect of content and getting it done off-shore.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 7
+
+Content
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6ef56bbc-c5ca-4dfc-85be-b1de2572eaf1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160121T080935Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

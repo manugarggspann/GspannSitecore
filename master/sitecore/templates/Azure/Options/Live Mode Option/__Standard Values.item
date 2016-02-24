@@ -1,0 +1,77 @@
+----item----
+version: 1
+id: {A591A79A-48D1-4F95-AF99-8CF31DC83FA4}
+database: master
+path: /sitecore/templates/Azure/Options/Live Mode Option/__Standard Values
+parent: {2B8FC449-133E-4D47-BEE7-6A0E883CC32D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {2B8FC449-133E-4D47-BEE7-6A0E883CC32D}
+templatekey: Live Mode Option
+
+----field----
+field: {23102F8B-E074-43F9-9194-00EEE26FC78D}
+name: WebConfig Patch
+key: webconfig patch
+content-length: 905
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="xml" indent="yes" />
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" />
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template match="comment()"></xsl:template>
+  <xsl:template match="sitecore/sites/site[@database='web']">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" />
+      <xsl:attribute name="filterItems">true</xsl:attribute>
+      <xsl:attribute name="enableWorkflow">true</xsl:attribute>
+      <xsl:attribute name="database">master</xsl:attribute>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="sitecore/scheduling/agent[@type='Sitecore.Tasks.CleanupFDAObsoleteMediaData']/databases/database[@name='web']">
+  </xsl:template>
+</xsl:stylesheet>
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 33
+
+applications/32x32/form_green.png
+----version----
+language: en
+version: 1
+revision: 75722300-248d-49dc-9394-48ffec95146d
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120605T112000
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+75722300-248d-49dc-9394-48ffec95146d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130213T123910:634963559501227121
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

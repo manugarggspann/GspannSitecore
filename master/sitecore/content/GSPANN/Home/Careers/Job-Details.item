@@ -2,9 +2,9 @@
 version: 1
 id: {51560329-7755-4290-9C0B-004237A3B1A6}
 database: master
-path: /sitecore/content/GSPANN/Home/Careers/Job-Details
+path: /sitecore/content/GSPANN/Home/careers/job-details
 parent: {44122E6B-99E3-454E-A58D-FFCE7083726F}
-name: Job-Details
+name: job-details
 master: {00000000-0000-0000-0000-000000000000}
 template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
 templatekey: Generic Content Page
@@ -33,7 +33,7 @@ content-length: 304
 ----version----
 language: en
 version: 1
-revision: 8488a03d-0d96-4316-90c7-c027f3993ed3
+revision: eec576e6-bbba-4f52-9755-e5bcb26951aa
 
 ----field----
 field: {70014E55-6580-4CD8-9FFE-48DFFB1E644A}
@@ -53,9 +53,9 @@ getJobApp
 field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
 name: MetaData Title
 key: metadata title
-content-length: 26
+content-length: 0
 
-Careers, Working at GSPANN
+
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
 name: Navigation Text
@@ -67,9 +67,9 @@ Learn about GSPANN
 field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
 name: Page Title
 key: page title
-content-length: 8
+content-length: 26
 
-Approach
+Careers, Working at GSPANN
 ----field----
 field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
 name: Teaser Title
@@ -111,14 +111,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8488a03d-0d96-4316-90c7-c027f3993ed3
+eec576e6-bbba-4f52-9755-e5bcb26951aa
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151223T143201Z
+20160209T062228Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

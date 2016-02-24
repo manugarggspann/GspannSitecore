@@ -1,0 +1,84 @@
+----item----
+version: 1
+id: {18AA5BEA-0F1F-4C74-A831-604FAC052F03}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Digital Marketing Solutions/Quality Assurance
+parent: {70822AA0-E260-4814-A427-D7020E7B69BD}
+name: Quality Assurance
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: 81c80273-11c6-4e43-922b-8c304f57b9f2
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 26
+
+Quality Assurance in Agile
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 41
+
+ Software quality as part of your process
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 675
+
+<p>
+GSPANN has deep understanding of applying software quality assurance within different SDLC models like Waterfall, Iterative, Spiral, RAD and Agile. We also understand latest trends in SDLC like TDD (Test Driven Development), ATDD (Acceptance Test Driven Development and BDD (Behavior Driven Development).
+</p>
+<p>
+We help clients embrace the SDLC model of their choice with help of our set of process and practices in manual testing and test automation. We help clients in System Testing, Functional Testing, Non Functional Testing, Security Testing, Browser Compatibility Testing, Mobile Testing, API, Web Service Testing, ETL Testing, and Test Automation in Agile.
+</p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 21
+
+AgileQualityAssurance
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+81c80273-11c6-4e43-922b-8c304f57b9f2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160120T182101Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

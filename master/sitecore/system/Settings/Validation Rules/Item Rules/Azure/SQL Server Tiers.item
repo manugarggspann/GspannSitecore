@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {947F0B1F-EC60-473B-9D94-AEEF33987D18}
+database: master
+path: /sitecore/system/Settings/Validation Rules/Item Rules/Azure/SQL Server Tiers
+parent: {A322F22B-3A6B-48CB-9B0C-E989A5AA6F7A}
+name: SQL Server Tiers
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F8E2549-C77F-4860-B83B-54FA31E2BEFA}
+templatekey: Validation Rule
+
+----field----
+field: {43A829D1-43DA-465C-B772-EBAA0D515E3E}
+name: Type
+key: type
+content-length: 69
+
+Sitecore.Azure.UI.Validators.SqlServerTierValidator,Sitecore.Azure.UI
+----version----
+language: en
+version: 1
+revision: 4dabdfd9-d724-46cf-a8ef-ce20fff2a211
+
+----field----
+field: {DA43C533-CBAE-43D0-9019-65B1E346F984}
+name: Title
+key: title
+content-length: 14
+
+SQLServerTiers
+----field----
+field: {58014183-26FE-4568-B19F-C26745824C32}
+name: Description
+key: description
+content-length: 68
+
+Verifyes if Size and Edition of SQL server is supported by SQL Azure
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140711T115401
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4dabdfd9-d724-46cf-a8ef-ce20fff2a211
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140717T122917:635411969577523158
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

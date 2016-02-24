@@ -1,0 +1,84 @@
+----item----
+version: 1
+id: {AAF008C0-512C-4CF4-89DD-BA57920038E1}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Sitecore/SBOS
+parent: {B82C5209-D1B5-45EA-8999-BB10DB4F2912}
+name: SBOS
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----version----
+language: en
+version: 1
+revision: 9b1c979f-a631-41f9-8d98-9805b2835538
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 46
+
+Sitecore Business Optimization Services (SBOS)
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 53
+
+Deliver complete experience management using Sitecore
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 1427
+
+ <p>
+                    <span class="bolder">OPTIMIZE YOUR DIGITAL MARKETING AND CUSTOMER ENGAGEMENT<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i></span>If you are finally ready to take advantage of advanced capabilities—like personalization, experience optimization or campaigns—we have several SBOS (Sitecore Business Optimization Services) workshops that get you there. We are past the age of 'content management'—you now want to manage the entire digital experience.
+                </p><p>
+                    Taking advantage of the advanced capabilities within Sitecore will move you up the ‘digital maturity curve’ quickly. We have a complete team of digital strategists, experienced in SBOS, who start by understanding your objectives, customers and existing digital capabilities. This understanding informs a road map that will deliver world-class digital experience capabilities, while improving the marketing, sales and support experience for your customers.
+                </p>
+                <ul class="gspann-list">
+                    <li>SBOS Engagement Analytics</li>
+                    <li>SBOS Engagement Optimization</li>
+                    <li>SBOS Website Personalization</li>
+                    <li>SBOS Campaign Enablement</li>
+                    <li>SBOS Cross-channel Integration</li>
+                    <li>SBOS Cross-channel Reporting & Dashboards</li>
+                </ul>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 4
+
+SBOS
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9b1c979f-a631-41f9-8d98-9805b2835538
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160127T092302Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

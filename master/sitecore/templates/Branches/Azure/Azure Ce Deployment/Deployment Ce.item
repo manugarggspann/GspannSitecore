@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {88C96B5E-04F4-4C00-ABC7-C88A633671DE}
+database: master
+path: /sitecore/templates/Branches/Azure/Azure Ce Deployment/Deployment Ce
+parent: {AE93F676-3666-4FE5-BD24-4426E0A48EBA}
+name: Deployment Ce
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62C3434-96A3-45E5-B537-C57097532ED7}
+templatekey: Azure Deployment
+
+----field----
+field: {505ABBFD-94E9-441B-9AE8-A012CE45D257}
+name: Deployment Type WebConfig Patch
+key: deployment type webconfig patch
+content-length: 554
+
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"  xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="xml" indent="yes"/>
+
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="sitecore/settings/setting[@name='Azure.ManagerDisabled']/@value">
+    <xsl:attribute name="value">true</xsl:attribute>
+  </xsl:template>
+</xsl:stylesheet>
+----version----
+language: en
+version: 1
+revision: 798ea8e5-69ce-43ab-8b84-b5526256404e
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110623T113300
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+798ea8e5-69ce-43ab-8b84-b5526256404e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141008T114945:635483657852284507
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

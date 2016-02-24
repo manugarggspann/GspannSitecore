@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {6FC792A6-AF03-44D5-A350-53B1B1A6CDF9}
+database: master
+path: /sitecore/content/GSPANN/Site Data/StoryBlocks/Sbos snaalytics Section
+parent: {AE1407F5-38D7-48B0-AD4D-6701F0353604}
+name: Sbos snaalytics Section
+master: {00000000-0000-0000-0000-000000000000}
+template: {96B3D643-ABE0-4B75-BB74-92848FE1761A}
+templatekey: Approach Section
+
+----version----
+language: en
+version: 1
+revision: 1098821c-5f9c-43fb-975d-0f4d57d10159
+
+----field----
+field: {C8705EE1-0721-4BB2-BE58-ACA64D713901}
+name: Select Categories
+key: select categories
+content-length: 272
+
+{A4B7FB66-947A-46D1-B7EC-0920EC072160}|{5C8A8E7E-28C3-4159-ACEB-E5B778048D6E}|{DB28E405-7B0E-4E4E-B9A7-AB7222D052BE}|{3BD8BE93-569D-45CB-9A43-8965114628BB}|{68A9BFC5-B2CA-4D36-9B0B-55E88C80E68E}|{EA50F3FD-1EED-4AC2-8D00-1D7875E87CC8}|{98D96FC9-CEC5-4554-A05E-A360B08DA4AE}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T152241Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1098821c-5f9c-43fb-975d-0f4d57d10159
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160221T084536Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

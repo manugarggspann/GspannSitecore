@@ -1,0 +1,83 @@
+----item----
+version: 1
+id: {68A9BFC5-B2CA-4D36-9B0B-55E88C80E68E}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/sbos analytics/analytics road map
+parent: {94D45759-7AB3-4D6C-A25A-89CC5716FFD0}
+name: analytics road map
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----version----
+language: en
+version: 1
+revision: e03e880d-b661-44b8-b6bf-e975bde420c6
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 47
+
+5. What does an ‘analytics road map’ look like?
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 45
+
+ An analytics cookbook makes your life easier
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 838
+
+ <p>
+                    <span class="bolder upper-case">
+                        Understanding your path to success<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i>
+                    </span>
+                    Getting started correctly is important, but continuing in the correct path will finally help you achieve your analytics goals. As with many tasks 
+
+marketers undertake these days, having a ‘cookbook’ to guide your efforts reduces your learning curve and increases your success rate. The guide provides you with a 
+
+framework to use each time you want to employ analytics—perhaps for a new campaign, recent product launch, or just to gain a deeper insight into your existing 
+
+customers. This framework guides you through the key steps in defining and planning Sitecore experience analytics.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 7
+
+RoadMap
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e03e880d-b661-44b8-b6bf-e975bde420c6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160221T080800Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

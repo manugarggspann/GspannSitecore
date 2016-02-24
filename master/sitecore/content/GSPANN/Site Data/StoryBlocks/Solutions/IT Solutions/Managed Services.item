@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {AC3B24E6-EC3D-4264-82A3-6FCDF8B353D1}
+database: master
+path: /sitecore/content/GSPANN/Site Data/StoryBlocks/Solutions/IT Solutions/Managed Services
+parent: {1075A29C-492F-425D-AAC9-2B204B75C1B8}
+name: Managed Services
+master: {00000000-0000-0000-0000-000000000000}
+template: {96B3D643-ABE0-4B75-BB74-92848FE1761A}
+templatekey: Approach Section
+
+----version----
+language: en
+version: 1
+revision: 581ca0e8-fa1b-4330-843a-39c6602525c7
+
+----field----
+field: {C8705EE1-0721-4BB2-BE58-ACA64D713901}
+name: Select Categories
+key: select categories
+content-length: 116
+
+{B2D2E342-57D4-4F7D-9BAD-12BFF0DD13F1}|{46C6F9C5-021B-4401-8B7B-0C836D851832}|{53962E00-3271-45CB-8C70-10914F6A5CD8}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T152241Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+581ca0e8-fa1b-4330-843a-39c6602525c7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160121T081013Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

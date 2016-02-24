@@ -1,13 +1,13 @@
 ----item----
 version: 1
-id: {45F957A3-26F1-4DB8-8CE1-DB0A293C9203}
+id: {F6F6BF03-7CD7-4D1F-8412-26CE75EB3DA5}
 database: master
-path: /sitecore/content/GSPANN/Home/Technologies
+path: /sitecore/content/GSPANN/Home/technologies
 parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
-name: Technologies
+name: technologies
 master: {00000000-0000-0000-0000-000000000000}
-template: {510FE8D7-9622-4732-89DE-3F3858EFD259}
-templatekey: Technologies Page
+template: {25FE0E2E-C164-4B49-8A6B-A8AC39ECA5A7}
+templatekey: Solutions Page
 
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
@@ -15,11 +15,152 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-250
+200
 ----version----
 language: en
 version: 1
-revision: 084ca13f-81e3-47c1-b581-457c48ca6262
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Technologies
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 2
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Technologies
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 3
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Technologies
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 4
+revision: fd1035b7-8c85-4366-a090-a1b3abf48448
 
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
@@ -29,26 +170,33 @@ content-length: 12
 
 TECHNOLOGIES
 ----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Technologies
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20151019T011713Z
+20151019T011705Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-084ca13f-81e3-47c1-b581-457c48ca6262
+fd1035b7-8c85-4366-a090-a1b3abf48448
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151209T154403Z
+20160209T055727Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {621C23DC-3720-457E-82E0-92F164627DE1}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Digital Marketing Solutions/Marketing Optimization
+parent: {70822AA0-E260-4814-A427-D7020E7B69BD}
+name: Marketing Optimization
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: bceb15dc-5a79-404b-bbd7-40edc243cc0a
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 22
+
+Marketing Optimization
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 39
+
+ Moving up the marketing maturity curve
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 649
+
+ <p>
+                    Many websites and campaigns are put on ‘autopilot’ once they are launched.  As your market changes, your competitors adapt their tactics as the expectations of your customers evolve. No digital channel should be allowed to become stagnant. Creating an adaptive, agile engagement with prospects and customers that continues to address the evolution of the market requires planning, governance, and operationalized execution along with proper technology. We can help you establish continuous optimization around web, email and social channels, to help those channels remain agile within a changing market.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 8
+
+Optimize
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bceb15dc-5a79-404b-bbd7-40edc243cc0a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160120T191116Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

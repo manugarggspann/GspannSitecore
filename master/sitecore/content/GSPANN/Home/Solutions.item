@@ -2,9 +2,9 @@
 version: 1
 id: {D6C5CE2A-39CA-49B6-9341-D4F0DAF9B9DE}
 database: master
-path: /sitecore/content/GSPANN/Home/Solutions
+path: /sitecore/content/GSPANN/Home/solutions
 parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
-name: Solutions
+name: solutions
 master: {00000000-0000-0000-0000-000000000000}
 template: {25FE0E2E-C164-4B49-8A6B-A8AC39ECA5A7}
 templatekey: Solutions Page
@@ -20,9 +20,9 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 914
+content-length: 1399
 
-<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{37FD4B9C-FEDB-4745-90D3-415282B0ECFA}"><r ds="{B6B6EEB1-0D3F-45E9-B213-BDC6A6E76796}" id="{BAD563D8-A3AB-49E1-A74A-63BC35A24F43}" ph="phMain" uid="{EA230AC0-A835-4B8D-BFC0-7F672DF60F7E}" /><r id="{36018EF2-89CA-49D6-AF14-6052E6A137EA}" ph="phMain" uid="{89514079-13E1-46A1-8C29-F6EC5100C52B}" /><r ds="{BE7F686B-C9D8-4945-85BF-541B4F44710E}" id="{F773F037-500C-4241-BD7A-5DE9458A701B}" par="Wrapper Class=%7B6D9EB085-CBAA-49BC-944D-88966C5B09CF%7D&amp;Show Heading=1&amp;Show Title&amp;Show Subtitle&amp;Show Summary&amp;Show Description=1&amp;Show Image&amp;Activate Link=1" ph="phDescription" uid="{64FDBF0A-A734-4B02-AF2B-0E91DC105E7C}" /><r ds="{0DFE8341-2FA3-48A7-B92D-F718E89475FB}" id="{DCD7A06E-99E1-4CA6-9C65-32EE8967D48F}" par="" ph="phDescription" uid="{F8AF949B-CB61-4B0F-8FA5-3718A7A5F025}" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{77E66713-9067-4760-AFCB-5E469CF59AEA}"><p:d /></r><r uid="{3A21152F-28D8-4B85-9D90-6BE56C27CAC9}"><p:d /></r><r uid="{37A9E3D9-A831-4947-9720-828465C8DE4F}"><p:d /></r><r uid="{EA3273B0-42C2-49DD-BBDF-85EACDABC95B}"><p:d /></r><r uid="{EA230AC0-A835-4B8D-BFC0-7F672DF60F7E}" p:before="r[@uid='{89514079-13E1-46A1-8C29-F6EC5100C52B}']" s:ds="{B6B6EEB1-0D3F-45E9-B213-BDC6A6E76796}" s:id="{BAD563D8-A3AB-49E1-A74A-63BC35A24F43}" s:ph="phMain" /><r uid="{89514079-13E1-46A1-8C29-F6EC5100C52B}" p:before="r[@uid='{64FDBF0A-A734-4B02-AF2B-0E91DC105E7C}']" s:id="{36018EF2-89CA-49D6-AF14-6052E6A137EA}" s:ph="phMain" /><r uid="{64FDBF0A-A734-4B02-AF2B-0E91DC105E7C}" p:before="r[@uid='{F8AF949B-CB61-4B0F-8FA5-3718A7A5F025}']" s:ds="{BE7F686B-C9D8-4945-85BF-541B4F44710E}" s:id="{F773F037-500C-4241-BD7A-5DE9458A701B}" s:par="Wrapper Class=%7B6D9EB085-CBAA-49BC-944D-88966C5B09CF%7D&amp;Show Heading=1&amp;Show Title&amp;Show Subtitle&amp;Show Summary&amp;Show Description=1&amp;Show Image&amp;Activate Link=1" s:ph="phDescription" /><r uid="{F8AF949B-CB61-4B0F-8FA5-3718A7A5F025}" s:ds="{0DFE8341-2FA3-48A7-B92D-F718E89475FB}" s:id="{DCD7A06E-99E1-4CA6-9C65-32EE8967D48F}" s:par="" s:ph="phDescription" /><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}"><p:d /></r></d></r>
 ----version----
 language: en
 version: 1
@@ -32,6 +32,13 @@ revision: 25110786-c655-4082-ba30-2b30c9c4cae4
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
 name: Navigation Text
 key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
 content-length: 9
 
 Solutions
@@ -76,6 +83,13 @@ content-length: 9
 
 Solutions
 ----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+Solutions
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -116,6 +130,13 @@ content-length: 9
 
 Solutions
 ----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 9
+
+Solutions
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -146,12 +167,19 @@ sitecore\admin
 ----version----
 language: en
 version: 4
-revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+revision: 11333573-44b9-434c-8f0b-9c3115ca296d
 
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
 name: Navigation Text
 key: navigation text
+content-length: 9
+
+SOLUTIONS
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
 content-length: 9
 
 Solutions
@@ -168,14 +196,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-25110786-c655-4082-ba30-2b30c9c4cae4
+11333573-44b9-434c-8f0b-9c3115ca296d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151209T154353Z
+20160209T055250Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

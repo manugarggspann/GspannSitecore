@@ -1,0 +1,83 @@
+----item----
+version: 1
+id: {EA50F3FD-1EED-4AC2-8D00-1D7875E87CC8}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/sbos analytics/help to build my road map
+parent: {94D45759-7AB3-4D6C-A25A-89CC5716FFD0}
+name: help to build my road map
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----version----
+language: en
+version: 1
+revision: d75ae9c5-847f-47ae-9bf4-3c059088bdf3
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 45
+
+6. Where can I get help to build my road map?
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 34
+
+How to get help along your journey
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 818
+
+ <p>
+                    <span class="bolder upper-case">
+                        GSPANN can help create your analytics road map<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i>
+                    </span>
+                    The guide explains our Sitecore Experience Analytics Workshop. This workshop is part of the GSPANN Sitecore Business Optimization Services (SBOS) 
+
+to help both existing and new Sitecore customers take advantage of their investment. This workshop is held onsite at your facilities, where we work with you and your 
+
+team to create an analytics road map. In addition to helping you create your first road map, we will provide you with the necessary tools while educating you around 
+
+how to create road maps that guide future experience analytics initiatives.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 6
+
+GSPANN
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d75ae9c5-847f-47ae-9bf4-3c059088bdf3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160221T081058Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

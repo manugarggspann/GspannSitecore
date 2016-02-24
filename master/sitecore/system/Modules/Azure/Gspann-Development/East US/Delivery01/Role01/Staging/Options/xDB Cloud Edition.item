@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {0E5F6A7A-20D4-4535-B90F-0F07035D50DD}
+database: master
+path: /sitecore/system/Modules/Azure/Gspann-Development/East US/Delivery01/Role01/Staging/Options/xDB Cloud Edition
+parent: {7E674BD6-7B42-406D-A279-84551F900DF3}
+name: xDB Cloud Edition
+master: {6129A0D3-5495-4EDE-A09B-169DDFCBA398}
+template: {AC497F94-45B6-4838-AF96-FFD732EB6A4A}
+templatekey: xDB Cloud Edition
+
+----field----
+field: {6E59BC17-836E-41F7-9828-FA299934F010}
+name: Deployment Type
+key: deployment type
+content-length: 7
+
+NonProd
+----field----
+field: {B0251D98-457A-4D3D-B671-EA07F3D50C08}
+name: Deployment Id
+key: deployment id
+content-length: 26
+
+Gspann-Development-NonProd
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 457b8945-8440-4301-a110-42f7bd1e6aed
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160217T091055Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+457b8945-8440-4301-a110-42f7bd1e6aed
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160217T091131Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {DDFBDD29-6204-4EF4-B171-E13AC869E7DB}
+database: master
+path: /sitecore/templates/Azure/Deployment/File Path Filter/__Standard Values
+parent: {05ADAA2E-0A5F-4AE3-916A-6EAC38BCD621}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {05ADAA2E-0A5F-4AE3-916A-6EAC38BCD621}
+templatekey: File Path Filter
+
+----field----
+field: {5552573A-3B78-45CC-8AB3-3956DBE1B62A}
+name: Exclude File Extensions
+key: exclude file extensions
+content-length: 70
+
+.pdb;.old;.example;.sln;.suo;.testsettings;.vsmdi;.csproj;.csproj.user
+----field----
+field: {77936600-55D4-4D4D-8822-C9B742F1D173}
+name: Exclude Files
+key: exclude files
+content-length: 977
+
+bin\microsoft.sqlserver.batchparser.dll;sitecore\shell\prompt.html;sitecore\shell\Invoke.aspx;sitecore\shell\download.aspx;sitecore\shell\default.aspx;sitecore\shell\blank.html;bin\system.data.sqlite.dll;bin\radspell.net2.dll;bin\radeditor.net2.dll;bin\microsoft.windowsazure.storageclient.xml;bin\oracle.dataaccess.dll;bin\stimulsoft.base.dll;bin\stimulsoft.database.dll;bin\stimulsoft.report.dll;bin\stimulsoft.report.web.dll;bin\stimulsoft.report.webdesign.dll;bin\ithit.webdav.server.dll;bin\sitecore.azure.azureservices.dll;bin\sitecore.azure.configuration.dll;bin\sitecore.azure.configuration.dll.config;bin\sitecore.azure.sitecoreitems.dll;bin\sitecore.azure.webcontrols.dll;bin\sitecore.client.xml;bin\sitecore.oracle.dll;bin\sitecore.rocks.server.dll;bin\sitecore.sqlite.dll;bin\telerik.web.ui.dll;bin\hedgehogdevelopment.sitecoreproject.service.dll;App_Config\Include\Sitecore.Azure.config;sitecore\404.aspx;sitecore\blocked.aspx;sitecore\default.aspx;sitecore\no.css
+----field----
+field: {06B47032-7F0A-46B5-A500-EDB642B68EBE}
+name: Exclude Directories
+key: exclude directories
+content-length: 469
+
+sitecore\shell\WebService;sitecore\shell\Themes;sitecore\shell\Templates;sitecore\shell\Schemas;sitecore\shell\RadControls;sitecore\shell\Override;sitecore\shell\Feeds;sitecore\shell\Css Editor;sitecore\shell\Controls;sitecore\shell\Configuration;sitecore\shell\Applications;temp;App_Config\Include for Azure Webroles;_DEV;_ReSharper.TempSolution;sitecore\admin;sitecore\copyrights;sitecore\debug;sitecore\images;sitecore\login;sitecore\portal;sitecore\sampels;App_Data
+----version----
+language: en
+version: 1
+revision: ec7c17cf-304e-47db-9a8d-d9c6a636909e
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110701T182357
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ec7c17cf-304e-47db-9a8d-d9c6a636909e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130213T124023:634963560235507121
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

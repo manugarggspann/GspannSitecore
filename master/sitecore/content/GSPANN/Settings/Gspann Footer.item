@@ -12,7 +12,7 @@ templatekey: Footer
 ----version----
 language: en
 version: 1
-revision: 5f470601-9828-41e1-8e83-6ee5121d9523
+revision: 873578a6-f4ff-42e8-95a8-768db6dddd1a
 
 ----field----
 field: {25937EA6-D037-4357-BAC7-E5DDB1BCA24C}
@@ -21,7 +21,7 @@ key: about gspann
 content-length: 327
 
 <p class="larger">
-<span class="bolder">About GSPANN<em class="fa fa-angle-double-right  fa-lg text-delimiter"></em></span>We provide end-to-end content and data management solutions for business-critical ecommerce and digital marketing activities within retail, high technology, manufacturing, financial services and law.
+<span class="bolder">About GSPANN  <i class="fa fa-angle-double-right  fa-lg text-delimiter"></i></span>We provide end-to-end content and data management solutions for business-critical ecommerce and digital marketing activities within retail, high technology, manufacturing, financial services and law.
 </p>
 ----field----
 field: {B3E9EACF-4FB5-4FC8-ACEC-26B04B94E935}
@@ -32,20 +32,11 @@ content-length: 9
 Solutions
 ----field----
 field: {BE9C8548-4192-4931-BD6A-DE5AFEBD9C8B}
-name: Description
-key: description
-content-length: 700
+name: Solution List
+key: solution list
+content-length: 311
 
-<ul class="simple-list">
-    <li><a href="/Solutions/Enterprise-Content-Management-Solutions">Enterprise Content Management</a></li>
-    <li><a href="/Solutions/E-Commerce-Solutions">Ecommerce Solutions</a></li>
-    <li><a href="/Solutions/Digital-Marketing-Solutions">Digital Marketing</a></li>
-    <li><a href="/Solutions/Mobile-Solutions">Mobile</a></li>
-    <li><a href="/Solutions/Analytics-and-Reporting-Solutions">Analytics &amp; Reporting</a></li>
-    <li><a href="/Solutions/Project-Managed-Consulting">Project Management Consulting</a></li>
-    <li><a href="/Solutions/Managed-Services">Managed Services</a></li>
-    <li><a href="/Solutions/Testing-Services">Testing Services</a></li>
-</ul>
+{9CF79776-4BA5-41C6-8507-245491C73360}|{70EA3C68-A626-4B38-B8A4-125675848838}|{74DBFA82-C025-4FBE-9C01-AF3A419E0951}|{163818CB-3C4A-4D5C-9FFB-ABD2F8E1A91B}|{FED7F360-C7D0-4502-825C-68696A29477F}|{4340FDC2-678B-4233-984D-6896070C0A85}|{316DE8A5-CABF-4A0A-B2BC-55460198865C}|{0E23941F-FB4A-470C-AF59-0D9C9C059DF2}
 ----field----
 field: {7FC94E47-5359-434A-B20B-7C860663C5F9}
 name: Contact Us Heading
@@ -85,9 +76,9 @@ sales@gspann.com
 field: {48F7501B-2D5F-4D32-B688-05E064E6A81D}
 name: Office Page
 key: office page
-content-length: 158
+content-length: 156
 
-<link target="Custom" title="" querystring="" linktype="internal" id="{5EFB64CC-9CDF-4017-A9BE-61BC1C6833B4}" url="/GSPANN/Home/Contactus" class="" text="" />
+<link target="Custom" title="" querystring="" linktype="internal" id="{5EFB64CC-9CDF-4017-A9BE-61BC1C6833B4}" url="/GSPANN/Home/contact" class="" text="" />
 ----field----
 field: {E5C4665D-3E05-4E4F-92C8-262EBC3474BB}
 name: Copyright Text
@@ -101,7 +92,7 @@ name: Privacy Policy Link
 key: privacy policy link
 content-length: 194
 
-<link target="Custom" title="" querystring="" linktype="internal" id="{42CF1301-7D4F-4623-8E60-4DADB9836223}" url="/GSPANN/Home/Privacy-Policy" class="" text="Disclaimer &amp; Privacy Policy" />
+<link target="Custom" title="" linktype="internal" id="{42CF1301-7D4F-4623-8E60-4DADB9836223}" class="" url="/GSPANN/Home/privacy-policy" querystring="" text="Disclaimer &amp; Privacy Policy" />
 ----field----
 field: {C223A425-5B0D-4383-9029-17F588C46CEA}
 name: Social Icons
@@ -122,14 +113,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5f470601-9828-41e1-8e83-6ee5121d9523
+873578a6-f4ff-42e8-95a8-768db6dddd1a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151223T071753Z
+20160209T062332Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

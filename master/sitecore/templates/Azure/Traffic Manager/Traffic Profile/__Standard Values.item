@@ -1,0 +1,82 @@
+----item----
+version: 1
+id: {8AC02619-E4A2-4C2B-88DC-0CEA1984A6C1}
+database: master
+path: /sitecore/templates/Azure/Traffic Manager/Traffic Profile/__Standard Values
+parent: {3155ACB5-0961-4787-8117-B16F4961957E}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3155ACB5-0961-4787-8117-B16F4961957E}
+templatekey: Traffic Profile
+
+----field----
+field: {2AA0837D-CB90-4A92-B5DD-4AE5226AD2A7}
+name: Active Definition
+key: active definition
+content-length: 893
+
+<?xml version="1.0" encoding="utf-8"?>
+<Definition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/windowsazure">
+  <DnsOptions>
+    <TimeToLiveInSeconds>25200</TimeToLiveInSeconds>
+  </DnsOptions>
+  <Monitors>
+    <Monitor>
+      <IntervalInSeconds>30</IntervalInSeconds>
+      <TimeoutInSeconds>10</TimeoutInSeconds>
+      <ToleratedNumberOfFailures>3</ToleratedNumberOfFailures>
+      <Protocol>HTTP</Protocol>
+      <Port>80</Port>
+      <HttpOptions>
+        <Verb>Get</Verb>
+        <RelativePath>/sitecore/service/Heartbeat.aspx</RelativePath>
+        <ExpectedStatusCode>200</ExpectedStatusCode>
+      </HttpOptions>
+    </Monitor>
+  </Monitors>
+  <Policy>
+    <LoadBalancingMethod>Performance</LoadBalancingMethod>
+    <Endpoints>
+    </Endpoints>
+  </Policy>
+</Definition>
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 22
+
+Network/32x32/link.png
+----version----
+language: en
+version: 1
+revision: 9d532c4e-5407-4426-b928-13dbd9bf1c2f
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120521T125330
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9d532c4e-5407-4426-b928-13dbd9bf1c2f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130725T135322:635103572026547425
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

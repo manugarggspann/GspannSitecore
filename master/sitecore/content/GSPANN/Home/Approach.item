@@ -2,9 +2,9 @@
 version: 1
 id: {6BFEA25F-8731-4A41-8B22-4531D3AAB786}
 database: master
-path: /sitecore/content/GSPANN/Home/Approach
+path: /sitecore/content/GSPANN/Home/approach
 parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
-name: Approach
+name: approach
 master: {00000000-0000-0000-0000-000000000000}
 template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
 templatekey: Generic Content Page
@@ -26,15 +26,15 @@ content-length: 779
 ----version----
 language: en
 version: 1
-revision: e7cbb8a8-9d49-4957-a3b5-1d63bbf97b0b
+revision: 6f7fd9aa-d125-4f5c-8262-969e30ca1887
 
 ----field----
 field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
 name: MetaData Title
 key: metadata title
-content-length: 52
+content-length: 0
 
-Approach, Strategize, Architect, Build, Care, GSPANN
+
 ----field----
 field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
 name: MetaData Description
@@ -60,6 +60,13 @@ APPROACH
 field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
 name: Page Title
 key: page title
+content-length: 52
+
+Approach, Strategize, Architect, Build, Care, GSPANN
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
 content-length: 8
 
 Approach
@@ -76,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e7cbb8a8-9d49-4957-a3b5-1d63bbf97b0b
+6f7fd9aa-d125-4f5c-8262-969e30ca1887
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151223T142505Z
+20160209T061123Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

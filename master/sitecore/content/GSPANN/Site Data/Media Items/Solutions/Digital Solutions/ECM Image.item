@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {FCDEF229-632A-4A49-9A32-92094E4F5060}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Media Items/Solutions/Digital Solutions/ECM Image
+parent: {E8E4DBCC-0684-4326-948C-A3076C296418}
+name: ECM Image
+master: {00000000-0000-0000-0000-000000000000}
+template: {82DF8DD9-7C0F-4094-9E91-77E0180B8BBD}
+templatekey: Carousel
+
+----field----
+field: {2F3861B4-6F5E-4DEB-A74D-C4E4AE2C71F3}
+name: Carousel Image
+key: carousel image
+content-length: 239
+
+<image mediapath="" alt="GSPANN Digital Solutions, Digital Marketing, E-Commerce, Content Management, Mobile" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{F2894BC3-1667-4E30-AB49-F4888CDFC918}" />
+----version----
+language: en
+version: 1
+revision: aaac5592-9810-44e6-a8c0-e797aee8c4dc
+
+----field----
+field: {2175330C-3FFB-47AF-B2DF-20490B263E59}
+name: Carousel Title
+key: carousel title
+content-length: 35
+
+Enterprise Content Management (ECM)
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151029T005555Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aaac5592-9810-44e6-a8c0-e797aee8c4dc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160122T092746Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

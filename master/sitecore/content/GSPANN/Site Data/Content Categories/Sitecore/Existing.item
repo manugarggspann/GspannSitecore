@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {C4062A7F-AB87-432E-BF78-4005D449455B}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Sitecore/Existing
+parent: {B82C5209-D1B5-45EA-8999-BB10DB4F2912}
+name: Existing
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: 766511f9-1a9f-405d-ab5a-77b183101fdd
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 30
+
+For Existing Sitecore Websites
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 48
+
+Getting the most out of your Sitecore investment
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 641
+
+ <p>
+                    <span class="bolder">STABILIZING YOUR WEBSITE<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i></span>If years of ad hoc changes to your site have left it with instabilities, performance issues or just a difficult to maintain system, we can help. Many websites have evolved in response to business changes, often without the time for proper planning and architecture required.  Years of changes accumulates to affect your website's performance, stability and your ability to make additional changes.  Let us perform an audit to identify key issues and a plan to resolving the issues.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 8
+
+Existing
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+766511f9-1a9f-405d-ab5a-77b183101fdd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160127T092126Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

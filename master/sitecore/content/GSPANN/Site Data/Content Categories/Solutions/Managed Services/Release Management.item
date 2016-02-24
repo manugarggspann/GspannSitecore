@@ -1,0 +1,84 @@
+----item----
+version: 1
+id: {46C6F9C5-021B-4401-8B7B-0C836D851832}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Managed Services/Release Management
+parent: {8DEC61AD-48BD-4260-8B9B-AECC54D24A78}
+name: Release Management
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: a07bec7d-dc57-413e-8052-bbd1d16567e4
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 18
+
+Release Management
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 32
+
+We guarantee successful releases
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 731
+
+<p>
+                    Release Management is the final step before a project goes live. The Release Management Team controls the heartbeat of the deployment. Good release management practices ensure that when software is built, it will be successfully deployed.
+                </p>
+                <p>
+                    Most e-Commerce organizations have releases that occur during off-hours and require resources not only aware of the release management process but also the culture of the organization. The GSPANN release management approach is to ensure leveraging the extended arm of the organization and ensuring the critical and expensive resources are engaged in a more effective and productive way.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 7
+
+Release
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a07bec7d-dc57-413e-8052-bbd1d16567e4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160121T080809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

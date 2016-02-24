@@ -19,7 +19,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 47ab7aa9-56dd-4afa-8cbb-7fd3434b4af0
+revision: 760e7238-2d55-484a-8218-ec917b9f7103
 
 ----field----
 field: {1B765069-D254-43C7-8BE1-2CF5EEAD9206}
@@ -53,10 +53,10 @@ content-length: 0
 field: {EE2EA638-8948-40F0-868F-B0CBC21D380D}
 name: Card Description
 key: card description
-content-length: 709
+content-length: 818
 
-
-Our Approach to Your Success Enterprise Content Management (ECM) is necessary to help you fully tap the potentials of content on the web, under the rapidly changing scenario. And our ECM comprises of strategies, methods and tools, used to capture, manage, store, preserve, and deliver content. This content may be Web, Mobile, Documents, Assets, Print Material, Catalogs or Product Information, we help you produce enormous ROI through it. Today ECM solutions have to deal with massive content constantly generated within, between, and outside the enterprise. A demand that our experts know how to help steer clear of. Let GSPANN help you draw meaningful insights and singular outcome from this ECM solution.
+<span class="bolder">Our Approach to Your Success<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i></span>
+                    Enterprise Content Management (ECM) is necessary to help you fully tap the potentials of content on the web, under the rapidly changing scenario. And our ECM comprises of strategies, methods and tools, used to capture, manage, store, preserve, and deliver content. This content may be Web, Mobile, Documents, Assets, Print Material, Catalogs or Product Information, we help you produce enormous ROI through it. Today ECM solutions have to deal with massive content constantly generated within, between, and outside the enterprise. A demand that our experts know how to help steer clear of. Let GSPANN help you draw meaningful insights and singular outcome from this ECM solution.
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -70,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-47ab7aa9-56dd-4afa-8cbb-7fd3434b4af0
+760e7238-2d55-484a-8218-ec917b9f7103
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151217T075000Z
+20160202T075911Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

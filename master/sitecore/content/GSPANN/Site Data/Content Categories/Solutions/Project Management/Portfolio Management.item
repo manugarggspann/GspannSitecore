@@ -1,0 +1,84 @@
+----item----
+version: 1
+id: {583F2EDC-313D-41DD-B0E3-CD9F291AD7A2}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Project Management/Portfolio Management
+parent: {E41DCF81-D2E8-489B-A85C-A02FE80A334B}
+name: Portfolio Management
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: df6a72cc-e8e8-42e0-a363-87dfadae3e5c
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 20
+
+Portfolio Management
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 55
+
+Optimize your project delivery and resource utilization
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 1184
+
+ <p>
+                    Managing a portfolio requires a significant amount of strategic expertise, while at the same time being able to communicate a vision. As a result, at GSPANN we have created a Portfolio Manager Program (much like the finance industry) with the focus on providing Portfolio leaders within the organizations with the right perspective and helping them build out the portfolio matrix and developing the scoring algorithms for evaluation of the programs within the portfolio.
+                </p>
+                <p>
+                    GSPANN portfolio advisors construct customized portfolio matrix and dependency charts for clients with standard PPM tools like Clarity, Eclipse PPM, PeopleSoft PPM or, with customized PPM using Excel. Industry typically describes portfolio management with the 5i(s) Ideation, Identification, Incubation, Initiation and Implementation. We at GSPANN believe in 7i(s) as we include Instantiation and Insights to the earlier 5. Including the final 2 i(s) ensures that true total value index of a project and hence the collective portfolio can be measured, as opposed to, relying on a fixed acceptance criteria.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 9
+
+Portfolio
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+df6a72cc-e8e8-42e0-a363-87dfadae3e5c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160121T080117Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

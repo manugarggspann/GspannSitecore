@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {387EAF99-149B-4CF1-B1A8-AA45FAA6572F}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Html Data/Solutions/IT/IT Solutions
+parent: {3A24E6EB-2826-4A68-966B-13BFC00EBF76}
+name: IT Solutions
+master: {00000000-0000-0000-0000-000000000000}
+template: {6D3C5530-A579-4A2E-B08B-409A6B16B2AC}
+templatekey: HTML Content
+
+----field----
+field: {F47E56B7-3D47-4571-AEA0-36A63FD4D9CA}
+name: Card Link
+key: card link
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 4970b9b7-ccb6-467e-8ab7-9b03115ee8bf
+
+----field----
+field: {1B765069-D254-43C7-8BE1-2CF5EEAD9206}
+name: Card Heading
+key: card heading
+content-length: 12
+
+IT Solutions
+----field----
+field: {A338362D-BDC1-402A-AEE4-C28C855F1063}
+name: Card Title
+key: card title
+content-length: 43
+
+We enable you to focus on the core business
+----field----
+field: {80A12328-4A52-4BA1-802D-B19A15AE9A73}
+name: Card Subtitle
+key: card subtitle
+content-length: 135
+
+ 
+ <p>
+                        We improve the efficiency and reduce the cost of IT operations for our customer
+                    </p>
+----field----
+field: {0935A4E3-13DC-480B-B3F6-F890E63D4C87}
+name: Card Summary
+key: card summary
+content-length: 0
+
+
+----field----
+field: {EE2EA638-8948-40F0-868F-B0CBC21D380D}
+name: Card Description
+key: card description
+content-length: 561
+
+<p>
+                        <span class="bolder">IT Solutions<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i></span>
+                        Increasingly complex applications portfolios, high maintenance costs, and scarce resources can significantly distract attention from competitive issues.
+                        GSPANN helps organizations focus on their core business issues, reduce costs, improve IT operational efficiency, accelerate time-to-market and free existing staff to focus on mission-critical initiatives.
+                    </p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151029T022310Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4970b9b7-ccb6-467e-8ab7-9b03115ee8bf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160122T151835Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,270 @@
+----item----
+version: 1
+id: {4BC1DCA4-1165-4B62-95E3-D80BFD3A9A4C}
+database: master
+path: /sitecore/content/GSPANN/Home/solutions/it-solutions
+parent: {D6C5CE2A-39CA-49B6-9341-D4F0DAF9B9DE}
+name: it-solutions
+master: {00000000-0000-0000-0000-000000000000}
+template: {25FE0E2E-C164-4B49-8A6B-A8AC39ECA5A7}
+templatekey: Solutions Page
+
+----field----
+field: {95C1D5B4-0BD2-4D83-91E1-22D766287854}
+name: Include in Header
+key: include in header
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 854
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{0AC96673-3E20-4A2F-9E5A-7433274E9ECC}" /><r uid="{54592E4C-435C-4614-AC23-8F9EF0DF6705}" p:before="r[@uid='{8D32265D-27A8-4C33-ADE2-D4C591C28219}']" s:ds="" s:id="{11C01FDC-5CAA-418C-9959-8A001499FB38}" s:par="" s:ph="/phMain/phCareer" /><r uid="{8D32265D-27A8-4C33-ADE2-D4C591C28219}" p:before="r[@uid='{A1307166-F828-4937-B620-EEE067AF48DD}']" s:ds="{387EAF99-149B-4CF1-B1A8-AA45FAA6572F}" s:id="{5DC095D5-415C-463A-AD15-353742F3A516}" s:par="" s:ph="/phMain/phCareer/phContent" /><r uid="{A1307166-F828-4937-B620-EEE067AF48DD}" s:ds="{D355FF8C-BFD5-456E-9E4A-5447968EFA2D}" s:id="{96D92558-F6A4-442A-9C1F-E951E499349B}" s:par="" s:ph="/phMain/phCareer/phContent" /></d></r>
+----version----
+language: en
+version: 1
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+IT Solutions
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 2
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+IT Solutions
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 3
+revision: 25110786-c655-4082-ba30-2b30c9c4cae4
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 9
+
+Solutions
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+IT Solutions
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25110786-c655-4082-ba30-2b30c9c4cae4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20151209T154353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 4
+revision: d5a236ac-5b29-418c-a26a-38aef07e0af6
+
+----field----
+field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
+name: MetaData Description
+key: metadata description
+content-length: 149
+
+IT solutions that free organizational time and resources to focus on their strategic key initiatives, while reducing their day-to-day operating costs
+----field----
+field: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
+name: MetaData Keyword
+key: metadata keyword
+content-length: 61
+
+Operations support, Application Maintenance, Testing Services
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 12
+
+IT SOLUTIONS
+----field----
+field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
+name: Page Title
+key: page title
+content-length: 73
+
+IT Solutions, Managed Services, Agile Project Management, Testing, GSPANN
+----field----
+field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
+name: Teaser Title
+key: teaser title
+content-length: 12
+
+IT Solutions
+----field----
+field: {5CE5544F-FA69-4C41-82D4-6589B4D8B3B6}
+name: Teaser Description
+key: teaser description
+content-length: 365
+
+<span class="gspann-tabs-panel-title bolder"><i class="fa fa-cogs  fa-lg">&nbsp;&nbsp;</i>IT Solutions for </span><span class="bolder">Streamlining IT Processes<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i></span>
+                                Providing IT solutions to improve value and efficiency by simplifying and streamlining your operations.
+----field----
+field: {D07D887B-0E40-4ACF-9A17-47A248CB8FC0}
+name: Select Teaser Blocks
+key: select teaser blocks
+content-length: 116
+
+{316DE8A5-CABF-4A0A-B2BC-55460198865C}|{4340FDC2-678B-4233-984D-6896070C0A85}|{0E23941F-FB4A-470C-AF59-0D9C9C059DF2}
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+IT Solutions
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 78
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151019T011705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d5a236ac-5b29-418c-a26a-38aef07e0af6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160209T130929Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

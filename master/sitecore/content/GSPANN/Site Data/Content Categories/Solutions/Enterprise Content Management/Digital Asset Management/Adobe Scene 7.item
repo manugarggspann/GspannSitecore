@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {606A9E9B-CDAD-463B-94D0-80C026B24E09}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Enterprise Content Management/Digital Asset Management/Adobe Scene 7
+parent: {4385E0D0-6181-4363-B3B1-8B778363BA41}
+name: Adobe Scene 7
+master: {00000000-0000-0000-0000-000000000000}
+template: {821AB637-7423-4F7B-A838-66F6D09DA1C0}
+templatekey: Teaser Section
+
+----version----
+language: en
+version: 1
+revision: 81fc98f4-66f4-48db-b183-ff3cdfe13c9e
+
+----field----
+field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
+name: Teaser Title
+key: teaser title
+content-length: 13
+
+Adobe Scene 7
+----field----
+field: {5CE5544F-FA69-4C41-82D4-6589B4D8B3B6}
+name: Teaser Description
+key: teaser description
+content-length: 115
+
+ We integrate Scene7 as part of e-commerce and content management solutions for our retail and e-commerce customers
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160128T074048Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+81fc98f4-66f4-48db-b183-ff3cdfe13c9e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160128T075237Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

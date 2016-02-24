@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {2A4B6434-E0EE-4B2A-A734-A116453AA5D7}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Sitecore/DM
+parent: {B82C5209-D1B5-45EA-8999-BB10DB4F2912}
+name: DM
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----version----
+language: en
+version: 1
+revision: 4fb0385e-4983-49f7-b02d-702a19e895fb
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 34
+
+Integrating your digital ecosystem
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 52
+
+Integrate Sitecore with marketing automation and CRM
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 828
+
+<p>
+                    You likely have made investments in digital marketing platforms and other related systems even before purchasing Sitecore—do you want to know how to get them to work together? We are as much marketers as technologists, with team having deep experience seamlessly integrating CRM, Marketing Automation, Analytics, Social, Search and other platforms commonly found within the digital ecosystem. We understand enterprise investments must continue work together, even Sitecore enters the picture.
+                </p>
+                <ul class="gspann-list">
+                    <li>Data and process integration with Sitecore</li>
+                    <li>CRM: Salesforce, Dynamics CRM, Oracle and others</li>
+                    <li>Marketing Automation: Eloqua, Marketo and others</li>
+                </ul>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 2
+
+DM
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4fb0385e-4983-49f7-b02d-702a19e895fb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160127T092451Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

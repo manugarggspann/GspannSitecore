@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {D591E785-59D1-4219-BCFD-2F58233A815E}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Project Management/Program Management
+parent: {E41DCF81-D2E8-489B-A85C-A02FE80A334B}
+name: Program Management
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: 5735149d-c8fe-4728-b730-788036e571fd
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 18
+
+Program Management
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 55
+
+Optimize your project delivery and resource utilization
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 754
+
+  <p>
+                    Ensuring that the programs within a portfolio are well defined is the first step for them to be executed well. This means that it is important to realize the true vision of the program and break the program into logical units of delivery, or group discrete projects and establish their dependencies to achieve the higher objectives. As GSPANN, we can help you with establishing the business & technical policies & processes to achieve the full vision of the program. Our Program Managers can help you with conducting project audits, maturity assessments & health checks of your program processes, if needed. They can also effectively lead the program through its lifecycle and ensure the vision is achieved.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 7
+
+Program
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5735149d-c8fe-4728-b730-788036e571fd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160121T080131Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -12,15 +12,15 @@ templatekey: Office
 ----version----
 language: en
 version: 1
-revision: 030abfe0-d0a9-4a58-ae85-40f317d874ee
+revision: 7a0a0a33-53c4-4804-8d57-27107c5baf47
 
 ----field----
 field: {D17AA305-A5BD-4FAD-9349-A9DBA16E8D38}
 name: Office Heading
 key: office heading
-content-length: 37
+content-length: 28
 
-<h3>Hyderabad Development Center</h3>
+Hyderabad Development Center
 ----field----
 field: {04CC9AAD-4DAE-4E99-9CEC-A134921F9D36}
 name: Office Name
@@ -32,12 +32,14 @@ Hyderabad
 field: {65418D13-F0D3-40BE-9212-02CDB9D415B0}
 name: Address
 key: address
-content-length: 170
+content-length: 214
 
 <p>Whisk Software Pvt. Ltd.</p>
-<p>Plot No. 11, 8th floor, </p>
-<p>Water Mark Building, </p>
-<p>Kondapur, Hitech City, Hyderabad,</p>
+<p>Plot No : 11, 8th Floor</p>
+<p>The Watermark Technopark</p>
+<p>White Field Road, White Field</p>
+<p>Hitech city, Kondapur</p>
+<p>Hyderabad</p>
 <p>Telangana 500084</p>
 <p>India</p>
 ----field----
@@ -58,9 +60,9 @@ content-length: 1
 field: {D3A4DF79-7FD9-450C-A03E-3EAA173A998D}
 name: Google Map Url
 key: google map url
-content-length: 169
+content-length: 263
 
-https://www.google.com/maps/embed/v1/place?q=GSPANN+Technologies+Vittal+Rao+Nagar,+Madhapur+Hyderabad,+Telangana+500081+India&key=AIzaSyCOSU_EBLQChvXcq6jre1EFJwk9GSXj5xo
+https://www.google.com/maps/embed/v1/place?q=Plot%20No%20%3A%2011%2C%208th%20Floor%20The%20Watermark%20Technopark%20White%20Field%20Road%2C%20White%20Field%20Hitech%20city%2C%20Kondapur%20Hyderabad%20Telangana%20500084&key=AIzaSyCOSU_EBLQChvXcq6jre1EFJwk9GSXj5xo	
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -74,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-030abfe0-d0a9-4a58-ae85-40f317d874ee
+7a0a0a33-53c4-4804-8d57-27107c5baf47
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151223T150218Z
+20160224T075027Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

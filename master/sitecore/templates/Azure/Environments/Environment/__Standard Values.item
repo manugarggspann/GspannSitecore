@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {1CF9E7E4-0A43-4066-840E-4B16C9A7B497}
+database: master
+path: /sitecore/templates/Azure/Environments/Environment/__Standard Values
+parent: {8F221DA6-576D-4C93-B577-8622F91B6B08}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {8F221DA6-576D-4C93-B577-8622F91B6B08}
+templatekey: Environment
+
+----field----
+field: {2F654E69-CDD4-43CC-9764-B25B2E249B2F}
+name: Build Folder
+key: build folder
+content-length: 27
+
+$(dataFolder)/AzurePackages
+----version----
+language: en
+version: 1
+revision: 2a088162-1f23-4330-a125-e7154960e3b9
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 0
+
+
+----field----
+field: {4C346442-E859-4EFD-89B2-44AEDF467D21}
+name: __Valid to
+key: __valid to
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130212T111119
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2a088162-1f23-4330-a125-e7154960e3b9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130213T124003:634963560031097121
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

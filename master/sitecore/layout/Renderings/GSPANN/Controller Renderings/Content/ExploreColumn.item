@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {96D92558-F6A4-442A-9C1F-E951E499349B}
+database: master
+path: /sitecore/layout/Renderings/GSPANN/Controller Renderings/Content/ExploreColumn
+parent: {B4393171-A453-49D8-8A8F-4D7AFFBD2C6B}
+name: ExploreColumn
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 7
+
+Content
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 13
+
+ExploreColumn
+----field----
+field: {13F89250-AD6B-4548-882E-118A12C18094}
+name: Parameters Template
+key: parameters template
+content-length: 0
+
+
+----field----
+field: {94069F66-609C-48B0-8281-521C30FB269D}
+name: Open Properties after Add
+key: open properties after add
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: d98c8f62-182a-4196-8420-3f9ef0bfdabb
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151029T024809Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d98c8f62-182a-4196-8420-3f9ef0bfdabb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160121T170609Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {E1314921-6DB4-434C-BB79-1B8C7DF10802}
+database: master
+path: /sitecore/templates/Azure/Storage/Azure Storage/__Standard Values
+parent: {009A3ACC-058A-4418-8662-0837D1F1FDFF}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {009A3ACC-058A-4418-8662-0837D1F1FDFF}
+templatekey: Azure Storage
+
+----field----
+field: {387BA627-674C-405B-ABC9-754957648FA1}
+name: Protocol
+key: protocol
+content-length: 8
+
+https://
+----version----
+language: en
+version: 1
+revision: b13c0159-90f8-40ec-a5f6-e182453a77c6
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20111202T193456
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b13c0159-90f8-40ec-a5f6-e182453a77c6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130213T123853:634963559330457121
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

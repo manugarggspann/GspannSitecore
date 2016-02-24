@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {A6693A4A-A66D-423A-AB1D-7269E117E48D}
+database: master
+path: /sitecore/templates/Branches/Azure/Azure Cd Deployment/Deployment Cd/Options/xDB Cloud Edition
+parent: {D1FC116A-6AC6-43C9-87DA-18201291C5AD}
+name: xDB Cloud Edition
+master: {00000000-0000-0000-0000-000000000000}
+template: {AC497F94-45B6-4838-AF96-FFD732EB6A4A}
+templatekey: xDB Cloud Edition
+
+----field----
+field: {6E59BC17-836E-41F7-9828-FA299934F010}
+name: Deployment Type
+key: deployment type
+content-length: 7
+
+NonProd
+----version----
+language: en
+version: 1
+revision: a6788009-97ea-49e6-ac42-9b02e4aa2d25
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140804T174404
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a6788009-97ea-49e6-ac42-9b02e4aa2d25
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140805T180638:635428587982818182
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {AA53CB01-88B7-4589-91EA-E1F564599DC2}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Information analytics/Data Analysis
+parent: {6BA24C21-87BE-45ED-A689-B7276EE3A913}
+name: Data Analysis
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: a80aed6e-94be-4907-aecf-756f760a498f
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 13
+
+Data Analysis
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 49
+
+Actionable insights that drive business decisions
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 595
+
+ <p>
+                    Data analytics can be done in so many different ways, right from standard pre-generated reports, ad-hoc reporting to self-service analytics (self-service BI). The true advantage of analytics is realized when you can find the answers even before the question has been asked. Our experts can help you contextualize your information in insightful and clear ways. Contextual importance of data (Social, textual, behavioral, market & environmental content) can help you drive better insights. Our goal is to help you make better decisions with your data.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 8
+
+Analysis
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a80aed6e-94be-4907-aecf-756f760a498f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160120T182627Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

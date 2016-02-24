@@ -2,9 +2,9 @@
 version: 1
 id: {17CF0384-8D1A-46F0-ABFF-22792B5C50A7}
 database: master
-path: /sitecore/content/GSPANN/Home/Careers/Find-a-Position
+path: /sitecore/content/GSPANN/Home/careers/find-a-position
 parent: {44122E6B-99E3-454E-A58D-FFCE7083726F}
-name: Find-a-Position
+name: find-a-position
 master: {00000000-0000-0000-0000-000000000000}
 template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
 templatekey: Generic Content Page
@@ -26,7 +26,7 @@ content-length: 752
 ----version----
 language: en
 version: 1
-revision: 67024af2-0626-4e46-b6d1-27a29d8f0b7f
+revision: a6d644d8-bd0f-4f2b-9bc4-67466134885b
 
 ----field----
 field: {70014E55-6580-4CD8-9FFE-48DFFB1E644A}
@@ -46,9 +46,9 @@ getJobApp
 field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
 name: MetaData Title
 key: metadata title
-content-length: 39
+content-length: 0
 
-Find a Job, Careers, Job Search, GSPANN
+
 ----field----
 field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
 name: MetaData Description
@@ -74,9 +74,9 @@ Find a Position
 field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
 name: Page Title
 key: page title
-content-length: 8
+content-length: 39
 
-Approach
+Find a Job, Careers, Job Search, GSPANN
 ----field----
 field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
 name: Teaser Title
@@ -97,7 +97,7 @@ name: Select Teaser Blocks
 key: select teaser blocks
 content-length: 77
 
-{E7C95B0A-32BD-45DD-B75D-33B61AD2FDDD}|{432BB47C-B6F0-4611-89BB-2ECA149DC7BE}
+{E7C95B0A-32BD-45DD-B75D-33B61AD2FDDD}|{95984C7A-B8FA-4D9A-9432-E72DB2E403EC}
 ----field----
 field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
 name: __Display name
@@ -118,14 +118,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-67024af2-0626-4e46-b6d1-27a29d8f0b7f
+a6d644d8-bd0f-4f2b-9bc4-67466134885b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151223T143109Z
+20160223T103530Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,0 +1,84 @@
+----item----
+version: 1
+id: {F7425DBC-4BF4-4535-A427-6BDBC5BE626A}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Mobile Solutions/Native App Development
+parent: {5DE8623F-7086-491E-BD78-3C447E22FFC4}
+name: Native App Development
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: a3ff5111-d6c4-45cb-8748-a9026283fe6d
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 22
+
+Native App Development
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 42
+
+Apps that take advantage of mobile devices
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 862
+
+ <p>
+                    The technology pendulum is swinging back to native development for applications where app performance is the key to success. HTML5 and hybrid apps score over native for lower development and maintenance costs, but when it comes to performance, native approach wins hands down.
+                </p>
+                <p>
+                    At GSPANN, we have extensive experience in developing custom applications for both iOS and Android for clients of all industries, sizes and business goals. With years of experience following the SDK guidelines, our developers are equipped to streamline the App Store submission process as much as possible. While our development team works on creating high quality apps, the support team monitors key business metrics to ensure that your application runs at optimal performance.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 6
+
+Native
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a3ff5111-d6c4-45cb-8748-a9026283fe6d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160120T184619Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

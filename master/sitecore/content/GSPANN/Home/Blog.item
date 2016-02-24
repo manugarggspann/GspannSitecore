@@ -1,13 +1,41 @@
 ----item----
 version: 1
-id: {2C527621-0EBC-44FD-9DD4-A3725959D592}
+id: {B21E09FB-65FB-4C49-9801-805428E6EDFC}
 database: master
-path: /sitecore/content/GSPANN/Home/Blog
+path: /sitecore/content/GSPANN/Home/BLOG
 parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
-name: Blog
+name: BLOG
 master: {00000000-0000-0000-0000-000000000000}
-template: {465A6D38-B3A3-435D-816A-661BEDF71F4C}
-templatekey: Single Column Page
+template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
+templatekey: Generic Content Page
+
+----field----
+field: {95C1D5B4-0BD2-4D83-91E1-22D766287854}
+name: Include in Header
+key: include in header
+content-length: 1
+
+1
+----field----
+field: {16D2961B-FE30-4055-87A7-36EE4D97B4C3}
+name: Include in Footer
+key: include in footer
+content-length: 0
+
+
+----field----
+field: {0D12D6A5-6B61-48BA-B941-F42575799F8F}
+name: Include in Sitemap
+key: include in sitemap
+content-length: 0
+
+
+----field----
+field: {8AB527A8-8C4C-4A12-AA51-1E5B72D76E7E}
+name: Include in Secondary Navigation
+key: include in secondary navigation
+content-length: 0
+
 
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
@@ -16,10 +44,59 @@ key: __sortorder
 content-length: 4
 
 1100
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 359
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}" s:ds="{1A241A0C-F3F1-451A-974F-C4A60A17B811}" /><r uid="{83C541EC-0D1D-4C9B-BECA-3059DE431582}" s:ds="{11111111-1111-1111-1111-111111111111}" s:id="{734EB5D6-7D6D-4426-BD18-97323EA7092A}" s:par="" s:ph="/phMain/phBody" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 3504b59f-efad-40e9-9314-48f93a0ef724
+revision: 8c654ab3-5741-430b-94d7-d077d09a76fd
+
+----field----
+field: {70014E55-6580-4CD8-9FFE-48DFFB1E644A}
+name: NG-controller
+key: ng-controller
+content-length: 0
+
+
+----field----
+field: {19E2FB30-5221-467E-A1AA-5E5493604B92}
+name: Title
+key: title
+content-length: 0
+
+
+----field----
+field: {8170C4AD-DD08-4553-8295-4E1145112346}
+name: Body
+key: body
+content-length: 0
+
+
+----field----
+field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
+name: MetaData Title
+key: metadata title
+content-length: 0
+
+
+----field----
+field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
+name: MetaData Description
+key: metadata description
+content-length: 0
+
+
+----field----
+field: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
+name: MetaData Keyword
+key: metadata keyword
+content-length: 0
+
 
 ----field----
 field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
@@ -27,35 +104,49 @@ name: Navigation Text
 key: navigation text
 content-length: 4
 
-Blog
+BLOG
 ----field----
 field: {BC4AB3AA-8DC9-4D19-B981-AC3A321440E7}
 name: Navigation Url
 key: navigation url
-content-length: 77
+content-length: 78
 
-<link linktype="external" url="http://blog.gspann.com" anchor="" target="" />
+<link linktype="external" url="http://blog.gspann.com/" anchor="" target="" />
+----field----
+field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
+name: Page Title
+key: page title
+content-length: 34
+
+Disclaimer, Privacy Policy, GSPANN
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 4
+
+Blog
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20151019T012338Z
+20151208T051858Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-3504b59f-efad-40e9-9314-48f93a0ef724
+8c654ab3-5741-430b-94d7-d077d09a76fd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151209T154353Z
+20160128T123014Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

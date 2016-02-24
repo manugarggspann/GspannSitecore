@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {DB28E405-7B0E-4E4E-B9A7-AB7222D052BE}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/sbos analytics/experience analytics
+parent: {94D45759-7AB3-4D6C-A25A-89CC5716FFD0}
+name: experience analytics
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----version----
+language: en
+version: 1
+revision: f9ebc5e9-fecf-42fe-8676-c3503dd04a44
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 35
+
+3.  What is ‘experience analytics’?
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 54
+
+ Understand your customer by moving beyond web metrics
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 718
+
+ <p>
+                    <span class="bolder upper-case">
+                        Understanding experience analytics<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i>
+                    </span>
+                    Vendors, along with the industry at large, are good at using ‘loaded’ terminology. As ‘web content management’ has evolved into ‘experience 
+
+management’, we now also have ‘experience analytics’—but what does it mean for Sitecore? The guide examines how you can measure ‘the experience’ using a variety of 
+
+different tools that Sitecore offers, while providing you with examples that highlight experience analytics capabilities that you may want use for your own needs.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 19
+
+ExperienceAnalytics
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f9ebc5e9-fecf-42fe-8676-c3503dd04a44
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160221T080424Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

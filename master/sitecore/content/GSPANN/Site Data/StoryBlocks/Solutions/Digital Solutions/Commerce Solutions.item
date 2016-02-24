@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {D3180733-878F-4D47-9284-A7379C4428AD}
+database: master
+path: /sitecore/content/GSPANN/Site Data/StoryBlocks/Solutions/Digital Solutions/Commerce Solutions
+parent: {807D0112-A7E1-4C26-879B-790E4979518C}
+name: Commerce Solutions
+master: {00000000-0000-0000-0000-000000000000}
+template: {96B3D643-ABE0-4B75-BB74-92848FE1761A}
+templatekey: Approach Section
+
+----version----
+language: en
+version: 1
+revision: 499254ef-9aef-423f-9a5a-113d2bce224a
+
+----field----
+field: {C8705EE1-0721-4BB2-BE58-ACA64D713901}
+name: Select Categories
+key: select categories
+content-length: 77
+
+{D33B75DF-73DA-49DA-9C74-998A97C5C51C}|{DC057F37-19D8-400D-9A49-57E6A826ADD4}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T152241Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+499254ef-9aef-423f-9a5a-113d2bce224a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160121T065816Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

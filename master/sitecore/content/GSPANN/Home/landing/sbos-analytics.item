@@ -1,0 +1,163 @@
+----item----
+version: 1
+id: {A32A9081-6B80-492A-853F-4D7A996F815C}
+database: master
+path: /sitecore/content/GSPANN/Home/landing/sbos-analytics
+parent: {E337FF2B-5C0E-4A3F-89DC-9E532B9CE54F}
+name: sbos-analytics
+master: {00000000-0000-0000-0000-000000000000}
+template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
+templatekey: Generic Content Page
+
+----field----
+field: {95C1D5B4-0BD2-4D83-91E1-22D766287854}
+name: Include in Header
+key: include in header
+content-length: 0
+
+
+----field----
+field: {16D2961B-FE30-4055-87A7-36EE4D97B4C3}
+name: Include in Footer
+key: include in footer
+content-length: 0
+
+
+----field----
+field: {0D12D6A5-6B61-48BA-B941-F42575799F8F}
+name: Include in Sitemap
+key: include in sitemap
+content-length: 0
+
+
+----field----
+field: {8AB527A8-8C4C-4A12-AA51-1E5B72D76E7E}
+name: Include in Secondary Navigation
+key: include in secondary navigation
+content-length: 0
+
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 979
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{3A21152F-28D8-4B85-9D90-6BE56C27CAC9}"><p:d /></r><r uid="{FE9918A8-C9DD-4158-82D5-A500892974E1}" p:before="r[@uid='{EA3273B0-42C2-49DD-BBDF-85EACDABC95B}']" s:ds="{A12EFE5C-B56E-454A-B316-4582C8F70BFD}" s:id="{C74436FD-AD13-4D76-A50D-4D9B6DF15DD8}" s:par="Wrapper_Class=%257B3C673150-ABB5-4D67-8B9C-62D4DEA77399%257D&amp;Show_Heading=1&amp;Show_Title&amp;Show_Subtitle&amp;Show_Summary&amp;Show_Description=1&amp;Show_Image&amp;Activate_Link=1" s:ph="/phMain/phBody" /><r uid="{4BADD11C-E885-4299-ACB1-ED222D5E27A5}"><p:d /></r><r uid="{AFBAEEA3-CE17-459E-8E82-F19EF1C5034F}" p:before="r[@uid='{A2D4A718-0938-4A64-B569-70593755B5D3}']" s:ds="{6FC792A6-AF03-44D5-A350-53B1B1A6CDF9}" s:id="{CFCBA993-BB6E-41DA-A39C-36208FAB43C5}" s:par="" s:ph="/phMain/phBody" /><r uid="{A2D4A718-0938-4A64-B569-70593755B5D3}" s:id="{12C59CEA-3D5D-4A2D-8DD3-C7D9F4D01119}" s:ph="/phMain/phHero" /></d></r>
+----version----
+language: en
+version: 1
+revision: 47b4c851-c21d-4dd5-a801-531f0657444e
+
+----field----
+field: {70014E55-6580-4CD8-9FFE-48DFFB1E644A}
+name: NG-controller
+key: ng-controller
+content-length: 21
+
+landingPageController
+----field----
+field: {59355B5C-29BC-4B3D-90A1-CD43843E281D}
+name: Header BG Image
+key: header bg image
+content-length: 58
+
+<image mediaid="{43050A1C-BD45-4094-A8E5-1B2155BDAF65}" />
+----field----
+field: {8AE382B9-E5AA-413F-89F1-356234624B91}
+name: Section Image
+key: section image
+content-length: 58
+
+<image mediaid="{FA13457A-5825-4470-8216-B80424BA96CE}" />
+----field----
+field: {E118A5FA-A24E-4D1F-BA75-3EF291FC04B1}
+name: Heading
+key: heading
+content-length: 49
+
+Get more out of Sitecore Analytics with our guide
+----field----
+field: {C2C3EDCC-8752-45FF-A62D-8776AE3BCA8C}
+name: Description
+key: description
+content-length: 90
+
+Our guide defines a path to getting business insights using Sitecore experience analytics.
+----field----
+field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
+name: MetaData Title
+key: metadata title
+content-length: 0
+
+
+----field----
+field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
+name: MetaData Description
+key: metadata description
+content-length: 0
+
+
+----field----
+field: {3778AA87-FE5B-40D5-9DEA-F9901E520449}
+name: MetaData Keyword
+key: metadata keyword
+content-length: 0
+
+
+----field----
+field: {08E27948-4EC3-49D3-B946-BC315EF6D209}
+name: Navigation Text
+key: navigation text
+content-length: 14
+
+SBOS ANALYTICS
+----field----
+field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
+name: Page Title
+key: page title
+content-length: 35
+
+Sitecore Analytics Consulting, SBOS
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+SBOS ANALYTICS
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T152549Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+47b4c851-c21d-4dd5-a801-531f0657444e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160223T074255Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

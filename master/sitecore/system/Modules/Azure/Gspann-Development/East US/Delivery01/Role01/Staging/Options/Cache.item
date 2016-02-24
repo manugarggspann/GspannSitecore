@@ -1,0 +1,92 @@
+----item----
+version: 1
+id: {A545BA72-5E78-4D6D-85C3-3F54045585CB}
+database: master
+path: /sitecore/system/Modules/Azure/Gspann-Development/East US/Delivery01/Role01/Staging/Options/Cache
+parent: {7E674BD6-7B42-406D-A279-84551F900DF3}
+name: Cache
+master: {6129A0D3-5495-4EDE-A09B-169DDFCBA398}
+template: {250497C7-9887-4143-B4C4-EC303D08F87F}
+templatekey: In-Role Cache
+
+----field----
+field: {A0324B38-4455-41C7-A602-683BAE65D35D}
+name: Diagnostics Configuration
+key: diagnostics configuration
+content-length: 1772
+
+<DiagnosticsConfiguration xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
+  <PublicConfig xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
+    <WadCfg>
+      <DiagnosticMonitorConfiguration overallQuotaInMB="4096">
+        <DiagnosticInfrastructureLogs scheduledTransferLogLevelFilter="Error" />
+        <PerformanceCounters scheduledTransferPeriod="PT1M">
+          <PerformanceCounterConfiguration counterSpecifier="\Processor(_Total)\% Processor Time" sampleRate="PT3M" />
+          <PerformanceCounterConfiguration counterSpecifier="\Memory\Available MBytes" sampleRate="PT3M" />
+          <PerformanceCounterConfiguration counterSpecifier="\Process(WaWorkerHost)\% Processor Time" sampleRate="PT0S" />
+          <PerformanceCounterConfiguration counterSpecifier="\Process(WaWorkerHost)\Private Bytes" sampleRate="PT0S" />
+          <PerformanceCounterConfiguration counterSpecifier="\Process(WaWorkerHost)\Thread Count" sampleRate="PT0S" />
+        </PerformanceCounters>
+        <WindowsEventLog scheduledTransferPeriod="PT1M">
+          <DataSource name="Application!*" />
+        </WindowsEventLog>
+        <CrashDumps>
+          <CrashDumpConfiguration processName="WaWorkerHost.exe" />
+        </CrashDumps>
+        <Logs scheduledTransferPeriod="PT1M" scheduledTransferLogLevelFilter="Error" />
+      </DiagnosticMonitorConfiguration>
+    </WadCfg>
+    <StorageAccount></StorageAccount>
+  </PublicConfig>
+  <PrivateConfig xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
+    <StorageAccount name="" key="" endpoint="https://core.windows.net/" />
+  </PrivateConfig>
+  <IsEnabled>true</IsEnabled>
+</DiagnosticsConfiguration>
+----field----
+field: {3956469D-1D79-44D8-B6CA-744530A2A610}
+name: Enabled
+key: enabled
+content-length: 1
+
+1
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 0b1e58c9-d1b3-4b33-9d59-ca349c035265
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160217T091055Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0b1e58c9-d1b3-4b33-9d59-ca349c035265
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160217T091131Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

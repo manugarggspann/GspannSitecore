@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {98D96FC9-CEC5-4554-A05E-A360B08DA4AE}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/sbos analytics/Download
+parent: {94D45759-7AB3-4D6C-A25A-89CC5716FFD0}
+name: Download
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----version----
+language: en
+version: 1
+revision: 2e74f0f3-ff20-4b32-a9d0-734ec3262bc6
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 10
+
+Contact Us
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 0
+
+
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 0
+
+
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 8
+
+Download
+----field----
+field: {A423944C-AF97-425A-B8F8-5806DF48375A}
+name: Shown HTML Blob Only
+key: shown html blob only
+content-length: 1
+
+1
+----field----
+field: {E224001B-6DF2-4619-9043-8B642E6D8FA9}
+name: HTML Blob
+key: html blob
+content-length: 471
+
+ <p class="bolder">Rolf Kraus, Sitecore and Digital Marketing Practice Lead</p>
+                <a href="mailto:rolf.kraus@gspann.com">rolf.kraus@gspann.com</a>
+                <p>503-807-7586</p>
+                <div class="address-container">
+                    <p>GSPANN Technologies Inc.</p>
+                    <p>362 Fairview Way</p>
+                    <p> Milpitas, CA 95035&nbsp;&nbsp;&nbsp;USA</p>
+                    <p>408-263-3435</p>
+                </div>
+----field----
+field: {DEDB7E4F-73E8-4653-9C87-57122080F693}
+name: HTML Blob Heading
+key: html blob heading
+content-length: 39
+
+Would you like to speak to someone now?
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2e74f0f3-ff20-4b32-a9d0-734ec3262bc6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160223T094001Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

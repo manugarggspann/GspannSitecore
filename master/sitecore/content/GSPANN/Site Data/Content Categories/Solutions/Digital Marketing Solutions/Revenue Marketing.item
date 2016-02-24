@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {1E7AC319-9699-48C6-B27B-967571B4CD9F}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Digital Marketing Solutions/Revenue Marketing
+parent: {70822AA0-E260-4814-A427-D7020E7B69BD}
+name: Revenue Marketing
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: 0d13dd9a-da20-4a85-bf43-f435d01bf085
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 17
+
+Revenue Marketing
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 42
+
+Driving customer acquisition and retention
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 601
+
+ <p>
+                    In a time when customers make 70% of their buying decisions before they engage your sales people, companies are finding it more difficult to influence prospects and be an active part of the buying process.  This begs the question—how do you influence these customers before they have formed a buying decision?  And even more importantly, how can you predict revenue when your customers are only visible late in the buying cycle? We help marketers to address these challenges with approaches that turn prospects into long-term, revenue producing customers.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 7
+
+Revenue
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0d13dd9a-da20-4a85-bf43-f435d01bf085
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160121T072244Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

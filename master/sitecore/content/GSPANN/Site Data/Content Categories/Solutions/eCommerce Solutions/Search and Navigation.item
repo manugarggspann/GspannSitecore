@@ -1,0 +1,98 @@
+----item----
+version: 1
+id: {DC057F37-19D8-400D-9A49-57E6A826ADD4}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/eCommerce Solutions/Search and Navigation
+parent: {698705CD-D413-4C58-94B7-998B39DE95B3}
+name: Search and Navigation
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: b6e3c568-2e3b-47f7-8d07-6922e934cb8b
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 21
+
+Search and Navigation
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 36
+
+Creating engaging search experiences
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 1039
+
+  <p>
+                    Great content can lead to deep customer engagement, but that occurs only when people find what they are looking for.  The ‘search experience’ significantly impacts the experience people have on your e-commerce website, kiosk or mobile app—it can draw them in, or drive them to alternative sites.  In addition, a properly design search experience not only enables people to find what they are looking for, but uncover new things as they ‘explore’ your site.  The art of balancing ‘find’ with ‘explore’ is what makes for an engaging and immersive experience.
+                </p>
+                <p>
+                    We help you organize your content, define the right search taxonomy and metadata, and optimize content indexing, while creating engaging user experience that leads to finding the content and products that a consumer has in mind.  Our team works to understand your customer behavior, goals and their preferences to create a search experience that is effective and delightful.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 6
+
+Search
+----field----
+field: {486935A0-0199-48C9-B715-473078BF6952}
+name: Show Teaser Row
+key: show teaser row
+content-length: 1
+
+1
+----field----
+field: {85FF7D02-3CAF-469B-9035-523D57C38DAE}
+name: Teaser Section Heading
+key: teaser section heading
+content-length: 8
+
+Services
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b6e3c568-2e3b-47f7-8d07-6922e934cb8b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160128T075722Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

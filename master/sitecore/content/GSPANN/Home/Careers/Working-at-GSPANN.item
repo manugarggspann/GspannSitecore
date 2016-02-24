@@ -2,9 +2,9 @@
 version: 1
 id: {95984C7A-B8FA-4D9A-9432-E72DB2E403EC}
 database: master
-path: /sitecore/content/GSPANN/Home/Careers/Working-at-GSPANN
+path: /sitecore/content/GSPANN/Home/careers/working-at-gspann
 parent: {44122E6B-99E3-454E-A58D-FFCE7083726F}
-name: Working-at-GSPANN
+name: working-at-gspann
 master: {00000000-0000-0000-0000-000000000000}
 template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
 templatekey: Generic Content Page
@@ -26,15 +26,15 @@ content-length: 568
 ----version----
 language: en
 version: 1
-revision: b5498dc5-902a-42d7-bfe6-6a47a5158cc8
+revision: 4b9755ec-98fe-41fc-b5bf-b6ee821b8e56
 
 ----field----
 field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
 name: MetaData Title
 key: metadata title
-content-length: 82
+content-length: 0
 
-Working at GSPANN, Work-life Balance, Competitive Salaries, Great Benefits, GSPANN
+
 ----field----
 field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
 name: MetaData Description
@@ -60,9 +60,9 @@ Working at GSPANN
 field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
 name: Page Title
 key: page title
-content-length: 8
+content-length: 82
 
-Approach
+Working at GSPANN, Work-life Balance, Competitive Salaries, Great Benefits, GSPANN
 ----field----
 field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
 name: Teaser Title
@@ -85,6 +85,13 @@ content-length: 77
 
 {E7C95B0A-32BD-45DD-B75D-33B61AD2FDDD}|{17CF0384-8D1A-46F0-ABFF-22792B5C50A7}
 ----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+Working at GSPANN
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -97,14 +104,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b5498dc5-902a-42d7-bfe6-6a47a5158cc8
+4b9755ec-98fe-41fc-b5bf-b6ee821b8e56
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151223T142808Z
+20160209T062142Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

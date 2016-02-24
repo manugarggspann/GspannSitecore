@@ -1,0 +1,96 @@
+----item----
+version: 1
+id: {8F7E074F-C43C-4BBE-BB1A-815069FFF56F}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Html Data/Solutions/IT/Project Management Consulting
+parent: {3A24E6EB-2826-4A68-966B-13BFC00EBF76}
+name: Project Management Consulting
+master: {00000000-0000-0000-0000-000000000000}
+template: {6D3C5530-A579-4A2E-B08B-409A6B16B2AC}
+templatekey: HTML Content
+
+----field----
+field: {F47E56B7-3D47-4571-AEA0-36A63FD4D9CA}
+name: Card Link
+key: card link
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 086bd400-5add-4d90-8059-0b945419ef12
+
+----field----
+field: {1B765069-D254-43C7-8BE1-2CF5EEAD9206}
+name: Card Heading
+key: card heading
+content-length: 29
+
+Project Management Consulting
+----field----
+field: {A338362D-BDC1-402A-AEE4-C28C855F1063}
+name: Card Title
+key: card title
+content-length: 66
+
+We help companies meet their time, budget and quality expectations
+----field----
+field: {80A12328-4A52-4BA1-802D-B19A15AE9A73}
+name: Card Subtitle
+key: card subtitle
+content-length: 193
+
+<div class="box red largest-text">
+ <p>
+                        Our program and project management consulting provide governance, process and approach to succeed
+                    </p>
+</div>
+----field----
+field: {0935A4E3-13DC-480B-B3F6-F890E63D4C87}
+name: Card Summary
+key: card summary
+content-length: 0
+
+
+----field----
+field: {EE2EA638-8948-40F0-868F-B0CBC21D380D}
+name: Card Description
+key: card description
+content-length: 1024
+
+<p>
+                        <span class="bolder">Project Management Consulting<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i></span>
+                        At GSPANN, we are passionate about delivering effectively and efficiently. We bring together the undivided focus, attention to project details and delivery excellence. We have extensive track record of delivering projects under or at budget while ensuring the initiatives provide true value to the organization.
+                    </p>
+                    <p>
+                        We understand the importance of project management and coordination. We also know that one approach can't fit all; we ensure that the project management approach we recommend is best suited to the needs of the organization. Our program managers are highly effective in the vision they provide and can guide your organization to better streamline multiple work streams to attain the one principle objective: provide value to your organization.
+                    </p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151029T022310Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+086bd400-5add-4d90-8059-0b945419ef12
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160122T122930Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

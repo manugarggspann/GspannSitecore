@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {BC97EBF3-884E-4D81-AF38-ABB4BC5C800B}
+database: master
+path: /sitecore/content/GSPANN/Site Data/StoryBlocks/Solutions/Sitecore Content
+parent: {A21FDACB-F18B-46C1-B039-0B93FC79085E}
+name: Sitecore Content
+master: {00000000-0000-0000-0000-000000000000}
+template: {96B3D643-ABE0-4B75-BB74-92848FE1761A}
+templatekey: Approach Section
+
+----version----
+language: en
+version: 1
+revision: 69414c61-9669-4aaa-833b-b811e7d66e83
+
+----field----
+field: {C8705EE1-0721-4BB2-BE58-ACA64D713901}
+name: Select Categories
+key: select categories
+content-length: 155
+
+{34AD86A6-C634-4B45-80E0-D1342F5BB4FD}|{C4062A7F-AB87-432E-BF78-4005D449455B}|{AAF008C0-512C-4CF4-89DD-BA57920038E1}|{2A4B6434-E0EE-4B2A-A734-A116453AA5D7}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T152241Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+69414c61-9669-4aaa-833b-b811e7d66e83
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160127T092807Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

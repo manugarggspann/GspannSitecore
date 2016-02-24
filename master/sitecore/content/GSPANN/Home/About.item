@@ -2,9 +2,9 @@
 version: 1
 id: {B6FA39C7-4C86-4595-9043-7F0FF948656D}
 database: master
-path: /sitecore/content/GSPANN/Home/About
+path: /sitecore/content/GSPANN/Home/about
 parent: {7A1593F2-2DF2-49FE-A7B0-F66F412408FE}
-name: About
+name: about
 master: {00000000-0000-0000-0000-000000000000}
 template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
 templatekey: Generic Content Page
@@ -26,15 +26,15 @@ content-length: 359
 ----version----
 language: en
 version: 1
-revision: 89d2fa17-032b-4410-a811-8f11c6cf3440
+revision: f5e7558f-8175-4655-8efd-af9eb38b5f40
 
 ----field----
 field: {0452E7CA-540E-477C-A46B-27FB1EC945EE}
 name: MetaData Title
 key: metadata title
-content-length: 35
+content-length: 0
 
-About Us, Values, Alliances, GSPANN
+
 ----field----
 field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
 name: MetaData Description
@@ -60,9 +60,16 @@ ABOUT
 field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
 name: Page Title
 key: page title
-content-length: 8
+content-length: 35
 
-About Us
+About Us, Values, Alliances, GSPANN
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 5
+
+About
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -76,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-89d2fa17-032b-4410-a811-8f11c6cf3440
+f5e7558f-8175-4655-8efd-af9eb38b5f40
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151223T135311Z
+20160209T062316Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

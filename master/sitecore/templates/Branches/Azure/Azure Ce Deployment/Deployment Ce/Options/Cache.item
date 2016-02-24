@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {F93A68C9-30C5-4A10-B865-D3F12E96E003}
+database: master
+path: /sitecore/templates/Branches/Azure/Azure Ce Deployment/Deployment Ce/Options/Cache
+parent: {4975E617-3D67-4562-8A95-FF5D2E4D59EC}
+name: Cache
+master: {00000000-0000-0000-0000-000000000000}
+template: {250497C7-9887-4143-B4C4-EC303D08F87F}
+templatekey: In-Role Cache
+
+----field----
+field: {3956469D-1D79-44D8-B6CA-744530A2A610}
+name: Enabled
+key: enabled
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: c28fe24b-014c-4c83-a22e-fd170292116c
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140728T173719
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c28fe24b-014c-4c83-a22e-fd170292116c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140801T140313:635424985939530511
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

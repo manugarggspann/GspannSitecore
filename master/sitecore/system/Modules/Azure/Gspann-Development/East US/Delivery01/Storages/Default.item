@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {9CA8C797-875E-470A-81BD-1B64D87E4CC1}
+database: master
+path: /sitecore/system/Modules/Azure/Gspann-Development/East US/Delivery01/Storages/Default
+parent: {FFA1900C-6A96-47DF-A371-A0D92A614C1E}
+name: Default
+master: {00000000-0000-0000-0000-000000000000}
+template: {009A3ACC-058A-4418-8662-0837D1F1FDFF}
+templatekey: Azure Storage
+
+----field----
+field: {D0908FED-A205-4EF2-9A66-AD6F247DA925}
+name: Service Name
+key: service name
+content-length: 17
+
+gspanndeveussc92d
+----field----
+field: {E52A651F-682F-4270-ADE4-08634766B061}
+name: Primary Access Key
+key: primary access key
+content-length: 88
+
+irERkXtHzS4PeaWDUMUXL/IoWewX2avb8UmibOMQhyzBpw/TOcJwF/SZJAKfXQyBW3OT6FI1zW94QEON1bflqQ==
+----version----
+language: en
+version: 1
+revision: e50665b1-a085-4145-aa3e-c5ffda899e88
+
+----field----
+field: {21C653AA-0835-4843-9931-D927726E1AB4}
+name: Endpoint
+key: endpoint
+content-length: 16
+
+core.windows.net
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160217T091256Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e50665b1-a085-4145-aa3e-c5ffda899e88
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160217T091259Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,144 @@
+----item----
+version: 1
+id: {041457BE-A483-479A-AE01-2E6556089CC1}
+database: master
+path: /sitecore/templates/Branches/Azure/Azure Cd Deployment/Deployment Cd
+parent: {6129A0D3-5495-4EDE-A09B-169DDFCBA398}
+name: Deployment Cd
+master: {00000000-0000-0000-0000-000000000000}
+template: {F62C3434-96A3-45E5-B537-C57097532ED7}
+templatekey: Azure Deployment
+
+----field----
+field: {01000799-89F4-4E23-8156-87054B65624A}
+name: Deployment Type Exclude Files
+key: deployment type exclude files
+content-length: 307
+
+App_Config\Include\Sitecore.Azure.config;
+sitecore\shell\prompt.html;
+sitecore\shell\Invoke.aspx;
+sitecore\shell\download.aspx;
+sitecore\shell\default.aspx;
+sitecore\shell\blank.html;
+sitecore\blocked.aspx;
+sitecore\default.aspx;
+sitecore\no.css;
+bin\Sitecore.Azure.dll;
+bin\Sitecore.Azure.UI.dll;
+----field----
+field: {2FE46B97-9E64-4DDB-B886-B0FF810B1B26}
+name: Deployment Type Exclude Directories
+key: deployment type exclude directories
+content-length: 422
+
+sitecore\shell\WebService;
+sitecore\shell\Themes;
+sitecore\shell\Templates;
+sitecore\shell\Schemas;
+sitecore\shell\RadControls;
+sitecore\shell\Override;
+sitecore\shell\Feeds;
+sitecore\shell\Css Editor;
+sitecore\shell\Controls;
+sitecore\shell\Configuration;
+sitecore\shell\Applications;
+sitecore\admin;
+sitecore\copyrights;
+sitecore\debug;
+sitecore\images;
+sitecore\login;
+sitecore\portal;
+sitecore\samples
+----field----
+field: {505ABBFD-94E9-441B-9AE8-A012CE45D257}
+name: Deployment Type WebConfig Patch
+key: deployment type webconfig patch
+content-length: 1776
+
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="xml" indent="yes"/>
+
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()"/>
+    </xsl:copy>
+  </xsl:template>
+
+
+  <xsl:template match="sitecore/scheduling/agent[@type='Sitecore.Tasks.PublishAgent']" />
+  
+  <xsl:template match="sitecore/scheduling/agent[@type='Sitecore.Azure.Managers.Publishing.PublishTargetRemoteManager, Sitecore.Azure']" />
+
+  <xsl:template match="sitecore/scheduling/agent[@type='Sitecore.Tasks.DatabaseAgent' and param='master']" />
+
+  <xsl:template match="sitecore/scheduling/agent[@type='Sitecore.Tasks.DatabaseAgent' and param='core']" />
+
+  <xsl:template match="sitecore/scheduling/agent[@type='Sitecore.Tasks.CleanupFDAObsoleteMediaData']/databases/database[@name='master']" />
+
+  <xsl:template match="system.webServer/modules/add[@name='SitecoreUploadWatcher']" />
+
+  <xsl:template match="system.web/httpModules/add[@name='SitecoreUploadWatcher']" />
+  
+  <xsl:template match="sitecore/LinkDatabase/param[@connectionStringName='master']">
+    <xsl:attribute name="connectionStringName">web</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="sitecore/IDTable/param[@connectionStringName='master']">
+    <xsl:attribute name="connectionStringName">web</xsl:attribute>
+  </xsl:template>
+
+  <xsl:template match="sitecore/search/configuration/indexes/index/locations/master" />
+  
+    <xsl:template match="sitecore/sites/site[@content='master']/@content">
+    <xsl:attribute name="value">web</xsl:attribute>
+  </xsl:template>
+</xsl:stylesheet>
+----version----
+language: en
+version: 1
+revision: 2bb48175-4f3f-4a2b-8a9c-724a6d8b665f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110623T113300
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2bb48175-4f3f-4a2b-8a9c-724a6d8b665f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141008T114915:635483657551864507
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

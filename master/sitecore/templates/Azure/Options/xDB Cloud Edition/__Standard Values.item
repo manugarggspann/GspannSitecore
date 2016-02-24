@@ -1,0 +1,77 @@
+----item----
+version: 1
+id: {07773FC0-7D3B-4EF8-97C6-022B4DF385CC}
+database: master
+path: /sitecore/templates/Azure/Options/xDB Cloud Edition/__Standard Values
+parent: {AC497F94-45B6-4838-AF96-FFD732EB6A4A}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {AC497F94-45B6-4838-AF96-FFD732EB6A4A}
+templatekey: xDB Cloud Edition
+
+----field----
+field: {3956469D-1D79-44D8-B6CA-744530A2A610}
+name: Enabled
+key: enabled
+content-length: 1
+
+1
+----field----
+field: {6E59BC17-836E-41F7-9828-FA299934F010}
+name: Deployment Type
+key: deployment type
+content-length: 4
+
+Prod
+----field----
+field: {F759D3E8-C248-4564-B139-08C547FE7E91}
+name: WebConfig patch
+key: webconfig patch
+content-length: 533
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+  <xsl:output method="xml" indent="yes" />
+  <xsl:template match="@* | node()">
+    <xsl:copy>
+      <xsl:apply-templates select="@* | node()" />
+    </xsl:copy>
+  </xsl:template>
+  <xsl:template match="sitecore/aggregation/reportingStorageProviders">
+    <xsl:copy>
+      <xsl:apply-templates select="remote" />
+    </xsl:copy>
+  </xsl:template>
+</xsl:stylesheet>
+----version----
+language: en
+version: 1
+revision: 85e4fb26-6f21-46df-b682-d93427813dfb
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140805T152558
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+85e4fb26-6f21-46df-b682-d93427813dfb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140805T153538:635428497384315843
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

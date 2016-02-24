@@ -1,0 +1,105 @@
+----item----
+version: 1
+id: {45A5B1B4-3604-4398-8C34-2C9D0458879A}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Enterprise Content Management/Web Content Management
+parent: {9F05A06B-B694-4CE6-A2B2-81C93962F4A1}
+name: Web Content Management
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: 3f69fe56-4764-4b42-8a5f-518859a5d7a7
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 28
+
+Web Content Management (WCM)
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 52
+
+Delivering engaging experiences on modern platforms 
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 784
+
+ <p>
+                    GSPANN started by delivering web content management solutions for customers.  We have since evolved to deliver cross-channel digital solutions that use CMS platforms at their core.  Today, GSPANN delivers solutions for clients using HP Teamsite, Oracle WebCenter Sites, Adobe Experience Manager and Sitecore.
+                </p>
+                <p>
+                    Our services support the entire lifecycle of web solutions, from the strategy, architecture and implementation of new web solutions, to delivering managed services for existing websites.  Our strength and experience integrating systems enables us to deliver e-commerce and digital marketing solutions requiring the integration of a CMS with other enterprise platforms.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 3
+
+WCM
+----field----
+field: {486935A0-0199-48C9-B715-473078BF6952}
+name: Show Teaser Row
+key: show teaser row
+content-length: 1
+
+1
+----field----
+field: {85FF7D02-3CAF-469B-9035-523D57C38DAE}
+name: Teaser Section Heading
+key: teaser section heading
+content-length: 28
+
+Web Content Management (WCM)
+----field----
+field: {A8D2337B-092F-49AE-9943-DD3B928ABFD6}
+name: Teaser Link List
+key: teaser link list
+content-length: 155
+
+{8F396446-7539-46AC-B432-D91E7E65229D}|{DD49AC06-3C48-4651-815D-966BAE86D4EC}|{F758FDAE-1EAA-48B8-96EB-4CFFC36B09D9}|{58D04030-71AF-41D5-AFE9-FB88BF006F17}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3f69fe56-4764-4b42-8a5f-518859a5d7a7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160128T071545Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

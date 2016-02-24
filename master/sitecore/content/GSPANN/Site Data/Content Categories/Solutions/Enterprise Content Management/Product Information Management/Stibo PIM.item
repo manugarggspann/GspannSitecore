@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {2BF3040E-0486-4176-A296-C2D35A4168CA}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/Solutions/Enterprise Content Management/Product Information Management/Stibo PIM
+parent: {7A9DAC7C-1E9E-40D1-946F-4D37E9AD8DAF}
+name: Stibo PIM
+master: {00000000-0000-0000-0000-000000000000}
+template: {821AB637-7423-4F7B-A838-66F6D09DA1C0}
+templatekey: Teaser Section
+
+----version----
+language: en
+version: 1
+revision: c06684cf-0ede-4eaf-a8b5-317eeaa5ba61
+
+----field----
+field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
+name: Teaser Title
+key: teaser title
+content-length: 9
+
+Stibo PIM
+----field----
+field: {5CE5544F-FA69-4C41-82D4-6589B4D8B3B6}
+name: Teaser Description
+key: teaser description
+content-length: 109
+
+We deliver integrated PIM and e-commerce solutions that leverage the Stibo platform for our retail customers.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160128T074048Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c06684cf-0ede-4eaf-a8b5-317eeaa5ba61
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160128T074112Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

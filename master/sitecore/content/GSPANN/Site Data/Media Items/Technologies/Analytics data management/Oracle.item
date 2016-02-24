@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {5FBF4C43-18FB-447D-98C0-0B959F5B6343}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Media Items/Technologies/Analytics data management/Oracle
+parent: {E968630D-D982-4634-803F-B268F4EE4452}
+name: Oracle
+master: {00000000-0000-0000-0000-000000000000}
+template: {82DF8DD9-7C0F-4094-9E91-77E0180B8BBD}
+templatekey: Carousel
+
+----field----
+field: {2F3861B4-6F5E-4DEB-A74D-C4E4AE2C71F3}
+name: Carousel Image
+key: carousel image
+content-length: 239
+
+<image mediapath="" alt="GSPANN Digital Solutions, Digital Marketing, E-Commerce, Content Management, Mobile" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{9F638287-8F2B-4B26-9A16-58D6631A17AE}" />
+----version----
+language: en
+version: 1
+revision: 90adb148-43ed-43b7-a25f-6d804259aa53
+
+----field----
+field: {2175330C-3FFB-47AF-B2DF-20490B263E59}
+name: Carousel Title
+key: carousel title
+content-length: 56
+
+Oracle Business Intelligence Enterprise Edition (OBIEE) 
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151029T005555Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+90adb148-43ed-43b7-a25f-6d804259aa53
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160125T082053Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

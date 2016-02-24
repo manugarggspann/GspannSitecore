@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {3BD8BE93-569D-45CB-9A43-8965114628BB}
+database: master
+path: /sitecore/content/GSPANN/Site Data/Content Categories/sbos analytics/start my journey
+parent: {94D45759-7AB3-4D6C-A25A-89CC5716FFD0}
+name: start my journey
+master: {00000000-0000-0000-0000-000000000000}
+template: {C12A53A9-72FF-4C70-BD78-E5312F7E4E4D}
+templatekey: Categories
+
+----version----
+language: en
+version: 1
+revision: 95b3a154-e3b7-4217-86e4-65d492e5f5a3
+
+----field----
+field: {888DCBED-4678-42C3-AA56-A11AB3E186AE}
+name: Category Title
+key: category title
+content-length: 31
+
+4. Where do I start my journey?
+----field----
+field: {40087B16-AFA2-435F-8F2B-143E424E39ED}
+name: Category Introduction
+key: category introduction
+content-length: 46
+
+ Your goals will inform where you should start
+----field----
+field: {C5AB61F5-2D7A-4A0C-83E4-ACFF69876DD4}
+name: Category Descruption
+key: category descruption
+content-length: 655
+
+ <p>
+                    <span class="bolder upper-case">
+                        Taking the correct first steps to help you succeed<i class="fa fa-angle-double-right  fa-lg text-delimiter"></i>
+                    </span>
+                    As with most things you do for the first time, knowing where to start with Sitecore analytics can also be challenging. The guide will review key 
+
+considerations and questions that lead you to the correct start, while setting the correct direction for the following steps. We provide you with a decision tree that 
+
+guides you to one of the several starting points for your analytics effort.
+                </p>
+----field----
+field: {53904345-A976-4016-AC7A-1F7E7BFD6FBB}
+name: Linking Reference
+key: linking reference
+content-length: 5
+
+Start
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151209T130941Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+95b3a154-e3b7-4217-86e4-65d492e5f5a3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160221T080611Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
