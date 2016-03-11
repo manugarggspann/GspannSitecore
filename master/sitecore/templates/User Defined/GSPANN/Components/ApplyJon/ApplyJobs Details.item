@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {1DFCED74-E8AB-4203-8E78-4B23477E2CF8}
+id: {C40FC15E-27A3-497F-96EE-8C6AB3137620}
 database: master
-path: /sitecore/templates/User Defined/GSPANN/Components/ContactUs/ContactUs Details
-parent: {5E24B00C-9BB5-42DF-8BD4-3D7D8D183704}
-name: ContactUs Details
+path: /sitecore/templates/User Defined/GSPANN/Components/ApplyJon/ApplyJobs Details
+parent: {A7C41E55-2AB8-48B6-9771-79E9C350F9F5}
+name: ApplyJobs Details
 master: {00000000-0000-0000-0000-000000000000}
 template: {E269FBB5-3750-427A-9149-7AA950B49301}
 templatekey: Template section
@@ -12,7 +12,7 @@ templatekey: Template section
 ----version----
 language: en
 version: 1
-revision: 4ee669a5-b95a-4038-8aa9-6a0b0a29f6c5
+revision: 9e6d342f-4999-4480-8e06-389e013c99b1
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4ee669a5-b95a-4038-8aa9-6a0b0a29f6c5
+9e6d342f-4999-4480-8e06-389e013c99b1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T183231Z
+20160302T221512Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

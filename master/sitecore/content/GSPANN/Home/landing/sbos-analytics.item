@@ -6,8 +6,8 @@ path: /sitecore/content/GSPANN/Home/landing/sbos-analytics
 parent: {E337FF2B-5C0E-4A3F-89DC-9E532B9CE54F}
 name: sbos-analytics
 master: {00000000-0000-0000-0000-000000000000}
-template: {48CE001F-B09C-4CE9-A1D5-B9ED86D4A01A}
-templatekey: Generic Content Page
+template: {36411154-C4E2-4128-8489-3C357FAC8A47}
+templatekey: Landing Page
 
 ----field----
 field: {95C1D5B4-0BD2-4D83-91E1-22D766287854}
@@ -54,7 +54,7 @@ content-length: 979
 ----version----
 language: en
 version: 1
-revision: 47b4c851-c21d-4dd5-a801-531f0657444e
+revision: 51f2ddb3-7030-4367-8841-2e349026ca6a
 
 ----field----
 field: {70014E55-6580-4CD8-9FFE-48DFFB1E644A}
@@ -146,14 +146,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-47b4c851-c21d-4dd5-a801-531f0657444e
+51f2ddb3-7030-4367-8841-2e349026ca6a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160223T074255Z
+20160307T093451Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

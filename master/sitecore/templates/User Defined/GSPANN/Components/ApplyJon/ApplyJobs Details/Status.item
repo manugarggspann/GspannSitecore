@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {21B343A8-81D0-484F-B61B-DE94440F9A04}
+id: {672CA75E-CD65-42DB-86A3-46813FDFE29D}
 database: master
-path: /sitecore/templates/User Defined/GSPANN/Components/ContactUs/ContactUs Details/Nusiness Email
-parent: {1DFCED74-E8AB-4203-8E78-4B23477E2CF8}
-name: Nusiness Email
+path: /sitecore/templates/User Defined/GSPANN/Components/ApplyJon/ApplyJobs Details/Status
+parent: {C40FC15E-27A3-497F-96EE-8C6AB3137620}
+name: Status
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
@@ -20,13 +20,13 @@ Single-Line Text
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
-content-length: 3
+content-length: 4
 
-300
+1400
 ----version----
 language: en
 version: 1
-revision: c1cc91f5-e836-4aec-8ffd-c71c1a8afdb5
+revision: 67607dce-c32e-4a37-9208-9284ac1baf99
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20151202T160636Z
+20160302T183651Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-c1cc91f5-e836-4aec-8ffd-c71c1a8afdb5
+67607dce-c32e-4a37-9208-9284ac1baf99
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20151204T053305Z
+20160302T221513Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,18 +1,25 @@
 ----item----
 version: 1
-id: {1DFCED74-E8AB-4203-8E78-4B23477E2CF8}
+id: {B6F50E51-46C5-4B58-9059-1FCB1C30D451}
 database: master
-path: /sitecore/templates/User Defined/GSPANN/Components/ContactUs/ContactUs Details
-parent: {5E24B00C-9BB5-42DF-8BD4-3D7D8D183704}
-name: ContactUs Details
+path: /sitecore/templates/User Defined/GSPANN/Page Types/Landing Page/content Section
+parent: {36411154-C4E2-4128-8489-3C357FAC8A47}
+name: content Section
 master: {00000000-0000-0000-0000-000000000000}
 template: {E269FBB5-3750-427A-9149-7AA950B49301}
 templatekey: Template section
 
+----field----
+field: {CA9B9F52-4FB0-4F87-A79F-24DEA62CDA65}
+name: __Default workflow
+key: __default workflow
+content-length: 38
+
+{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
 ----version----
 language: en
 version: 1
-revision: 4ee669a5-b95a-4038-8aa9-6a0b0a29f6c5
+revision: d24ead4d-8d80-4cb6-9f7a-6dba19d30b04
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,7 +27,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20151021T022227Z
+20151205T070606Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-4ee669a5-b95a-4038-8aa9-6a0b0a29f6c5
+d24ead4d-8d80-4cb6-9f7a-6dba19d30b04
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160302T183231Z
+20160307T093027Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

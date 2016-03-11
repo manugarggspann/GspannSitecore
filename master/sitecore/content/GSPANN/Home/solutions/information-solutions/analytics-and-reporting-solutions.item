@@ -167,7 +167,7 @@ sitecore\admin
 ----version----
 language: en
 version: 4
-revision: 0b24aac8-ece4-4449-90ef-ac87001a98c2
+revision: ff657d78-e0d9-4170-a290-b7cd00c06cdd
 
 ----field----
 field: {B71AE446-9A9B-41D5-8D3A-62568B87B210}
@@ -201,9 +201,9 @@ Analytics & Reporting
 field: {50E85851-BB6B-4378-AC69-0F8C7076AFAC}
 name: Page Title
 key: page title
-content-length: 88
+content-length: 78
 
-Analytics &amp;amp; Reporting Solutions, Big Data, Business Intelligence, Hadoop, GSPANN
+Analytics Reporting Solutions, Big Data, Business Intelligence, Hadoop, GSPANN
 ----field----
 field: {B4C074DF-0B9F-4F53-A68D-8889D1450377}
 name: Teaser Title
@@ -245,14 +245,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0b24aac8-ece4-4449-90ef-ac87001a98c2
+ff657d78-e0d9-4170-a290-b7cd00c06cdd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160209T055457Z
+20160311T024216Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
